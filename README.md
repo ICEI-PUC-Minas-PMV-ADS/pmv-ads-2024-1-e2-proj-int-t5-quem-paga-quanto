@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Quem paga quanto?
 
 `CURSO`
 
