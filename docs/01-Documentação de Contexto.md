@@ -42,11 +42,17 @@ Outro fator que corrobora para a implementação de uma ferramenta para gerencia
 O público-alvo desta aplicação seria formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As esprcificidades desse público-alvo podem ser destacadas como:
 
 **Moradores que Compartilham Despesas:** Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.
+
 **Renda Variável:** Pessoas cuja renda pode variar mensalmente, o que pode ser comum em trabalhos autônomos, freelancers ou em empregos que oferecem bônus e comissões.
+
 **Preocupação com Equidade Financeira:** Moradores que valorizam a equidade financeira e desejam garantir que cada pessoa contribua de acordo com sua capacidade financeira, levando em conta a renda per capita.
+
 **Facilidade de Gerenciamento Financeiro:** Indivíduos interessados em simplificar o processo de gerenciamento financeiro compartilhado, eliminando conflitos relacionados a despesas desiguais e facilitando a divisão proporcional dos custos.
+
 **Consciência sobre Renda Per Capita:** Moradores que estão cientes da importância da renda per capita ao dividir as despesas, reconhecendo que nem todos podem contribuir da mesma forma devido a diferenças salariais.
+
 **Interesse em Tecnologia:** Pessoas que estão dispostas a usar tecnologia para facilitar o gerenciamento financeiro, como uma aplicação específica para essa finalidade.
+
 **Grupo Residencial Estável:** Moradores que têm intenção de permanecer no mesmo local de residência por um período significativo, pois a aplicação é projetada para facilitar a divisão de despesas entre os moradores de um mesmo imóvel.
 
 Ao atender a essas características, a aplicação pode oferecer soluções personalizadas para atender às necessidades específicas desse público-alvo.
