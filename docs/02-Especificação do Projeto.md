@@ -33,37 +33,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário cadastre as informações moradores da sua casa como nome, idade e renda | ALTA |
-|RF-002| A Aplicação deve permitir que o usuário cadastre os gastos da casa em que mora | ALTA |
-|RF-003| A aplicação deve possuir uma listagem dos gastos divididos por mês | ALTA |
-|RF-004| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês | ALTA |
-|RF-005| A aplicação deve possuir duas modalidade de divisão dos gastos, a o proporcional ao salário e a dividida por pessoas | MEDIA |
-|RF-006| A aplicação deve possubilitar o cadastro de gastos e contas por categoria | BAIXA |
-|RF-007| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições | MEDIA |
+|RF-001| A aplicação deve permitir que o usuário cadastre as informações moradores da sua casa como nome, idade e renda. | ALTA |
+|RF-002| A aplicação deve permitir que o usuário cadastre os gastos da casa em que mora. | ALTA |
+|RF-003| A aplicação deve possuir uma listagem dos gastos divididos por mês. | ALTA |
+|RF-004| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | ALTA |
+|RF-005| A aplicação deve possuir duas modalidade de divisão dos gastos, a o proporcional ao salário e a dividida por pessoas. | MEDIA |
+|RF-006| A aplicação deve possibilitar o cadastro de gastos e contas por categoria. | BAIXA |
+|RF-007| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
 |RF-008| A aplicação deve possibilitar o cadastros do usuário que registrará os moradores da residência. | ALTA |
 
-### Requisitos não Funcionais
+### Requisitos de Qualidade (Não Funcionais)
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
 |RNF-002| A aplicação deve possuir layout e formulários simples | MÉDIA |
 |RNF-002| A aplicação deve possuir feedbacks claros quando ações de criação, exclusão e modificação forem executadas | MÉDIA |
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
