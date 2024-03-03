@@ -34,6 +34,22 @@ De acordo com dados da Fundação Getulio Vargas - FGV, em 2023 o Brasil contava
 Este aumento no número de smartphones no Brasil possibilita a ampla adoção de aplicativos mobile. A facilidade de acesso à tecnologia, mesmo em camadas sociais mais diversas, torna viável a implementação de soluções digitais para o controle financeiro pessoal.
 Outro fator que corrobora para a implementação de uma ferramenta para gerenciamento de gastos domiciliares é a  contribuição desta para tomada de decisão, uma vez que, a funcionalidade utilizará como parametros fatores como renda, sexo e idade, para realizar o  calculo proporcional dos gastos.
 
+O impacto desta aplicação para a população se dá pelo fato de ser uma aplicação projetada para ajudar na divisão justa de gastos entre membros de uma mesma residência pode ter vários impactos positivos na vida das pessoas e na sociedade em geral, por exemplo:
+
+**Melhoria nas relações familiares e de convivência através da redução de conflitos:** Ao facilitar a divisão justa de despesas, a aplicação pode ajudar a evitar mal-entendidos e conflitos entre os membros da residência. Isso contribui para um ambiente mais harmonioso e relações mais saudáveis.
+
+**Equidade Financeira:** A aplicação pode garantir que todos os membros da residência contribuam de maneira justa com os custos, independentemente de diferenças de renda. Isso cria um senso de equidade e responsabilidade compartilhada.
+
+**Educação financeira, auxiliando e estimulando o planejamento financeiro:** Ao fornecer uma visão clara dos gastos e receitas, a aplicação pode incentivar os usuários a desenvolverem habilidades de planejamento financeiro, promovendo uma cultura de responsabilidade financeira.
+
+**Redução do desperdício financeiro a fim de evitar gastos desnecessários:** Uma aplicação eficiente pode ajudar a identificar padrões de gastos e áreas onde é possível economizar, reduzindo o desperdício financeiro e contribuindo para uma gestão mais eficaz dos recursos.
+
+**Impacto econômico pessoal, podendo fortalecer a estabilidade financeira:** Ao promover uma distribuição equitativa de despesas, a aplicação pode ajudar os usuários a manterem uma situação financeira mais estável, evitando dívidas desnecessárias e promovendo o bem-estar financeiro.
+
+**Inclusão financeira, podendo facilitar a participação de todos:** A aplicação pode ser projetada para ser acessível e fácil de usar, promovendo a inclusão financeira ao permitir que pessoas com diferentes níveis de habilidade tecnológica participem na gestão dos gastos compartilhados.
+
+Em resumo, uma aplicação desse tipo pode ter impactos significativos na dinâmica familiar, na educação financeira das pessoas e na promoção de uma cultura de responsabilidade e equidade financeira, contribuindo para o bem-estar individual e coletivo.
+
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
@@ -57,9 +73,6 @@ O público-alvo desta aplicação seria formado por pessoas que compartilham um 
 
 Ao atender a essas características, a aplicação pode oferecer soluções personalizadas para atender às necessidades específicas desse público-alvo.
 
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
