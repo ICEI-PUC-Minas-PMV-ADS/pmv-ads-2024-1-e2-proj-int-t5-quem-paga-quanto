@@ -15,6 +15,18 @@ da forma convencional (meio a meio), não sobrava nada para sua namorada.
 Considerando isso, ele está procurando uma ferramenta para calcular quanto cada um deve contribuir 
 de uma forma que sobre dinheiro para ambos.
 
+2) Gisele tem 47 anos, trabalha como diretora de uma multinacional e mora com seu marido.
+<br><br> Gisele busca uma divisão mais justa das contas, uma vez que arca com todas as despesas da casa e gostaria que seu marido passasse a contribuir de alguma forma.
+Ela está buscando uma ferramenta que facilite este cálculo de forma simples e rápida já que sua rotina é muito intensa e ela não tem tempo para realizá-lo.
+
+3) Enzo tem 18 anos, trabalha como estagiário e mora com sua mãe.
+<br><br> A mãe de Enzo começou a passar algumas responsabilidades financeiras da casa a ele desde que ele conseguiu seu estágio.
+Enzo busca contribuir em casa de uma forma justa para que sobre uma parte do seu baixo salário para atividades de lazer e estudo.
+
+4) Antônio tem 72 anos, é aposentado e mora com sua filha desde que sua esposa faleceu.
+<br><br> Antônio tinha um padrão de vida alto, mas, desde que aposentou, passou a receber uma remuneração consideravelmente mais baixa.
+Sendo assim, ele busca uma divisão igualitária das despesas da casa para que nem ele, nem sua filha sejam sobrecarregados.
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
