@@ -18,19 +18,19 @@ Promover comunicação aberta e construtiva sobre questões financeiras dentro d
 
 ## Justificativa
 
-O cenário econômico atual do Brasil demanda soluções inovadoras e acessíveis que auxiliem os cidadãos na gestão justa e eficiente dos recursos financeiros. De acordo com dados do IBGE, em 2022, o rendimento domiciliar per capita médio, de acordo com o sexo, foi de R$ 1.586 (um mil quinhentos e oitenta e seis reais) mensais para o total da população.
+O cenário econômico atual do Brasil demanda soluções inovadoras e acessíveis que auxiliem os cidadãos na gestão justa e eficiente dos recursos financeiros. De acordo com dados do IBGE(2023), em 2022, o rendimento domiciliar per capita médio, de acordo com o sexo, foi de R$ 1.586 (um mil quinhentos e oitenta e seis reais) mensais para o total da população.
  Os homens faziam parte de domicílios com rendimento per capita de R$1.622 (um mil seiscentos e vinte dois reais). Este valor é 4,5% maior do que o valor encontrado para as mulheres, R$1 552 (um mil quinhentos e cinquenta e dois reais). 
-Ao destacar esta diferença salarial apontada pelo IBGE para a questão de sexo, reforçamos a necessidade de uma aplicação que contribua para que haja uma divesão justas nos gastos domiciliares.
+Ao destacar esta diferença salarial apontada pelo IBGE(2023), para a questão de sexo, reforçamos a necessidade de uma aplicação que contribua para que haja uma divesão justas nos gastos domiciliares.
 
 Considerando o aspecto de desigualdade de renda por cor ou raça, o IBGE apresentou também para o  período de 2022, que  o rendimento das pessoas brancas foi R$ 2.118 (dois mil duzentos e dezoito reais), enquanto o das pretas ou pardas foi R$ 1.163 (um mil cento e sessenta e tres reais), ou seja, as pessoas brancas estavam em domicílios com renda per capita, em média, 82,1% superior à renda dos domicílios onde viviam as pessoas pretas ou pardas. 
 
-Cabe destacar que a pesquisa realizada pelo IBGE apresenta como ponto de limitação a dificuldade para dimensionar como são realizadas as divisões dos gastos entre os diferentes moradores, “Uma limitação da análise a partir do rendimento domiciliar está relacionada a não se saber como os rendimentos são divididos entre os diferentes moradores, o que não impede que haja desigualdades de gênero intradomiciliares”.
+Cabe destacar que a pesquisa realizada pelo IBGE(2023) apresenta como ponto de limitação a dificuldade para dimensionar como são realizadas as divisões dos gastos entre os diferentes moradores, “Uma limitação da análise a partir do rendimento domiciliar está relacionada a não se saber como os rendimentos são divididos entre os diferentes moradores, o que não impede que haja desigualdades de gênero intradomiciliares”.
 Desta forma, a aplicação de gerenciamento de gastos domiciliares, contribuiria de maneira direta na construção de dados que  auxiliaria  na redução do problema identificado pelo IBGE.
 
 Estes dados ilustram os grandes e significativos problemas relacionados à desigualdade de renda enfrentados pelo Brasil.  Outros problemas econômicos como por exemplo inflação, variações nos preços de produtos essenciais e instabilidade financeira também podem ser mencionados como fatores que corroboram para o desenvolvimento de uma aplicação de gestão de gastos.
 
 Nesse contexto, a população precisa de ferramentas que facilitem o acompanhamento detalhado de suas despesas e a realização de uma divisão dos gastos domésticos  de maneira equânime.
-De acordo com dados da Fundação Getulio Vargas - FGV, em 2023 o Brasil contava com 464 milhões de dispositivos digitais  (computador, notebook, tablet e smartphone) sendo estes divididos entre corporativos e domésticos. De acordo com as projeções realizadas pela Fundação, o Brasil terá mais de dois dispositivos digitais por habitante.
+De acordo com dados da Fundação Getulio Vargas - FGV(2023), em 2023 o Brasil contava com 464 milhões de dispositivos digitais  (computador, notebook, tablet e smartphone) sendo estes divididos entre corporativos e domésticos. De acordo com as projeções realizadas pela Fundação, o Brasil terá mais de dois dispositivos digitais por habitante.
 Este aumento no número de smartphones no Brasil possibilita a ampla adoção de aplicativos mobile. A facilidade de acesso à tecnologia, mesmo em camadas sociais mais diversas, torna viável a implementação de soluções digitais para o controle financeiro pessoal.
 Outro fator que corrobora para a implementação de uma ferramenta para gerenciamento de gastos domiciliares é a  contribuição desta para tomada de decisão, uma vez que, a funcionalidade utilizará como parametros fatores como renda, sexo e idade, para realizar o  calculo proporcional dos gastos.
 
