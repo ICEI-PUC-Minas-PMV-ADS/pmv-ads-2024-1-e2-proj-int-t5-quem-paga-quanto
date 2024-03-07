@@ -68,15 +68,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| <p align="justify">Devido às limitações financeiras do projeto, é essencial otimizar o uso dos recursos disponíveis. Isso implica priorizar o uso de tecnologias de baixo custo ou gratuitas sempre que possível. Qualquer despesa adicional será submetida a uma cuidadosa análise e aprovação pela equipe de gerenciamento, garantindo que permaneçamos dentro do orçamento estabelecido.</p>|
+|02| <p align="justify">Estabelecemos um prazo de seis meses para o desenvolvimento da aplicação, levando em consideração a complexidade do projeto e os recursos disponíveis. Durante esse período, definimos marcos e objetivos claros para cada fase do desenvolvimento, incluindo design, desenvolvimento de código, testes e lançamento da aplicação. Para garantir que o projeto progrida de acordo com o cronograma estabelecido, realizaremos reuniões de acompanhamento semanais para revisar o progresso, identificar quaisquer obstáculos e ajustar o plano, para garantir que o prazo final seja cumprido com sucesso.</p>|
+|03| <p align="justify">Considerando a necessidade de proteger a privacidade dos usuários e cumprir as regulamentações legais, como a Lei Geral de Proteção de Dados (LGPD), a aplicação adotará medidas de segurança rigorosas. A equipe técnica implementará políticas de acesso restrito aos dados, garantindo que apenas pessoal autorizado tenha acesso aos dados dos usuários. Além disso, serão estabelecidos procedimentos para assegurar que os dados sejam armazenados de forma segura e protegidos contra ameaças externas. A aplicação seguirá as diretrizes da LGPD em relação à coleta, armazenamento e processamento de dados pessoais, buscando proteger a privacidade e a segurança das informações dos usuários.</p>|
 
 ## Diagrama de Casos de Uso
 
