@@ -1,41 +1,44 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
-
-1) Roberto tem 26 anos, trabalha como desenvolvedor e mora com sua namorada que irá começar 
+### Roberto da Silva
+Roberto tem 26 anos, trabalha como desenvolvedor e mora com sua namorada que irá começar 
 a contribuir nas contas de casa agora que formou e arranjou um emprego.
-<br><br> Roberto quer dividir as contas de forma proporcional já que no passado ao tentar dividir as contas 
+
+Roberto quer dividir as contas de forma proporcional já que no passado ao tentar dividir as contas 
 da forma convencional (meio a meio), não sobrava nada para sua namorada. 
 Considerando isso, ele está procurando uma ferramenta para calcular quanto cada um deve contribuir 
 de uma forma que sobre dinheiro para ambos.
 
-2) Gisele tem 47 anos, trabalha como diretora de uma multinacional e mora com seu marido.
-<br><br> Gisele busca uma divisão mais justa das contas, uma vez que arca com todas as despesas da casa e gostaria que seu marido passasse a contribuir de alguma forma.
-Ela está buscando uma ferramenta que facilite este cálculo de forma simples e rápida já que sua rotina é muito intensa e ela não tem tempo para realizá-lo.
+### Marlene Andrade de Souza
+Marlene tem 45 anos, trabalha como doméstica e quer encontrar uma forma de influenciar seu filho a ter mais conciência finânceira, já que começou um estágio e começou a ganhar seu dinheiro agora oas 18 anos.
 
-3) Enzo tem 18 anos, trabalha como estagiário e mora com sua mãe.
-<br><br> A mãe de Enzo começou a passar algumas responsabilidades financeiras da casa a ele desde que ele conseguiu seu estágio.
-Enzo busca contribuir em casa de uma forma justa para que sobre uma parte do seu baixo salário para atividades de lazer e estudo.
+Marlente, quer que seu filho Enzo contribua financeiramente dentro de casa agora que conseguiu um estágio, porém entende que seu filho ganha bem pouco pois está começando a trabalhar agora e seu estágio não paga muito.
 
-4) Antônio tem 72 anos, é aposentado e mora com sua filha desde que sua esposa faleceu.
-<br><br> Antônio tinha um padrão de vida alto, mas, desde que aposentou, passou a receber uma remuneração consideravelmente mais baixa.
+Para ser justa, Marlene está procurando algum aplicativo que seja simples de usar e a ajude a dividir as contas sem atrapalhar o lazer do seu filho que trabalha bastante.
+
+### Atônio de Albuquerque Lourenço
+Antônio tem 72 anos, é aposentado e mora com sua filha desde que sua esposa faleceu.
+
+Antônio tinha um padrão de vida alto, mas, desde que aposentou, passou a receber uma remuneração consideravelmente mais baixa.
 Sendo assim, ele busca uma divisão igualitária das despesas da casa para que nem ele, nem sua filha sejam sobrecarregados.
 
+### Marcelo João Pereira
+Macelo tem 23 anos e mora com seus irmãos em outra cidade para fazer faculdade federal. Já tentou morar em uma república mas teve vários problemas com a divisão dos gastos.
+
+Agora Marcelo está enfrentando os mesmo problemas morando com seus irmãos mais velhos de 32 e 36 anos. 
+
+Para resolver de forma justa, já que contribui com as despesas com a mesada que seus pais de pouca condição mandam todos os meses, quer encontrar um aplicativo para registras as contas básicas de comida, água, aluguel e luz para que todos irmãos contribuam de forma igual, já que por tratar do dinheiro de seus pais, os folgados de seus irmãos mais velhos comem tudo e não ajudam com muito.
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `| QUERO/PRECISO ...  |PARA ...                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar os gastos da minha casa.  | Ter controle do que foi gasto. |
-|Usuário do sistema | Cadastrar os moradores da minha casa e suas rendas mensais. | Que haja dados para calcular suas contribuições mensais.  |
-|Usuário do sistema  | Calcular quanto cada morador da minha casa deve contribuir de forma proporcional a renda. | Que ambos contribuam a mesma proporção referente a renda e os gastos. |
+| Carlos  | Registrar meus gastos e de minha namorada em nossa casa.  | Ter maior controle do que foi gasto durante o mês. |
+| Carlos | Encontrar uma forma simples para dividir as contas com minha namorada | Seja justa a divisão, mesmo que ambos ganhem diferente. |
+| Marlene | De um aplicativo que forneça uma forma simples e justa de dividir as contas  | Que meu filho aprenda a contribuir no pagamento das contas de casa. |
+| João | Poder cadastrar as contas de casa e dividir de forma igual todos os gastos. | Que consiga impor limites em sua casa, demonstrando as informações de forma clara e convincente os gastos para seus irmãos. |
 
 ## Requisitos
 
@@ -45,23 +48,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário cadastre as informações moradores da sua casa como nome, idade e renda. | ALTA |
-|RF-002| A aplicação deve permitir que o usuário cadastre os gastos da casa em que mora. | ALTA |
+|RF-001| A aplicação deve permitir que o usuário gerencie as informações moradores da sua casa como nome, idade e renda. | ALTA |
+|RF-002| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
 |RF-003| A aplicação deve possuir uma listagem dos gastos divididos por mês. | ALTA |
 |RF-004| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | ALTA |
 |RF-005| A aplicação deve possuir duas modalidade de divisão dos gastos, a o proporcional ao salário e a dividida por pessoas. | MEDIA |
-|RF-006| A aplicação deve possibilitar o cadastro de gastos e contas por categoria. | BAIXA |
+|RF-006| A aplicação deve possibilitar o cadastro de gastos e contas pelas categorias: Casa, Comida, Fixos, Entreterimento e Outros. | BAIXA |
 |RF-007| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
-|RF-008| A aplicação deve possibilitar o cadastros do usuário que registrará os moradores da residência. | ALTA |
 
 ### Requisitos de Qualidade (Não Funcionais)
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve possuir layout e formulários simples | MÉDIA |
+|RNF-001| A aplicação deve ser responsiva e adaptar a dispositivos móveis | MÉDIA | 
+|RNF-002| A aplicação deve possuir layout e formulários com apenas campos necessários e com descrições claras do que deve ser informado. | MÉDIA |
 |RNF-002| A aplicação deve possuir feedbacks claros quando ações de criação, exclusão e modificação forem executadas | MÉDIA |
-
+|RNF-003 | A aplicação deve ser desenvolvida utilizando C#, HTML, CSS e JavaScript |
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.

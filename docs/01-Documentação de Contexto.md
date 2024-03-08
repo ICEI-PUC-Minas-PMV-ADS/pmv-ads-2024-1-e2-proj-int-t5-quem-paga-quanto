@@ -50,12 +50,8 @@ O impacto desta aplicação para a população se dá pelo fato de ser uma aplic
 
 Em resumo, uma aplicação desse tipo pode ter impactos significativos na dinâmica familiar, na educação financeira das pessoas e na promoção de uma cultura de responsabilidade e equidade financeira, contribuindo para o bem-estar individual e coletivo.
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
-O público-alvo desta aplicação seria formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As esprcificidades desse público-alvo podem ser destacadas como:
+O público-alvo desta aplicação é formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As esprcificidades desse público-alvo podem ser destacadas como:
 
 **Moradores que Compartilham Despesas:** Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.
 
@@ -72,12 +68,3 @@ O público-alvo desta aplicação seria formado por pessoas que compartilham um 
 **Grupo Residencial Estável:** Moradores que têm intenção de permanecer no mesmo local de residência por um período significativo, pois a aplicação é projetada para facilitar a divisão de despesas entre os moradores de um mesmo imóvel.
 
 Ao atender a essas características, a aplicação pode oferecer soluções personalizadas para atender às necessidades específicas desse público-alvo.
-
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
