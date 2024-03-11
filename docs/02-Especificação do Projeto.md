@@ -17,7 +17,7 @@ Marlente, quer que seu filho Enzo contribua financeiramente dentro de casa agora
 
 Para ser justa, Marlene está procurando algum aplicativo que seja simples de usar e a ajude a dividir as contas sem atrapalhar o lazer do seu filho que trabalha bastante.
 
-### Atônio de Albuquerque Lourenço
+### Antônio de Albuquerque Lourenço
 Antônio tem 72 anos, é aposentado e mora com sua filha desde que sua esposa faleceu.
 
 Antônio tinha um padrão de vida alto, mas, desde que aposentou, passou a receber uma remuneração consideravelmente mais baixa.
