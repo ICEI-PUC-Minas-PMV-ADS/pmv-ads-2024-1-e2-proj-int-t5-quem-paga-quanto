@@ -42,8 +42,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `| QUERO/PRECISO ...  |PARA ...                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Carlos  | Registrar meus gastos e de minha namorada em nossa casa.  | Ter maior controle do que foi gasto durante o mês. |
-| Carlos | Encontrar uma forma simples para dividir as contas com minha namorada | Seja justa a divisão, mesmo que ambos ganhem diferente. |
+| Roberto  | Registrar meus gastos e de minha namorada em nossa casa.  | Ter maior controle do que foi gasto durante o mês. |
+| Roberto | Encontrar uma forma simples para dividir as contas com minha namorada | Seja justa a divisão, mesmo que ambos ganhem diferente. |
 | Marlene | Quer incentivar o filho a ter noção finaceira  | Para que o  filho aprenda a contribuir com as despesas da casa. |
 | João | Poder cadastrar as contas de casa e dividir de forma igual todos os gastos. | Que consiga impor limites em sua casa, demonstrando as informações de forma clara e convincente os gastos para seus irmãos. |
 | Sônia | Monitorar e gerenciar os gastos dos moradores da república que administro. | Ter um controle eficaz das despesas da casa e garantir uma divisão equitativa dos custos entre os moradores.|
@@ -58,8 +58,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário realize o seu cadastro na plataforma. | ALTA |
-|RF-002| A aplicação deve permitir o login com autenticação de usuário e senha ao sistema.| ALTA |
+|RF-001| A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. | ALTA |
+|RF-002| A aplicação deve permitir o login com autenticação de usuário e senha. | ALTA |
 |RF-003| A aplicação deve permitir o cadastro e a vinculação de novos usuários ao usuário  principal. |ALTA|
 |RF-004| A aplicação deve possuir uma página inicial com chamada de ação para páginas de informações sobre a aplicação, objetivo e informações sobre como a divisão de despesas é feita. | ALTA |
 |RF-005| A aplicação deve permitir que o usuário gerencie informações dos moradores de sua casa como nome, idade e renda. |ALTA|
