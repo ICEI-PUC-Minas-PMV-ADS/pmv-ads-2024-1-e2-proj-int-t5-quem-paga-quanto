@@ -60,13 +60,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. | ALTA |
 |RF-002| A aplicação deve permitir o login com autenticação de usuário e senha. | ALTA |
-|RF-003| A aplicação deve permitir o cadastro e a vinculação de novos usuários ao usuário  principal. |ALTA|
-|RF-004| A aplicação deve possuir uma página inicial com chamada de ação para páginas de informações sobre a aplicação, objetivo e informações sobre como a divisão de despesas é feita. | ALTA |
-|RF-005| A aplicação deve permitir que o usuário gerencie informações dos moradores de sua casa como nome, idade e renda. |ALTA|
+|RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. | ALTA |
+|RF-004| A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação. | ALTA |
 |RF-006| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
 |RF-007| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. |ALTA|
 |RF-008| A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. |ALTA|
-|RF-009| A aplicação deve possuir duas modalidades de divisão dos gastos, uma proporcional ao salário e outra sobre a divisão por pessoa. | ALTA |
+|RF-009| A aplicação deve disponibilizar duas opções antes de gerar os relatórios: <br> 1) Proporcional ao salário; <br> 2) Sobre a divisão por pessoa. | ALTA |
 |RF-010| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
 |RF-011| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | MEDIA |
 |RF-012| Todas as páginas devem possuir um menu de navegação no topo da página. | MEDIA |
