@@ -29,6 +29,13 @@ Macelo tem 23 anos e mora com seus irmãos em outra cidade para fazer faculdade 
 Agora Marcelo está enfrentando os mesmo problemas morando com seus irmãos mais velhos de 32 e 36 anos. 
 
 Para resolver de forma justa, já que contribui com as despesas com a mesada que seus pais de pouca condição mandam todos os meses, quer encontrar um aplicativo para registras as contas básicas de comida, água, aluguel e luz para que todos irmãos contribuam de forma igual, já que por tratar do dinheiro de seus pais, os folgados de seus irmãos mais velhos comem tudo e não ajudam com muito.
+
+### Sônia Maria Souza
+Sônia tem 55 anos e é proprietária de uma casa que ela aluga como república para estudantes universitários em Salinas. 
+
+Sonia enfrenta o desafio de administrar as finanças da república e garantir uma divisão equitativa dos custos entre os moradores. Ela busca uma solução que simplifique o acompanhamento e a gestão das despesas da república e que promova transparência no processo de administração das finanças da república.
+
+Devido à sua idade, Sonia valoriza especialmente a facilidade de uso e a clareza na interface da solução, pois pode não estar tão familiarizada com tecnologias mais recentes.
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
