@@ -37,7 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 | Carlos  | Registrar meus gastos e de minha namorada em nossa casa.  | Ter maior controle do que foi gasto durante o mês. |
 | Carlos | Encontrar uma forma simples para dividir as contas com minha namorada | Seja justa a divisão, mesmo que ambos ganhem diferente. |
-| Marlene | De um aplicativo que forneça uma forma simples e justa de dividir as contas  | Que meu filho aprenda a contribuir no pagamento das contas de casa. |
+| Marlene | Quer incentivar o filho a ter noção finaceira  | Para que o  filho aprenda a contribuir com as despesas da casa. |
 | João | Poder cadastrar as contas de casa e dividir de forma igual todos os gastos. | Que consiga impor limites em sua casa, demonstrando as informações de forma clara e convincente os gastos para seus irmãos. |
 
 ## Requisitos
@@ -48,14 +48,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie as informações moradores da sua casa como nome, idade e renda. | ALTA |
-|RF-002| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
-|RF-003| A aplicação deve possuir uma listagem dos gastos divididos por mês. | ALTA |
-|RF-004| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | ALTA |
-|RF-005| A aplicação deve possuir duas modalidade de divisão dos gastos, a o proporcional ao salário e a dividida por pessoas. | MEDIA |
-|RF-006| A aplicação deve possibilitar o cadastro de gastos e contas pelas categorias: Casa, Comida, Fixos, Entreterimento e Outros. | BAIXA |
-|RF-007| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
-
+|RF-001| A aplicação deve permitir que o usuário realize o seu cadastro na plataforma. | ALTA |
+|RF-002| A aplicação deve permitir o login de usuário e senha ao sistema.| ALTA |
+|RF-003| A aplicação deve permitir que o usuário gerencie as informações moradores da sua casa como nome, idade e renda. | ALTA |
+|RF-004| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
+|RF-005| A aplicação deve possuir uma listagem dos gastos divididos por mês. | ALTA |
+|RF-006| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | ALTA |
+|RF-007| A aplicação deve possuir duas modalidade de divisão dos gastos, a o proporcional ao salário e a dividida por pessoas. | MEDIA |
+|RF-008| A aplicação deve possibilitar o cadastro de gastos e contas pelas categorias: Casa, Comida, Fixos, Entreterimento e Outros. | BAIXA |
+|RF-009| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
+|RF-010| A aplicação deve permitir que o usuário realize o seu cadastro na plataforma. | ALTA |
 ### Requisitos de Qualidade (Não Funcionais)
 
 |ID     | Descrição do Requisito  |Prioridade |
