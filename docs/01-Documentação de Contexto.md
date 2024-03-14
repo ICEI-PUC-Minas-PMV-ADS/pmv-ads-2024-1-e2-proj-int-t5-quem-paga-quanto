@@ -1,6 +1,8 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Sabemos que, culturalmente, nós brasileiros não temos uma boa educação financeira e uma péssima distribuição de renda que pode ser percebida à medida que analisamos fatores como escolaridade, sexo, etnia, entre outros. Apesar disto, o acesso à informação vem sendo democratizado graças ao aumento do número de pessoas com acesso à internet e da disponibilização gratuita de conteúdos financeiros nas mais diversas plataformas da rede. A partir disso, nos deparamos com um problema: Uma grande quantidade de pessoas conscientes de que devem ter mais controle das suas finanças, mas com dificuldades em entender como fazer isto ou como realizar os cálculos necessários.
+
+Sendo assim, desenvolvemos a "Quem Paga Quanto?". Uma aplicação de finanças pessoais voltada para facilitar os cálculos de despesas dos domicílios dos usuários. A plataforma permite que as despesas sejam divididas por morador ou proporcionalmente à renda de cada um, resultando em uma divisão mais igualitária. Com mais controle sobre suas finanças, as pessoas terão o poder de fazer melhores escolhas com seu dinheiro e entender o que precisam alterar para alcançarem os seus objetivos. Nossa plataforma visa não só colaborar com a parte matemática dos cálculos, mas ser intuitiva a ponto de que qualquer pessoa consiga compreender quais os dados necessários para fazê-los, como inserir ou retirar novas despesas e como gerar os relatórios delas.
 
 ## Problema
 <p align="justify">O projeto visa resolver a complexidade na divisão de despesas enfrentada por famílias e grupos que coabitam. Essa dificuldade decorre da falta de um método claro e equitativo para distribuir os custos entre os membros, resultando em conflitos, atrasos nos pagamentos e falta de comunicação eficaz sobre questões financeiras.</p>
