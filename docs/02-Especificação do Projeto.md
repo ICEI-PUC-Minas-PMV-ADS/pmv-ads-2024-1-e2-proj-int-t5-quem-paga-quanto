@@ -44,6 +44,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Roberto  | Registrar meus gastos e de minha namorada em nossa casa.  | Ter maior controle do que foi gasto durante o mês. |
 | Roberto | Encontrar uma forma simples para dividir as contas com minha namorada | Seja justa a divisão, mesmo que ambos ganhem diferente. |
 | Marlene | Quer incentivar o filho a ter noção finaceira  | Para que o  filho aprenda a contribuir com as despesas da casa. |
+| Antônio | Busca uma divisão equitativa das despesas domésticas  | Visando garantir que tanto ele quanto sua filha não sejam sobrecarregados financeiramente. |
 | João | Poder cadastrar as contas de casa e dividir de forma igual todos os gastos. | Que consiga impor limites em sua casa, demonstrando as informações de forma clara e convincente os gastos para seus irmãos. |
 | Sônia | Monitorar e gerenciar os gastos dos moradores da república que administro. | Ter um controle eficaz das despesas da casa e garantir uma divisão equitativa dos custos entre os moradores.|
 | Sônia | Encontrar uma maneira simples e acessível de registrar e categorizar as despesas da república. | Facilitar o acompanhamento e a gestão das finanças da casa, mesmo com minha idade e pouca familiaridade com tecnologias modernas. |
