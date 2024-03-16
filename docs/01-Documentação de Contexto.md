@@ -38,35 +38,31 @@ Outro fator que corrobora para a implementação de uma ferramenta para gerencia
 
 <p align="justify">O impacto desta aplicação para a população se dá pelo fato de ser uma aplicação projetada para ajudar na divisão justa de gastos entre membros de uma mesma residência pode ter vários impactos positivos na vida das pessoas e na sociedade em geral, por exemplo:</p>
 
-<p align="justify">**Melhoria nas relações familiares e de convivência através da redução de conflitos:** Ao facilitar a divisão justa de despesas, a aplicação pode ajudar a evitar mal-entendidos e conflitos entre os membros da residência. Isso contribui para um ambiente mais harmonioso e relações mais saudáveis.</p>
+<p align="justify"><strong>Melhoria nas relações familiares e de convivência através da redução de conflitos:</strong> Ao facilitar a divisão justa de despesas, a aplicação pode ajudar a evitar mal-entendidos e conflitos entre os membros da residência. Isso contribui para um ambiente mais harmonioso e relações mais saudáveis.</p>
 
-<p align="justify">**Equidade Financeira:** A aplicação pode garantir que todos os membros da residência contribuam de maneira justa com os custos, independentemente de diferenças de renda. Isso cria um senso de equidade e responsabilidade compartilhada.</p>
+<p align="justify"><strong>Equidade Financeira:</strong> A aplicação pode garantir que todos os membros da residência contribuam de maneira justa com os custos, independentemente de diferenças de renda. Isso cria um senso de equidade e responsabilidade compartilhada.</p>
 
-<p align="justify">**Educação financeira, auxiliando e estimulando o planejamento financeiro:** Ao fornecer uma visão clara dos gastos e receitas, a aplicação pode incentivar os usuários a desenvolverem habilidades de planejamento financeiro, promovendo uma cultura de responsabilidade financeira.</p>
+<p align="justify"><strong>Educação financeira, auxiliando e estimulando o planejamento financeiro:</strong> Ao fornecer uma visão clara dos gastos e receitas, a aplicação pode incentivar os usuários a desenvolverem habilidades de planejamento financeiro, promovendo uma cultura de responsabilidade financeira.</p>
 
-<p align="justify">**Redução do desperdício financeiro a fim de evitar gastos desnecessários:** Uma aplicação eficiente pode ajudar a identificar padrões de gastos e áreas onde é possível economizar, reduzindo o desperdício financeiro e contribuindo para uma gestão mais eficaz dos recursos.</p>
+<p align="justify"><strong>Redução do desperdício financeiro a fim de evitar gastos desnecessários:</strong> Uma aplicação eficiente pode ajudar a identificar padrões de gastos e áreas onde é possível economizar, reduzindo o desperdício financeiro e contribuindo para uma gestão mais eficaz dos recursos.</p>
 
-<p align="justify">**Impacto econômico pessoal, podendo fortalecer a estabilidade financeira:** Ao promover uma distribuição equitativa de despesas, a aplicação pode ajudar os usuários a manterem uma situação financeira mais estável, evitando dívidas desnecessárias e promovendo o bem-estar financeiro.</p>
+<p align="justify"><strong>Impacto econômico pessoal, podendo fortalecer a estabilidade financeira:</strong> Ao promover uma distribuição equitativa de despesas, a aplicação pode ajudar os usuários a manterem uma situação financeira mais estável, evitando dívidas desnecessárias e promovendo o bem-estar financeiro.</p>
 
-<p align="justify">**Inclusão financeira, podendo facilitar a participação de todos:** A aplicação pode ser projetada para ser acessível e fácil de usar, promovendo a inclusão financeira ao permitir que pessoas com diferentes níveis de habilidade tecnológica participem na gestão dos gastos compartilhados.</p>
+<p align="justify"><strong>Inclusão financeira, podendo facilitar a participação de todos:</strong> A aplicação pode ser projetada para ser acessível e fácil de usar, promovendo a inclusão financeira ao permitir que pessoas com diferentes níveis de habilidade tecnológica participem na gestão dos gastos compartilhados.</p>
 
 <p align="justify">Em resumo, uma aplicação desse tipo pode ter impactos significativos na dinâmica familiar, na educação financeira das pessoas e na promoção de uma cultura de responsabilidade e equidade financeira, contribuindo para o bem-estar individual e coletivo.</p>
 
 ## Público-Alvo
-<p align="justify">O público-alvo desta aplicação é formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As esprcificidades desse público-alvo podem ser destacadas como:</p>
+<p align="justify">O público-alvo desta aplicação é formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As especificidades desse público-alvo podem ser destacadas como:</p>
 
-<p align="justify">**Moradores que Compartilham Despesas:** Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.</p>
+<p align="justify"><strong>Moradores que Compartilham Despesas:</strong> Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.</p>
 
-<p align="justify">**Renda Variável:** Pessoas cuja renda pode variar mensalmente, o que pode ser comum em trabalhos autônomos, freelancers ou em empregos que oferecem bônus e comissões.</p>
+<p align="justify"><strong>Renda Variável:</strong> Pessoas cuja renda pode variar mensalmente, o que pode ser comum em trabalhos autônomos, freelancers ou em empregos que oferecem bônus e comissões.</p>
 
-<p align="justify">**Preocupação com Equidade Financeira:** Moradores que valorizam a equidade financeira e desejam garantir que cada pessoa contribua de acordo com sua capacidade financeira, levando em conta a renda per capita.</p>
+<p align="justify"><strong>Preocupação com Equidade Financeira:</strong> Moradores que valorizam a equidade financeira e desejam garantir que cada pessoa contribua de acordo com sua capacidade financeira, levando em conta a renda per capita.</p>
 
-<p align="justify">**Facilidade de Gerenciamento Financeiro:** Indivíduos interessados em simplificar o processo de gerenciamento financeiro compartilhado, eliminando conflitos relacionados a despesas desiguais e facilitando a divisão proporcional dos custos.</p>
+<p align="justify"><strong>Facilidade de Gerenciamento Financeiro:</strong> Indivíduos interessados em simplificar o processo de gerenciamento financeiro compartilhado, eliminando conflitos relacionados a despesas desiguais e facilitando a divisão proporcional dos custos.</p>
 
-<p align="justify">**Consciência sobre Renda Per Capita:** Moradores que estão cientes da importância da renda per capita ao dividir as despesas, reconhecendo que nem todos podem contribuir da mesma forma devido a diferenças salariais.</p>
+<p align="justify"><strong>Consciência sobre Renda Per Capita:</strong> Moradores que estão cientes da importância da renda per capita ao dividir as despesas, reconhecendo que nem todos podem contribuir da mesma forma devido a diferenças salariais.</p>
 
-<p align="justify">**Interesse em Tecnologia:** Pessoas que estão dispostas a usar tecnologia para facilitar o gerenciamento financeiro, como uma aplicação específica para essa finalidade.</p>
-
-<p align="justify">**Grupo Residencial Estável:** Moradores que têm intenção de permanecer no mesmo local de residência por um período significativo, pois a aplicação é projetada para facilitar a divisão de despesas entre os moradores de um mesmo imóvel.</p>
-
-<p align="justify">Ao atender a essas características, a aplicação pode oferecer soluções personalizadas para atender às necessidades específicas desse público-alvo.</p>
+<p align="justify"><strong>Interesse em Tecnologia:</strong> Pessoas que estão dispostas a usar tecnologia para facilitar o gerenciamento financeiro, como uma aplicação específica para essa finalidade.</p>
