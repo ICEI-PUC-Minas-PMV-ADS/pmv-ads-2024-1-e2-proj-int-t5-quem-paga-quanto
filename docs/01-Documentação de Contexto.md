@@ -53,20 +53,20 @@ Outro fator que corrobora para a implementação de uma ferramenta para gerencia
 <p align="justify">Em resumo, uma aplicação desse tipo pode ter impactos significativos na dinâmica familiar, na educação financeira das pessoas e na promoção de uma cultura de responsabilidade e equidade financeira, contribuindo para o bem-estar individual e coletivo.</p>
 
 ## Público-Alvo
-O público-alvo desta aplicação é formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As esprcificidades desse público-alvo podem ser destacadas como:
+<p align="justify">O público-alvo desta aplicação é formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As esprcificidades desse público-alvo podem ser destacadas como:</p>
 
-**Moradores que Compartilham Despesas:** Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.
+<p align="justify">**Moradores que Compartilham Despesas:** Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.</p>
 
-**Renda Variável:** Pessoas cuja renda pode variar mensalmente, o que pode ser comum em trabalhos autônomos, freelancers ou em empregos que oferecem bônus e comissões.
+<p align="justify">**Renda Variável:** Pessoas cuja renda pode variar mensalmente, o que pode ser comum em trabalhos autônomos, freelancers ou em empregos que oferecem bônus e comissões.</p>
 
-**Preocupação com Equidade Financeira:** Moradores que valorizam a equidade financeira e desejam garantir que cada pessoa contribua de acordo com sua capacidade financeira, levando em conta a renda per capita.
+<p align="justify">**Preocupação com Equidade Financeira:** Moradores que valorizam a equidade financeira e desejam garantir que cada pessoa contribua de acordo com sua capacidade financeira, levando em conta a renda per capita.</p>
 
-**Facilidade de Gerenciamento Financeiro:** Indivíduos interessados em simplificar o processo de gerenciamento financeiro compartilhado, eliminando conflitos relacionados a despesas desiguais e facilitando a divisão proporcional dos custos.
+<p align="justify">**Facilidade de Gerenciamento Financeiro:** Indivíduos interessados em simplificar o processo de gerenciamento financeiro compartilhado, eliminando conflitos relacionados a despesas desiguais e facilitando a divisão proporcional dos custos.</p>
 
-**Consciência sobre Renda Per Capita:** Moradores que estão cientes da importância da renda per capita ao dividir as despesas, reconhecendo que nem todos podem contribuir da mesma forma devido a diferenças salariais.
+<p align="justify">**Consciência sobre Renda Per Capita:** Moradores que estão cientes da importância da renda per capita ao dividir as despesas, reconhecendo que nem todos podem contribuir da mesma forma devido a diferenças salariais.</p>
 
-**Interesse em Tecnologia:** Pessoas que estão dispostas a usar tecnologia para facilitar o gerenciamento financeiro, como uma aplicação específica para essa finalidade.
+<p align="justify">**Interesse em Tecnologia:** Pessoas que estão dispostas a usar tecnologia para facilitar o gerenciamento financeiro, como uma aplicação específica para essa finalidade.</p>
 
-**Grupo Residencial Estável:** Moradores que têm intenção de permanecer no mesmo local de residência por um período significativo, pois a aplicação é projetada para facilitar a divisão de despesas entre os moradores de um mesmo imóvel.
+<p align="justify">**Grupo Residencial Estável:** Moradores que têm intenção de permanecer no mesmo local de residência por um período significativo, pois a aplicação é projetada para facilitar a divisão de despesas entre os moradores de um mesmo imóvel.</p>
 
-Ao atender a essas características, a aplicação pode oferecer soluções personalizadas para atender às necessidades específicas desse público-alvo.
+<p align="justify">Ao atender a essas características, a aplicação pode oferecer soluções personalizadas para atender às necessidades específicas desse público-alvo.</p>
