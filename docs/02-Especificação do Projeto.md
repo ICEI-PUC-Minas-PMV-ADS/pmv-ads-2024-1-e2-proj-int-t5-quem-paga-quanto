@@ -1,41 +1,40 @@
 # Especificações do Projeto
 
 ## Personas
-### Roberto da Silva
-Roberto tem 26 anos, trabalha como desenvolvedor e mora com sua namorada que irá começar 
-a contribuir nas contas de casa agora que formou e arranjou um emprego.
 
-Roberto quer dividir as contas de forma proporcional já que no passado ao tentar dividir as contas 
-da forma convencional (meio a meio), não sobrava nada para sua namorada. 
-Considerando isso, ele está procurando uma ferramenta para calcular quanto cada um deve contribuir 
-de uma forma que sobre dinheiro para ambos.
+<table>
+  <tr>
+    <th>Imagem</th>
+    <th>Nome</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Roberto-Persona.jpeg" alt="Roberto Persona"></td>
+    <td align="justify">Roberto da Silva</td>
+    <td align="justify">Roberto tem 26 anos, trabalha como desenvolvedor e mora com sua namorada que irá começar a contribuir nas contas de casa agora que formou e arranjou um emprego.<br> Roberto quer dividir as contas de forma proporcional já que no passado ao tentar dividir as contas da forma convencional (meio a meio), não sobrava nada para sua namorada. Considerando isso, ele está procurando uma ferramenta para calcular quanto cada um deve contribuir de uma forma que sobre dinheiro para ambos.</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Marlene-Persona.jpeg" alt="Marlene Persona"></td>
+    <td align="justify">Marlene Andrade de Souza</td>
+    <td align="justify">Marlene tem 45 anos, trabalha como doméstica e quer encontrar uma forma de influenciar seu filho a ter mais consciência finânceira, já que começou um estágio e começou a ganhar seu dinheiro agora oas 18 anos.<br> Marlente, quer que seu filho Enzo contribua financeiramente dentro de casa agora que conseguiu um estágio, porém entende que seu filho ganha bem pouco pois está começando a trabalhar agora e seu estágio não paga muito. Para ser justa, Marlene está procurando algum aplicativo que seja simples de usar e a ajude a dividir as contas sem atrapalhar o lazer do seu filho que trabalha bastante.</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Antonio-Persona.jpeg" alt="Antonio Persona"></td>
+    <td align="justify">Antônio de Albuquerque Lourenço</td>
+    <td align="justify">Antônio tinha um padrão de vida alto, mas, desde que aposentou, passou a receber uma remuneração consideravelmente mais baixa. Sendo assim, ele busca uma divisão igualitária das despesas da casa para que nem ele, nem sua filha sejam sobrecarregados.</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Marcelo-Persona.jpeg" alt="Marcelo Persona"></td>
+    <td align="justify">Marcelo João Pereira</td>
+    <td align="justify">Marcelo tem 23 anos e mora com seus irmãos em outra cidade para fazer faculdade federal. Já tentou morar em uma república mas teve vários problemas com a divisão dos gastos. Agora Marcelo está enfrentando os mesmo problemas morando com seus irmãos mais velhos de 32 e 36 anos.<br> Para resolver de forma justa, já que contribui com as despesas com a mesada que seus pais de pouca condição mandam todos os meses, quer encontrar um aplicativo para registras as contas básicas de comida, água, aluguel e luz para que todos irmãos contribuam de forma igual, já que por tratar do dinheiro de seus pais, os folgados de seus irmãos mais velhos comem tudo e não ajudam com muito.</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Sonia-Persona.jpeg" alt="Sonia Persona"></td>
+    <td align="justify">Sônia Maria Souza</td>
+    <td align="justify">Sônia tem 55 anos e é proprietária de uma casa que ela aluga como república para estudantes universitários em Salinas. Sonia enfrenta o desafio de administrar as finanças da república e garantir uma divisão equitativa dos custos entre os moradores.<br> Ela busca uma solução que simplifique o acompanhamento e a gestão das despesas da república e que promova transparência no processo de administração das finanças da república. Devido à sua idade, Sonia valoriza especialmente a facilidade de uso e a clareza na interface da solução, pois pode não estar tão familiarizada com tecnologias mais recentes.</td>
+  </tr>
+</table>
 
-### Marlene Andrade de Souza
-Marlene tem 45 anos, trabalha como doméstica e quer encontrar uma forma de influenciar seu filho a ter mais conciência finânceira, já que começou um estágio e começou a ganhar seu dinheiro agora oas 18 anos.
-
-Marlente, quer que seu filho Enzo contribua financeiramente dentro de casa agora que conseguiu um estágio, porém entende que seu filho ganha bem pouco pois está começando a trabalhar agora e seu estágio não paga muito.
-
-Para ser justa, Marlene está procurando algum aplicativo que seja simples de usar e a ajude a dividir as contas sem atrapalhar o lazer do seu filho que trabalha bastante.
-
-### Antônio de Albuquerque Lourenço
-Antônio tem 72 anos, é aposentado e mora com sua filha desde que sua esposa faleceu.
-
-Antônio tinha um padrão de vida alto, mas, desde que aposentou, passou a receber uma remuneração consideravelmente mais baixa.
-Sendo assim, ele busca uma divisão igualitária das despesas da casa para que nem ele, nem sua filha sejam sobrecarregados.
-
-### Marcelo João Pereira
-Macelo tem 23 anos e mora com seus irmãos em outra cidade para fazer faculdade federal. Já tentou morar em uma república mas teve vários problemas com a divisão dos gastos.
-
-Agora Marcelo está enfrentando os mesmo problemas morando com seus irmãos mais velhos de 32 e 36 anos. 
-
-Para resolver de forma justa, já que contribui com as despesas com a mesada que seus pais de pouca condição mandam todos os meses, quer encontrar um aplicativo para registras as contas básicas de comida, água, aluguel e luz para que todos irmãos contribuam de forma igual, já que por tratar do dinheiro de seus pais, os folgados de seus irmãos mais velhos comem tudo e não ajudam com muito.
-
-### Sônia Maria Souza
-Sônia tem 55 anos e é proprietária de uma casa que ela aluga como república para estudantes universitários em Salinas. 
-
-Sonia enfrenta o desafio de administrar as finanças da república e garantir uma divisão equitativa dos custos entre os moradores. Ela busca uma solução que simplifique o acompanhamento e a gestão das despesas da república e que promova transparência no processo de administração das finanças da república.
-
-Devido à sua idade, Sonia valoriza especialmente a facilidade de uso e a clareza na interface da solução, pois pode não estar tão familiarizada com tecnologias mais recentes.
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
