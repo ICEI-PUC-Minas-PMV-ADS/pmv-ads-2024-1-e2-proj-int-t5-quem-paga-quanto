@@ -1,9 +1,9 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+<p align="justify">Para garantir a eficiência e qualidade no desenvolvimento do projeto, optamos por adotar uma abordagem ágil, combinando elementos do Scrum e do Kanban. Reconhecemos a importância de uma metodologia flexível e adaptativa, centrada nas pessoas e orientada para simplificar o processo de desenvolvimento.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+<p align="justify">Ao integrar o Scrum e o Kanban, visamos tirar proveito das vantagens de ambas as metodologias. Utilizaremos a estrutura e os rituais do Scrum para assegurar entregas consistentes, enquanto aproveitamos a flexibilidade e a visualização do Kanban para otimizar nosso fluxo de trabalho e aumentar a transparência em todas as etapas do projeto.
 
 ## Controle de Versão
 
@@ -26,52 +26,46 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+<p align="justify">A estruturação do projeto foi estabelecida utilizando a ferramenta de controle de versão Git, com o Github sendo utilizado como o repositório remoto. A coordenação de merges, commits e branches é conduzida por meio de pull requests. O acompanhamento das questões foi planejado conforme as fases delineadas para o projeto e será monitorado à medida que as tarefas propostas no Kanban forem concluídas.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A organização da equipe se dará da seguinte forma:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- `Product Owner`: Luciana de Nardin
+- `Scrum Master`: Jéssica Reis de Souza
+- `Equipe de Desenvolvimento`: Bárbara Figueiredo de Assis Almeida, Carlos Roberto da Silva Jr., Guilherme Radicchi Campos Lobato de Almeida, Jéssica Reis de Souza, Laura Lanna Brandão, Raíssa Araújo Oliveira Queiroz Lopes
+
+- `Equipe de Design`: Bárbara Figueiredo de Assis Almeida, Carlos Roberto da Silva Jr., Guilherme Radicchi Campos Lobato de Almeida, Jéssica Reis de Souza, Laura Lanna Brandão, Raíssa Araújo Oliveira Queiroz Lopes
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Pensando em melhor organizar as tarefas utilizamos o Projects do GitHub e optamos por estruturar as seguintes listas para acompanhamento:
+
+- `Product Backlog`: lista que identifica todas as tarefas a serem executadas
+- `Sprint Backlog`:  lista de tarefas escolhidas do Product Backlog para serem realizadas durante uma sprint, com base na capacidade da equipe e nos objetivos da sprint, representando o conjunto de trabalhos a serem executados durante o período determinado pela sprint    
+- `To do`: lista que apresenta os itens que compõem o Sprint Backlog em execução
+- `In progress`: lista que identifica as tarefas em execução
+- `Done`: lista que representa os itens concluídos
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Kanban.png" alt="Kanban do Projeto">
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- `Editor de código`: Visual Studio Code;
+- `Repositório dos documentos do projeto`: Github;
+- `Ferramentas de comunicação`: Whatsapp e Teams;
+- `Ferramenta de Diagrama de Fluxo`: 
+- `Ferramenta de desenho de Diagrama de Casos de Uso`: Visual Paradigm;
+- `Ferramenta de desenho de Diagrama de Classes`: 
 
-O editor de código foi escolhido porque ele possui uma integração com o
+<p align="justify">O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
 integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
