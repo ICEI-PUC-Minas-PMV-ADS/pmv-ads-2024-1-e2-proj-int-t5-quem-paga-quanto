@@ -34,7 +34,7 @@ etiquetas:
 
 A organização da equipe se dará da seguinte forma:
 
-- `Product Owner`: Luciana de Nardin
+- `Product Owner`: Carlos Roberto da Silva Jr.
 - `Scrum Master`: Jéssica Reis de Souza
 - `Equipe de Desenvolvimento`: Bárbara Figueiredo de Assis Almeida, Carlos Roberto da Silva Jr., Guilherme Radicchi Campos Lobato de Almeida, Jéssica Reis de Souza, Laura Lanna Brandão, Raíssa Araújo Oliveira Queiroz Lopes
 
@@ -61,7 +61,7 @@ As ferramentas empregadas no projeto são:
 - `Repositório dos documentos do projeto`: Github;
 - `Ferramentas de comunicação`: Whatsapp e Teams;
 - `Ferramenta de Diagrama de Fluxo`: 
-- `Ferramenta de desenho de Diagrama de Casos de Uso`: Visual Paradigm;
+- `Ferramenta de desenho de Diagrama de Casos de Uso`: Asta
 - `Ferramenta de desenho de Diagrama de Classes`: 
 
 <p align="justify">O editor de código foi escolhido porque ele possui uma integração com o
