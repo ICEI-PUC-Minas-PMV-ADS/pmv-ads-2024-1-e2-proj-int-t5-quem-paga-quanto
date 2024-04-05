@@ -60,9 +60,9 @@ As ferramentas empregadas no projeto são:
 - `Editor de código`: Visual Studio Code;
 - `Repositório dos documentos do projeto`: Github;
 - `Ferramentas de comunicação`: Whatsapp e Teams;
-- `Ferramenta de Diagrama de Fluxo`: 
+- `Ferramenta de Diagrama de Fluxo`: Miro
 - `Ferramenta de desenho de Diagrama de Casos de Uso`: Asta
-- `Ferramenta de desenho de Diagrama de Classes`: 
+- `Ferramenta de desenho de Diagrama de Classes`: Asta
 
 <p align="justify">O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
