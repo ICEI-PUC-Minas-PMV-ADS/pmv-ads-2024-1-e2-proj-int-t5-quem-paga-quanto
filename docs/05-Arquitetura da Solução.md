@@ -5,17 +5,13 @@
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/6a3de413-8e0f-4803-92b6-7a498128ffc1)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/1dccb02c-e054-462c-b71e-84647e59f7b2)
 
 ## Modelo ER (Projeto Conceitual)
-
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/diagrama-er.png" alt="Diagrama de entidade relacionamento">
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/01da232e-8b8c-4940-a08d-ead30a677ecb)
 
 ## Projeto da Base de Dados
-
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/9e20a7b0-70fe-4477-81fe-6ec5b195602b)
 
 ## Tecnologias Utilizadas
 
