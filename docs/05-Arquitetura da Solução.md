@@ -5,8 +5,7 @@
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/d1172b66-4ee6-431e-96b7-0212086e21cd)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/6a3de413-8e0f-4803-92b6-7a498128ffc1)
 
 ## Modelo ER (Projeto Conceitual)
 
