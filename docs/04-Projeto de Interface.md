@@ -10,7 +10,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Diagrama de Fluxo
 
 
-![fluxograma](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/62a1aebf-b2d5-4dea-9c5a-6877cfe036cc)
+![fluxograma (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/1a6503ea-7b52-4dca-9b13-c18f4a78a2c0)
+
 
 Diagrama de fluxo elaborado na plataforma miro.
 
