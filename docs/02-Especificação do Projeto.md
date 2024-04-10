@@ -62,14 +62,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| A aplicação deve permitir o login com autenticação de usuário e senha. | ALTA |
 |RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. | ALTA |
 |RF-004| A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação. | ALTA |
-|RF-006| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
-|RF-007| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. |ALTA|
-|RF-008| A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. |ALTA|
-|RF-009| A aplicação deve disponibilizar duas opções antes de gerar os relatórios: <br> 1) Proporcional ao salário; <br> 2) Sobre a divisão por pessoa. | ALTA |
-|RF-010| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
-|RF-011| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | MEDIA |
-|RF-012| Todas as páginas devem possuir um menu de navegação no topo da página. | MEDIA |
-|RF-013| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | MEDIA |
+|RF-005| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
+|RF-006| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. |ALTA|
+|RF-007| A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. |ALTA|
+|RF-008| A aplicação deve disponibilizar duas opções antes de gerar os relatórios: <br> 1) Proporcional ao salário; <br> 2) Sobre a divisão por pessoa. | ALTA |
+|RF-009| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | MEDIA |
+|RF-010| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | MEDIA |
+|RF-011| Todas as páginas devem possuir um menu de navegação no topo da página. | MEDIA |
+|RF-012| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | MEDIA |
 
 ### Requisitos de Qualidade (Não Funcionais)
 
@@ -78,7 +78,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| A aplicação deve ser responsiva e adaptar a dispositivos móveis | MÉDIA | 
 |RNF-002| A aplicação deve possuir layout e formulários com apenas campos necessários e com descrições claras do que deve ser informado. | MÉDIA |
 |RNF-002| A aplicação deve possuir feedbacks claros quando ações de criação, exclusão e modificação forem executadas | MÉDIA |
-|RNF-003 | A aplicação deve ser desenvolvida utilizando C#, HTML, CSS e JavaScript |
+|RNF-003| A aplicação deve ser desenvolvida utilizando C#, HTML, CSS e JavaScript |
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
