@@ -51,6 +51,36 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar morador <br> - Clicar em "Excluir morador" <br> - Clicar em "Salvar" |
 |Critério de Êxito | - Morador excluído com sucesso. |
 |  |  |
+| **Caso de Teste** 	| **CT-08 – Cadastrar morador** 	|
+|	Requisito Associado 	| RF-004 - A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação.	|
+| Objetivo do Teste 	| Verificar se o existe uma página inicial com informações na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Rolar a tela e ler informações. |
+|Critério de Êxito | - Texto informativo sobre a aplicação na tela é exibido. |
+|  |  |
+| **Caso de Teste** 	| **CT-09 – Cadastrar despesa** 	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.	|
+| Objetivo do Teste 	| Verificar se o usuário consegue cadastrar despesas do seu grupo na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Adicionar despesa" <br> - Preencher os campos obrigatórios (valor, tipo, descrição, data) <br> - Clicar em "Salvar" |
+|Critério de Êxito | - Despesa cadastrada com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-10 – Editar despesa** 	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.	|
+| Objetivo do Teste 	| Verificar se o usuário consegue editar despesas do seu grupo na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar despesa <br> - Clicar em "Editar despesa" <br> - Alterar valor <br> - Clicar em "Salvar" |
+|Critério de Êxito | - Despesa alterada com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-11 – Deletar despesa** 	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.	|
+| Objetivo do Teste 	| Verificar se o usuário consegue deletar despesas do seu grupo na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar despesa <br> - Clicar em "Excluir despesa" <br> - Clicar em "Confirmar"|
+|Critério de Êxito | - Despesa excluída com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-12 – Lista relatórios despesas** 	|
+|	Requisito Associado 	| RF-006 - A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar a lista dos relatórios de cada morador na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Valor mensal" <br>|
+|Critério de Êxito | - Relatórios sobre o valor de contribuição de cada morador é exibido na tela. |
+|  |  |
 
  
 > **Links Úteis**:
