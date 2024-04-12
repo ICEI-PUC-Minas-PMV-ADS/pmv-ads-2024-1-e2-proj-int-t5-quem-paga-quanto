@@ -51,7 +51,7 @@ Pensando em melhor organizar as tarefas utilizamos o Projects do GitHub e optamo
 - `Done`: lista que representa os itens concluídos
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Kanban.png" alt="Kanban do Projeto">
-
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Kanban2.png" alt="Kanban do Projeto">
 
 ### Ferramentas
 
