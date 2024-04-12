@@ -15,9 +15,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+<p align="justify">As tecnologias escolhidas para este projeto são HTML5, CSS3 e JavaScript para o front-end, e C# e SQL Server para o back-end e banco de dados, respectivamente. Essa seleção foi feita com base em sua popularidade e versatilidade, permitindo interações eficientes com o usuário e integração com APIs externas.</p>
 
 ## Hospedagem
 
