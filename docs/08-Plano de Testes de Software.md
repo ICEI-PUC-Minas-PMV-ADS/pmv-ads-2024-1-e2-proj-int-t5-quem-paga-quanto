@@ -16,7 +16,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  |  |
 | **Caso de Teste** 	| **CT-02 – Editar usuário** 	|
-|	Requisito Associado 	| RF-001 - A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. |
+|	Requisito Associado 	| RF-001 - A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. RF-010 - A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. |
 | Objetivo do Teste 	| Verificar se o usuário consegue editar seus dados de cadastro na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Meu perfil" <br> - Clicar em "Editar dados" <br> - Alterar o nome <br> - Clicar em "Salvar"|
 |Critério de Êxito | - Cadastro alterado com sucesso. |
@@ -80,6 +80,54 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se o usuário consegue visualizar a lista dos relatórios de cada morador na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Valor mensal" <br>|
 |Critério de Êxito | - Relatórios sobre o valor de contribuição de cada morador é exibido na tela. |
+|  |  |
+| **Caso de Teste** 	| **CT-13 – Relatório mensal de despesas** 	|
+|	Requisito Associado 	| RF-007 - A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar o relatório mensal de despesas na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Valor mensal" <br>|
+|Critério de Êxito | - Relatório sobre o valor mensal de despesas é exibido na tela. |
+|  |  |
+| **Caso de Teste** 	| **CT-14 – Gerar relatórios de despesas** 	|
+|	Requisito Associado 	| RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios:
+1) Proporcional ao salário;
+2) Sobre a divisão por pessoa. |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas de acordo com a opção escolhida na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Proporcional ao Salário" <br>|
+|Critério de Êxito | - Relatório gerado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-15 – Gerar relatórios de despesas** 	|
+|	Requisito Associado 	| RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios:
+1) Proporcional ao salário;
+2) Sobre a divisão por pessoa. |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas de acordo com a opção escolhida na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Divisão igual entre moradores" <br>|
+|Critério de Êxito | - Relatório gerado com sucesso. |
+|  |  |
+|Critério de Êxito | - Relatório gerado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-16 – Gerar gráficos de despesas** 	|
+|	Requisito Associado 	| RF-009 - A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Proporcional ao salário" <br>|
+|Critério de Êxito | - Visualizar gráficos gerados com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-17 – Gerar gráficos de despesas** 	|
+|	Requisito Associado 	| RF-009 - A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Divisão igual entre moradores" <br>|
+|Critério de Êxito | - Visualizar gráficos gerados com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-18 – Exibir menu de navegação** 	|
+|	Requisito Associado 	| RF-011 - Todas as páginas devem possuir um menu de navegação no topo da página.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue acessar o menu de navegação no topo de qualquer tela da aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> |
+|Critério de Êxito | - Em todas as telas é exibido o menu de navegação no topo. |
+|  |  |
+| **Caso de Teste** 	| **CT-19 – Exibir rodapé** 	|
+|	Requisito Associado 	| RF-012 - Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar o rodapé em qualquer tela da aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> |
+|Critério de Êxito | - Em todas as telas é exibido o rodapé. |
 |  |  |
 
  
