@@ -77,8 +77,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva e adaptar a dispositivos móveis | MÉDIA | 
 |RNF-002| A aplicação deve possuir layout e formulários com apenas campos necessários e com descrições claras do que deve ser informado. | MÉDIA |
-|RNF-002| A aplicação deve possuir feedbacks claros quando ações de criação, exclusão e modificação forem executadas | MÉDIA |
-|RNF-003| A aplicação deve ser desenvolvida utilizando C#, HTML, CSS e JavaScript |
+|RNF-003| A aplicação deve possuir feedbacks claros quando ações de criação, exclusão e modificação forem executadas | MÉDIA |
+|RNF-004| A aplicação deve ser desenvolvida utilizando C#, HTML, CSS e JavaScript |
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
