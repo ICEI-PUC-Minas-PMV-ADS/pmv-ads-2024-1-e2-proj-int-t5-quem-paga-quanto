@@ -96,7 +96,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Êxito | - Relatório gerado com sucesso. |
 |  |  |
 | **Caso de Teste** 	| **CT-15 – Gerar relatórios de despesas** 	|
-|	Requisito Associado 	| RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: 1- Proporcional ao salário; 2- Sobre a divisão por pessoa. |
+|	Requisito Associado 	| RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: Proporcional ao salário; Sobre a divisão por pessoa. |
 | Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas de acordo com a opção escolhida na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Divisão igual entre moradores" <br>|
 |Critério de Êxito | - Relatório gerado com sucesso. |
