@@ -17,16 +17,5 @@ Diagrama de fluxo elaborado na plataforma miro.
 
 
 ## Wireframes
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+- [Wireframe Interativo](https://www.figma.com/proto/tOpt9Dob1fGSzLS5rF0okh/Quem-Paga-Quanto?type=design&node-id=2-2&t=6HzpIQnXVLSrSxqP-1&scaling=min-zoom&page-id=0%3A1&mode=design)
+- [Projeto do Wireframe](https://www.figma.com/file/tOpt9Dob1fGSzLS5rF0okh/Quem-Paga-Quanto?type=design&node-id=0%3A1&mode=design&t=LbYl0BTYMH7yI31G-1)
