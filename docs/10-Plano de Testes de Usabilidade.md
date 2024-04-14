@@ -103,7 +103,7 @@ Perguntas pós-tarefa:
 - Teste: cenários de tarefas, o que será medido;
 - *Debriefing* do participante: entrevista pós-test, ecomentários gerais sobre o produto / preferências.
 
-### Requisitos  do ambinete/equipamento de teste
+### Requisitos  do ambiente/equipamento de teste
 
 Os requisitos para realização dos testes são:
 
@@ -144,7 +144,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Testar se a aplicação ao ser utilizada em diferentes dispositivos(desktop, laptop, tablet, smartphone) é capaz de se adaptar.	|
 | **Ações necessárias** 	| 1. Acessar a aplicação pelo browser;<br>2. Pressionar a tecla "F12", clicar em "inspecionar elemento"<br>3.Clique no ícone de celular à esquerda e realize os testes; <br>4.Após selecionada a opção, atualize a página pressionando “F5”. <br>5. Verificar legibilidade dos textos, tamnho dos elemntos, facilidade de uso e acesso as funcionalidades.|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-02 – Fluxo de tarefas** 	|
+| **Caso de Teste** 	| **CTU-02 – Objetividade das informações** 	|
 | **Perfil** 	| Usuário (todos) 	|
 | **Objetivo do Teste** 	| Avaliar a facilidade com que os usuários podem navegar pela aplicação para alcançar seus objetivos de maneira acertiva. 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Entrar’. 	|
@@ -153,11 +153,8 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Perfil** 	|Usuário (todos) 	|
 | **Objetivo do Teste** 	| Avaliar a eficácia dos feedbacks visuais e sonoros fornecidos pela aplicação em resposta às ações do usuário. Testar a presença de orientações claras para ajudar os usuários a entenderem como usar a aplicação. 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. A aplicação deve apresentar uma mensagem informando que o login foi realizado. 	|
-|  	|  	|
-| **Caso de Teste** 	| **CTU-04 – Acessibilidade** 	|
-| **Perfil** 	| Usuário com baixa visibilidade	|
-| **Objetivo do Teste** 	| Verificar se usuários com deficiências visuais conseguem utilizar todas as ferramentas do site 	|
-| **Ações necessárias** 	|  	|
+
+
 
 ## Análise do teste e resultados
 
