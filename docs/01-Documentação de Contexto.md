@@ -10,7 +10,7 @@
 ## Objetivos
 
 <strong>Objetivo geral:</strong>
-<p align="justify">Criar uma plataforma intuitiva e eficiente que simplifique a divisão de despesas entre os membros do grupo, promovendo transparência, equidade e harmonia nas finanças compartilhadas.</p>
+<p align="justify">Capacitar os usuários por meio de uma plataforma acessível e eficaz, que simplifique a administração de despesas compartilhadas, fomentando transparência, equidade e serenidade nas finanças do grupo.</p>
 
 <strong>Objetivos específicos:</strong>
 <p align="justify">Desenvolver um sistema transparente e justo para dividir despesas entre os membros.
