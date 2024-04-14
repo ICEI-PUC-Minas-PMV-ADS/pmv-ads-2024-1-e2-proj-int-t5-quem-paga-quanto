@@ -55,14 +55,11 @@ Outro fator que corrobora para a implementação de uma ferramenta para gerencia
 ## Público-Alvo
 <p align="justify">O público-alvo desta aplicação é formado por pessoas que compartilham um espaço de moradia, recebem uma remuneração mensal por seu trabalho e desejam gerenciar e dividir os custos de forma justa, levando em consideração a renda per capita de cada morador. As especificidades desse público-alvo podem ser destacadas como:</p>
 
-<p align="justify"><strong>Moradores que Compartilham Despesas:</strong> Indivíduos que vivem na mesma residência e compartilham despesas comuns, como aluguel, contas de serviços públicos, alimentação e outros gastos relacionados à vida doméstica.</p>
+- Moradores que Compartilham Despesas
+- Renda Variável
+- Preocupação com Equidade Financeira
+- Facilidade de Gerenciamento Financeiro
+- Consciência sobre Renda Per Capita
+- Interesse em Tecnologia
 
-<p align="justify"><strong>Renda Variável:</strong> Pessoas cuja renda pode variar mensalmente, o que pode ser comum em trabalhos autônomos, freelancers ou em empregos que oferecem bônus e comissões.</p>
 
-<p align="justify"><strong>Preocupação com Equidade Financeira:</strong> Moradores que valorizam a equidade financeira e desejam garantir que cada pessoa contribua de acordo com sua capacidade financeira, levando em conta a renda per capita.</p>
-
-<p align="justify"><strong>Facilidade de Gerenciamento Financeiro:</strong> Indivíduos interessados em simplificar o processo de gerenciamento financeiro compartilhado, eliminando conflitos relacionados a despesas desiguais e facilitando a divisão proporcional dos custos.</p>
-
-<p align="justify"><strong>Consciência sobre Renda Per Capita:</strong> Moradores que estão cientes da importância da renda per capita ao dividir as despesas, reconhecendo que nem todos podem contribuir da mesma forma devido a diferenças salariais.</p>
-
-<p align="justify"><strong>Interesse em Tecnologia:</strong> Pessoas que estão dispostas a usar tecnologia para facilitar o gerenciamento financeiro, como uma aplicação específica para essa finalidade.</p>
