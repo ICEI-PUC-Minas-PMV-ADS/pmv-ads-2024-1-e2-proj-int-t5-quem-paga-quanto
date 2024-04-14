@@ -64,6 +64,6 @@ Outro fator que corrobora para a implementação de uma ferramenta para gerencia
 
 ## Vídeo Apresentando o Problema e Soluções
 
-([https://www.youtube.com/watch?v=Hc79sDi3f0U](https://youtu.be/a8EfhVLaT_c) "Quem Paga Quanto Vídeo Apresentação")
+Preparamos um pequeno vídeo para explicar um pouco melhor do problema identificado e da solução apresentada: [Assista Aqui](https://youtu.be/a8EfhVLaT_c)
 
 
