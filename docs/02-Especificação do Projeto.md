@@ -94,7 +94,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/e4866544-913c-4855-a16f-97d6f0b3f59d)
+<img width="779" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144965849/aa83ca0a-c9c3-4758-b726-1f39df68834d">
 
 Projeto desenvolvido na plataforma Astah.
 
