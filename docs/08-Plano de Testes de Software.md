@@ -1,25 +1,131 @@
+
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
+* Site publicado na Internet;
+* Navegador da Internet - Chrome, Firefox, Edge, Opera e Safari.
+* Conectividade de Internet para acesso às plataformas (APISs).
+  
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastrar usuário** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-001 - A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Clicar em "Novo Cadastro" <br> - Preencher os campos obrigatórios (e-mail, nome, senha) <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-02 – Editar usuário** 	|
+|	Requisito Associado 	| RF-001 - A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. RF-010 - A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. |
+| Objetivo do Teste 	| Verificar se o usuário consegue editar seus dados de cadastro na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Meu perfil" <br> - Clicar em "Editar dados" <br> - Alterar o nome <br> - Clicar em "Salvar"|
+|Critério de Êxito | - Cadastro alterado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-03 – Deletar usuário** 	|
+|	Requisito Associado 	| RF-001 - A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. |
+| Objetivo do Teste 	| Verificar se o usuário consegue excluir seu cadastro na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Meu perfil" <br> - Clicar em "Excluir Conta" <br> - Clicar em "Confirmar"|
+|Critério de Êxito | - Usuário excluído com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-04 – Fazer login** 	|
+|	Requisito Associado 	| RF-002 - A aplicação deve permitir o login com autenticação de usuário e senha. |
+| Objetivo do Teste 	| Verificar se o usuário consegue logar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Preencher o campo de e-mail <br> - Preencher o campo de senha <br> - Clicar em "Entrar"|
+|Critério de Êxito | - Login feito com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-05 – Cadastrar morador** 	|
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. |
+| Objetivo do Teste 	| Verificar se o usuário consegue cadastrar moradores em sua conta na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Adicionar morador" <br> - Preencher os campos obrigatórios (nome, idade, renda) <br> - Clicar em "Cadastrar" |
+|Critério de Êxito | - Morador cadastrado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-06 – Editar morador** 	|
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. |
+| Objetivo do Teste 	| Verificar se o usuário consegue editar informações dos moradores em sua conta na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar morador <br> - Clicar em "Editar morador" <br> - Alterar o nome <br> - Clicar em "Salvar" |
+|Critério de Êxito | - Morador alterado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-07 – Cadastrar morador** 	|
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. |
+| Objetivo do Teste 	| Verificar se o usuário consegue deletar moradores em sua conta na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar morador <br> - Clicar em "Excluir morador" <br> - Clicar em "Salvar" |
+|Critério de Êxito | - Morador excluído com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-08 – Cadastrar morador** 	|
+|	Requisito Associado 	| RF-004 - A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação.	|
+| Objetivo do Teste 	| Verificar se o existe uma página inicial com informações na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Rolar a tela e ler informações. |
+|Critério de Êxito | - Texto informativo sobre a aplicação na tela é exibido. |
+|  |  |
+| **Caso de Teste** 	| **CT-09 – Cadastrar despesa** 	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.	|
+| Objetivo do Teste 	| Verificar se o usuário consegue cadastrar despesas do seu grupo na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Adicionar despesa" <br> - Preencher os campos obrigatórios (valor, tipo, descrição, data) <br> - Clicar em "Salvar" |
+|Critério de Êxito | - Despesa cadastrada com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-10 – Editar despesa** 	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.	|
+| Objetivo do Teste 	| Verificar se o usuário consegue editar despesas do seu grupo na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar despesa <br> - Clicar em "Editar despesa" <br> - Alterar valor <br> - Clicar em "Salvar" |
+|Critério de Êxito | - Despesa alterada com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-11 – Deletar despesa** 	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.	|
+| Objetivo do Teste 	| Verificar se o usuário consegue deletar despesas do seu grupo na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar despesa <br> - Clicar em "Excluir despesa" <br> - Clicar em "Confirmar"|
+|Critério de Êxito | - Despesa excluída com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-12 – Lista relatórios despesas** 	|
+|	Requisito Associado 	| RF-006 - A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar a lista dos relatórios de cada morador na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Valor mensal" <br>|
+|Critério de Êxito | - Relatórios sobre o valor de contribuição de cada morador é exibido na tela. |
+|  |  |
+| **Caso de Teste** 	| **CT-13 – Relatório mensal de despesas** 	|
+|	Requisito Associado 	| RF-007 - A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar o relatório mensal de despesas na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Valor mensal" <br>|
+|Critério de Êxito | - Relatório sobre o valor mensal de despesas é exibido na tela. |
+|  |  |
+| **Caso de Teste** 	| **CT-14 – Gerar relatórios de despesas** 	|
+|	Requisito Associado 	| RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: 1) Proporcional ao salário; 2) Sobre a divisão por pessoa. |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas de acordo com a opção escolhida na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Proporcional ao Salário" <br>|
+|Critério de Êxito | - Relatório gerado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-15 – Gerar relatórios de despesas** 	|
+|	Requisito Associado 	| RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: Proporcional ao salário; Sobre a divisão por pessoa. |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas de acordo com a opção escolhida na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Divisão igual entre moradores" <br>|
+|Critério de Êxito | - Relatório gerado com sucesso. |
+|  |  |
+|Critério de Êxito | - Relatório gerado com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-16 – Gerar gráficos de despesas** 	|
+|	Requisito Associado 	| RF-009 - A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Proporcional ao salário" <br>|
+|Critério de Êxito | - Visualizar gráficos gerados com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-17 – Gerar gráficos de despesas** 	|
+|	Requisito Associado 	| RF-009 - A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar os relatórios de despesas. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> <br> - Clicar em "Divisão igual entre moradores" <br>|
+|Critério de Êxito | - Visualizar gráficos gerados com sucesso. |
+|  |  |
+| **Caso de Teste** 	| **CT-18 – Exibir menu de navegação** 	|
+|	Requisito Associado 	| RF-011 - Todas as páginas devem possuir um menu de navegação no topo da página.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue acessar o menu de navegação no topo de qualquer tela da aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> |
+|Critério de Êxito | - Em todas as telas é exibido o menu de navegação no topo. |
+|  |  |
+| **Caso de Teste** 	| **CT-19 – Exibir rodapé** 	|
+|	Requisito Associado 	| RF-012 - Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais.	 |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar o rodapé em qualquer tela da aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar "Relatórios" <br> - Clicar em "Gerar relatórios" <br> |
+|Critério de Êxito | - Em todas as telas é exibido o rodapé. |
+|  |  |
 
  
 > **Links Úteis**:
