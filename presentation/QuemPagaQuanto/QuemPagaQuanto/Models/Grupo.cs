@@ -15,7 +15,7 @@ namespace QuemPagaQuanto.Models
         [Required]
         public int UsuarioId { get; set; }
         
-        [Required, ForeignKey("UsuarioId")]
+        [ForeignKey("UsuarioId")]
         public  Usuario Usuario  { get; set; }
         
 
