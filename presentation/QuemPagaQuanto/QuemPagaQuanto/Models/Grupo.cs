@@ -7,9 +7,11 @@ namespace QuemPagaQuanto.Models
     public class Grupo
     {
         [Key]
+
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o nome!")]
+        [Required(ErrorMessage = "Obrigatório informar o nome do Grupo!")]
+        [Display(Name = "Nome do Grupo")]
         public string Nome { get; set; }
 
         [Required]
@@ -18,6 +20,8 @@ namespace QuemPagaQuanto.Models
         
         [ForeignKey("UsuarioId")]
         public  Usuario Usuario  { get; set; }
+
+
         
 
     }
