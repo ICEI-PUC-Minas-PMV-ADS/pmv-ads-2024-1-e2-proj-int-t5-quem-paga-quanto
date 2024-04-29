@@ -9,10 +9,11 @@ namespace QuemPagaQuanto.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Obrigatório informar o nome!")]
         public string Nome { get; set; }
 
         [Required]
+        [Display(Name = "Id do Usuário")]
         public int UsuarioId { get; set; }
         
         [ForeignKey("UsuarioId")]
