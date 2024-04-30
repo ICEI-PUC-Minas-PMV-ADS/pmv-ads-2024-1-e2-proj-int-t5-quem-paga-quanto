@@ -11,6 +11,8 @@ namespace QuemPagaQuanto.Models
         public DbSet<Grupo> Grupos { get; set; }
 
         public DbSet<Morador> Moradores { get; set; }
+
+        public DbSet<Despesa> Despesas { get; set; }
     }
 
 }

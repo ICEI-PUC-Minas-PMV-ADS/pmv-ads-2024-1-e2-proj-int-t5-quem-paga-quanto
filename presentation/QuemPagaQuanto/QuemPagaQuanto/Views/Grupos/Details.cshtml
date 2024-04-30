@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Visualizar dados do Grupo</h1>
 
 <div>
     <h4>Grupo</h4>
@@ -25,6 +25,7 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-info" asp-action="Index">Voltar</a> |
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> 
+    
 </div>
