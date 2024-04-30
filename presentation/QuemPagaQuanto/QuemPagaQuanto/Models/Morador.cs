@@ -13,7 +13,7 @@ namespace QuemPagaQuanto.Models
         public string Nome { get; set; }
 
         [Required, DataType(DataType.EmailAddress)]
-        public int Email { get; set; }
+        public string Email { get; set; }
         
         [Required]
         public int GrupoId  { get; set; }
