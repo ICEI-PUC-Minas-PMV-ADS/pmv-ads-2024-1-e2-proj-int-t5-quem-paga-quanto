@@ -12,8 +12,6 @@ namespace QuemPagaQuanto.Models
         [Required(ErrorMessage = "Insira a Data da Despesa")]
         public DateTime Data { get; set; }
 
-        [Required(ErrorMessage = "Insira a Data de Vencimento da Despesa")]
-
         public DateTime Vencimento { get; set; }
 
         [Required(ErrorMessage = "Insira o Valor da Despesa")]
