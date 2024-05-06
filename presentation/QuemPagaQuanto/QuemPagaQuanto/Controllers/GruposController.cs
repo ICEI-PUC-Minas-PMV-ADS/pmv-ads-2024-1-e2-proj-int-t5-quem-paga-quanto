@@ -163,5 +163,34 @@ namespace QuemPagaQuanto.Controllers
         {
           return _context.Grupos.Any(e => e.Id == id);
         }
+
+        public async Task<ActionResult> Relatorio(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var grupo = await _context.Grupos.FindAsync(id);
+
+            if (grupo == null)
+            {
+                return NotFound();
+            }
+
+            var consumos = await _context.Despesas
+                .Where(e => e.GrupoId == id)
+                .OrderBy(e => e.Data)
+                .ToListAsync();
+
+            double total = consumos.Sum(c => c.Valor);
+
+            ViewBag.Despesas = consumos;
+            ViewBag.Total = total;
+            ViewBag.Nome = grupo.Nome;
+
+            return View(consumos);
+
+        }
     }
 }
