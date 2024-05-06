@@ -13,6 +13,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.Grupo)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Data)
             </th>
             <th>
@@ -30,6 +33,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupo.Nome)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Data)
             </td>
