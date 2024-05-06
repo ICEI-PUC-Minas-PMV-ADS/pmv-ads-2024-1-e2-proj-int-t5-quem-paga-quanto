@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QuemPagaQuanto.Models;
 
 namespace QuemPagaQuanto.Controllers
 {
+    [Authorize]
     public class DespesasController : Controller
     {
         private readonly AppDbContext _context;

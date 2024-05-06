@@ -13,8 +13,8 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
-    options.AccessDeniedPath = "/Usuarios/AccessDenied/";
-    options.LoginPath = "/Usuarios/Login/";
+    options.AccessDeniedPath = "/Auth/AccessDenied/";
+    options.LoginPath = "/Auth/Login/";
 });
 
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
@@ -43,6 +43,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

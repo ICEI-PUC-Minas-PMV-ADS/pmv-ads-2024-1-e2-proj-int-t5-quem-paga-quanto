@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuemPagaQuanto.Models;
 
 namespace QuemPagaQuanto.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
@@ -47,6 +49,8 @@ namespace QuemPagaQuanto.Controllers
         {
             if (ModelState.IsValid)
             {
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -62,10 +66,12 @@ namespace QuemPagaQuanto.Controllers
             }
 
             var usuario = await _context.Usuarios.FindAsync(id);
+
             if (usuario == null)
             {
                 return NotFound();
             }
+            
             return View(usuario);
         }
 
@@ -82,6 +88,8 @@ namespace QuemPagaQuanto.Controllers
             {
                 try
                 {
+                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+
                     _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
