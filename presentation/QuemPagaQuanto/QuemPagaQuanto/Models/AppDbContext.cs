@@ -13,6 +13,8 @@ namespace QuemPagaQuanto.Models
         public DbSet<Morador> Moradores { get; set; }
 
         public DbSet<Despesa> Despesas { get; set; }
+
+        public DbSet<Renda> Rendas { get; set; }
     }
 
 }
