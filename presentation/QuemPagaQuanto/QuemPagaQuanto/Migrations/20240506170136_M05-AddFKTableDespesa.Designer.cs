@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QuemPagaQuanto.Models;
 
@@ -11,9 +12,10 @@ using QuemPagaQuanto.Models;
 namespace QuemPagaQuanto.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240506170136_M05-AddFKTableDespesa")]
+    partial class M05AddFKTableDespesa
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,32 +101,6 @@ namespace QuemPagaQuanto.Migrations
                     b.HasIndex("GrupoId");
 
                     b.ToTable("Moradores");
-                });
-
-            modelBuilder.Entity("QuemPagaQuanto.Models.Renda", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Descricao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("RendaFixa")
-                        .HasColumnType("bit");
-
-                    b.Property<double>("Valor")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Rendas");
                 });
 
             modelBuilder.Entity("QuemPagaQuanto.Models.Usuario", b =>

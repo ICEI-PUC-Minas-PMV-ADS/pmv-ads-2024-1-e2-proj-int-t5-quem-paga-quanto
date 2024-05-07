@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +6,7 @@ using QuemPagaQuanto.Models;
 
 namespace QuemPagaQuanto.Controllers
 {
+    [Authorize]
     public class DespesasController : Controller
     {
         private readonly AppDbContext _context;
@@ -45,6 +43,7 @@ namespace QuemPagaQuanto.Controllers
         // GET: Despesas/Create
         public IActionResult Create()
         {
+            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome");
             return View();
         }
 
@@ -53,7 +52,7 @@ namespace QuemPagaQuanto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Data,Vencimento,Valor,Descricao")] Despesa despesa)
+        public async Task<IActionResult> Create([Bind("Id,Data,Vencimento,Valor,Descricao,GrupoId")] Despesa despesa)
         {
             if (ModelState.IsValid)
             {
@@ -61,6 +60,8 @@ namespace QuemPagaQuanto.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", despesa.GrupoId);
             return View(despesa);
         }
 
@@ -77,6 +78,8 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
+
+            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", despesa.GrupoId);
             return View(despesa);
         }
 
@@ -85,7 +88,7 @@ namespace QuemPagaQuanto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Data,Vencimento,Valor,Descricao")] Despesa despesa)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Data,Vencimento,Valor,Descricao,GrupoId")] Despesa despesa)
         {
             if (id != despesa.Id)
             {
@@ -112,6 +115,8 @@ namespace QuemPagaQuanto.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", despesa.GrupoId);
             return View(despesa);
         }
 

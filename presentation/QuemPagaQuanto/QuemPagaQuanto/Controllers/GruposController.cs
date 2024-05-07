@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using QuemPagaQuanto.Models;
 
 namespace QuemPagaQuanto.Controllers
 {
+    [Authorize]
     public class GruposController : Controller
     {
         private readonly AppDbContext _context;
@@ -162,6 +164,35 @@ namespace QuemPagaQuanto.Controllers
         private bool GrupoExists(int id)
         {
           return _context.Grupos.Any(e => e.Id == id);
+        }
+
+        public async Task<ActionResult> Relatorio(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var grupo = await _context.Grupos.FindAsync(id);
+
+            if (grupo == null)
+            {
+                return NotFound();
+            }
+
+            var consumos = await _context.Despesas
+                .Where(e => e.GrupoId == id)
+                .OrderBy(e => e.Data)
+                .ToListAsync();
+
+            double total = consumos.Sum(c => c.Valor);
+
+            ViewBag.Despesas = consumos;
+            ViewBag.Total = total;
+            ViewBag.Nome = grupo.Nome;
+
+            return View(consumos);
+
         }
     }
 }

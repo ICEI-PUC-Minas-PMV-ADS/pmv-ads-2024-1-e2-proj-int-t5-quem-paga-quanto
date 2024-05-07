@@ -19,6 +19,13 @@ namespace QuemPagaQuanto.Models
 
         [Required(ErrorMessage = "Insira uma Descrição da Despesa")]
         public string Descricao { get; set; }
+
+        [Required]
+        [Display(Name = "Id do Grupo")]
+        public int GrupoId { get; set; }
+
+        [ForeignKey("GrupoId")]
+        public Grupo Grupo { get; set; }
     }
 }
 

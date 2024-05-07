@@ -1,19 +1,21 @@
 ﻿@model IEnumerable<QuemPagaQuanto.Models.Despesa>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Relatorio";
 }
 
-<h1>Despesas</h1>
+<h1>Relatório de Despesas: Grupo @ViewBag.Nome</h1>
+
+<h3>Total: @ViewBag.Total</h3>
 
 <p>
-    <a asp-action="Create" class="btn btn-success">Criar Nova Despesa</a>
+@*     <a asp-action="Create">Create New</a> *@
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.GrupoId)
+                @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Data)
@@ -27,6 +29,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Descricao)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GrupoId)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -34,7 +39,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayNameFor(item => item.Grupo.Id)
+                @Html.DisplayFor(modelItem => item.Id)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Data)
@@ -49,10 +54,13 @@
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                @Html.DisplayFor(modelItem => item.GrupoId)
             </td>
+@*             <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td> *@
         </tr>
 }
     </tbody>

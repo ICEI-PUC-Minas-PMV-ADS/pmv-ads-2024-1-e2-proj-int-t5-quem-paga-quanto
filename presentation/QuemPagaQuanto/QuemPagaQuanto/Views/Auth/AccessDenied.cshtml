@@ -1,0 +1,18 @@
+﻿@model QuemPagaQuanto.Models.LoginPayload
+
+@{
+    ViewData["Title"] = "Acesso negado!";
+}
+
+<h1>Acesso negado!</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <p>Você não possui permissão para acessar essa página.</p>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
