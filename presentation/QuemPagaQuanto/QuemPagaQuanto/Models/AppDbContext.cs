@@ -23,7 +23,7 @@ namespace QuemPagaQuanto.Models
                     Id = -1,
                     Email = "admin@admin.com",
                     Nome = "Administrador",
-                    Senha = BCrypt.Net.BCrypt.HashPassword("1234"),
+                    Senha = "$2a$11$.kmPcQbhN1.Jg0Zi4OOAe.zJxB6p8vW7Rg4fQ6Uifeal2ztBnRaFq",
                     Perfil = Perfil.Administrador
                 }
             );
