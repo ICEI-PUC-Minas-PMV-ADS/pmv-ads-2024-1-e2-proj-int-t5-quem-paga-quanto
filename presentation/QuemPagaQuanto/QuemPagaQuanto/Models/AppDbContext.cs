@@ -13,6 +13,18 @@ namespace QuemPagaQuanto.Models
         public DbSet<Morador> Moradores { get; set; }
 
         public DbSet<Despesa> Despesas { get; set; }
-    }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+            modelBuilder.Entity<Usuario>().HasData(
+                new Usuario
+                {
+                    Id = -1,
+                    Email = "admin@admin.com",
+                    Nome = "Administrador",
+                    Senha = BCrypt.Net.BCrypt.HashPassword("1234"),
+                    Perfil = Perfil.Administrador
+                }
+            );
+        }
+    }
 }
