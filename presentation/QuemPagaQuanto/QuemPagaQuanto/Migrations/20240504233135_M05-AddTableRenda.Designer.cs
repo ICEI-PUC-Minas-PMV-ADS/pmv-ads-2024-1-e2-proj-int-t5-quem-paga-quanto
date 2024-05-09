@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QuemPagaQuanto.Models;
 
@@ -11,9 +12,10 @@ using QuemPagaQuanto.Models;
 namespace QuemPagaQuanto.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240504233135_M05-AddTableRenda")]
+    partial class M05AddTableRenda
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,9 +39,6 @@ namespace QuemPagaQuanto.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("GrupoId")
-                        .HasColumnType("int");
-
                     b.Property<double>("Valor")
                         .HasColumnType("float");
 
@@ -47,8 +46,6 @@ namespace QuemPagaQuanto.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("GrupoId");
 
                     b.ToTable("Despesas");
                 });
@@ -153,27 +150,6 @@ namespace QuemPagaQuanto.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = -1,
-                            Email = "admin@admin.com",
-                            Nome = "Administrador",
-                            Perfil = 0,
-                            Senha = "$2a$11$o1kvW9VtkL/KpMUwfkcBVu8udhUqfMwpVb9DZEawctoEkJCP5D7MG"
-                        });
-                });
-
-            modelBuilder.Entity("QuemPagaQuanto.Models.Despesa", b =>
-                {
-                    b.HasOne("QuemPagaQuanto.Models.Grupo", "Grupo")
-                        .WithMany()
-                        .HasForeignKey("GrupoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Grupo");
                 });
 
             modelBuilder.Entity("QuemPagaQuanto.Models.Grupo", b =>

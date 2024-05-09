@@ -1,0 +1,42 @@
+﻿@model QuemPagaQuanto.Models.Renda
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Dados da renda</h1>
+
+<div>
+    <h4>Renda</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RendaFixa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RendaFixa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-info">Voltar</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Editar</a>
+</div>

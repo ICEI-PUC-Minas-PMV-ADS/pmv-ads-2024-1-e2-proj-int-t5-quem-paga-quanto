@@ -14,6 +14,8 @@ namespace QuemPagaQuanto.Models
 
         public DbSet<Despesa> Despesas { get; set; }
 
+        public DbSet<Renda> Rendas { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             modelBuilder.Entity<Usuario>().HasData(
                 new Usuario
