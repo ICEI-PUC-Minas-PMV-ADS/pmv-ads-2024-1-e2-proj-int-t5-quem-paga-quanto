@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using API.Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -58,8 +60,10 @@ namespace QuemPagaQuanto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,UsuarioId")] Grupo grupo)
+        public async Task<IActionResult> Create([Bind("Id,Nome")] Grupo grupo, List<Claim> claims)
         {
+            grupo.UsuarioId = AuthorizeService.GetUserId(User);
+
             if (ModelState.IsValid)
             {
                 _context.Add(grupo);
@@ -92,8 +96,10 @@ namespace QuemPagaQuanto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,UsuarioId")] Grupo grupo)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome")] Grupo grupo)
         {
+            grupo.UsuarioId = AuthorizeService.GetUserId(User);
+
             if (id != grupo.Id)
             {
                 return NotFound();

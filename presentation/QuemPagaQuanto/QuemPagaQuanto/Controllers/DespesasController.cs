@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using API.Infrastructure.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -43,7 +44,7 @@ namespace QuemPagaQuanto.Controllers
         // GET: Despesas/Create
         public IActionResult Create()
         {
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome");
+            ViewData["GrupoId"] = new SelectList(_context.Grupos.Where(g => g.UsuarioId == AuthorizeService.GetUserId(User)), "Id", "Nome");
             return View();
         }
 
