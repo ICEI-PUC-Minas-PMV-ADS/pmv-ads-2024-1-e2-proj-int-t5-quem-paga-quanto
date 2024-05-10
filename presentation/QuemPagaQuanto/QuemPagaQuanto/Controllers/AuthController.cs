@@ -69,7 +69,7 @@ namespace QuemPagaQuanto.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register([Bind("Id,Nome,Email,Senha")] Usuario usuario)
+        public async Task<IActionResult> Register([Bind("Id,Nome,Email,Senha,ConfirmarSenha")] UsuarioPayload usuario)
         {
             usuario.Perfil = Perfil.Usuario;
 

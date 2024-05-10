@@ -4,10 +4,10 @@ namespace QuemPagaQuanto.Models
 {
     public class LoginPayload
     {
-        [Required(ErrorMessage = "Obrigatório informar Email"), DataType(DataType.EmailAddress)]
+        [Required(ErrorMessage = "Informe seu email."), DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar Senha"), DataType(DataType.Password)]
+        [Required(ErrorMessage = "Informe sua senha."), DataType(DataType.Password)]
         public string Senha { get; set; }
     }
 }
