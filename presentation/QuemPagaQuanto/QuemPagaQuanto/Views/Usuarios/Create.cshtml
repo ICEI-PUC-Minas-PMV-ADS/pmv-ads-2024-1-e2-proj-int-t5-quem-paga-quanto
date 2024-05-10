@@ -4,13 +4,12 @@
     ViewData["Title"] = "Criar Usuário";
 }
 
-<h1>Criar usuário</h1>
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Criar usuário</h1>
+        <h4 class="custom--form-sub">Dados pessoais</h4>
+        <hr />
 
-<h4>Dados de cadastro</h4>
-<hr />
-
-<div class="row">
-    <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -38,14 +37,15 @@
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
 
-            <div class="form-group mt-3 mb-5">
+            <div class="form-group mt-2">
                 <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
+
 </div>
 
-<div>
+<div class="col-md-12 text-center mt-4 custom--back-link">
     <a asp-action="Index">Voltar para listagem</a>
 </div>
 

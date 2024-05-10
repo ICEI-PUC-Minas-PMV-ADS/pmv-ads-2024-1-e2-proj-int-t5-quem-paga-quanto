@@ -4,12 +4,12 @@
     ViewData["Title"] = "Editar Usuário";
 }
 
-<h1>Editar usuário</h1>
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Editar usuário</h1>
+        <h4 class="custom--form-sub">Informações do usuário</h4>
+        <hr />
 
-<h4>Informações do usuário</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
@@ -34,14 +34,14 @@
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
 
-            <div class="form-group mt-3 mb-5">
+            <div class="form-group mt-3">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
+<div class="col-md-12 text-center mt-4 custom--back-link">
     <a asp-action="Index">Voltar para listagem</a>
 </div>
 

@@ -4,13 +4,12 @@
     ViewData["Title"] = "Criar conta";
 }
 
-<h1>Criar conta</h1>
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Criar conta</h1>
+        <h4 class="custom--form-sub">Dados pessoais</h4>
+        <hr />
 
-<h4>Dados Pessoais</h4>
-<hr />
-
-<div class="row">
-    <div class="col-md-4">
         <form asp-action="Register">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             
@@ -32,18 +31,13 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             
-            <div class="form-group mt-3">
+            <div class="form-group mt-3 custom--footer-buttons">
                 <input type="submit" value="Registrar" class="btn btn-primary" />
-                <a asp-action="Login" class="m-2">Acessar conta</a>
+                <a asp-action="Login" class="m-2">Acessar Conta</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    
-</div>
-
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
