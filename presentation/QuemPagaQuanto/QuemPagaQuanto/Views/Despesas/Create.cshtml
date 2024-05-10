@@ -1,46 +1,57 @@
 ﻿@model QuemPagaQuanto.Models.Despesa
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar Despesa";
 }
 
-<h1>Criar Nova Despesa</h1>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Criar despesa</h1>
+        <h4 class="custom--form-sub">Informações da despesa</h4>
+        <hr />
+
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group pb-2">
                 <label asp-for="Data" class="control-label"></label>
                 <input asp-for="Data" class="form-control" />
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            
+            <div class="form-group pb-2">
                 <label asp-for="Vencimento" class="control-label"></label>
                 <input asp-for="Vencimento" class="form-control" />
                 <span asp-validation-for="Vencimento" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            
+            <div class="form-group pb-2">
                 <label asp-for="Valor" class="control-label"></label>
                 <input asp-for="Valor" class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            
+            <div class="form-group pb-2">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            
+            <div class="form-group pb-2">
                 <label asp-for="GrupoId" class="control-label"></label>
                 <select asp-for="GrupoId" class="form-control" asp-items="ViewBag.GrupoId"></select>
             </div>
-            <div class="form-group">
-                <a asp-action="Index" class="btn btn-primary">Voltar</a> |
-                <input type="submit" value="Criar" class="btn btn-success" />
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Criar Despesa" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
+
+<div class="col-md-12 text-center mt-4 custom--back-link">
+    <a asp-action="Index">Voltar para listagem</a>
+</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

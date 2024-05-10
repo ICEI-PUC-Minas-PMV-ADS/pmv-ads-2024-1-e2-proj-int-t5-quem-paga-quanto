@@ -1,44 +1,47 @@
 ﻿@model QuemPagaQuanto.Models.Renda
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Renda";
 }
 
-<h1>Editar dados da renda</h1>
-
-<h4>Renda</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Editar renda</h1>
+        <h4 class="custom--form-sub">Dados da renda</h4>
+        <hr />
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
+            <div class="form-group pb-2">
                 <label asp-for="Valor" class="control-label"></label>
                 <input asp-for="Valor" class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check pb-2">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="RendaFixa" /> @Html.DisplayNameFor(model => model.RendaFixa)
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group pb-2">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group pb-2">
                 <label asp-for="Data" class="control-label"></label>
                 <input asp-for="Data" class="form-control" />
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <a asp-action="Index" class="btn btn-info">Voltar</a> |
-                <input type="submit" value="Salvar" class="btn btn-success" />
+
+            <div class="form-group mt-2">
+                <input type="submit" value="Salvar Renda" class="btn btn-primary" />
             </div>
         </form>
     </div>
+</div>
+
+<div class="col-md-12 text-center mt-4 custom--back-link">
+    <a asp-action="Index">Voltar para listagem</a>
 </div>
 
 @section Scripts {

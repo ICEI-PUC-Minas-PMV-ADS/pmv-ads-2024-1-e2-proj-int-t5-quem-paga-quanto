@@ -1,33 +1,38 @@
 ﻿@model QuemPagaQuanto.Models.Grupo
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar Grupo";
 }
 
-<h1>Criar Grupo</h1>
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Criar grupo</h1>
+        <h4 class="custom--form-sub">Informações do grupo</h4>
+        <hr />
 
-<h4>Grupo</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            
+            <div class="form-group pb-2">
                 <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            
+            <div class="form-group pb-2">
                 <label asp-for="UsuarioId" class="control-label"></label>
-                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
+                <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
             </div>
-            <div class="form-group">
-                <a class="btn btn-primary" asp-action="Index">Voltar</a>
-                <input type="submit" value="Adicionar grupo" class="btn btn-success" />
-               
+
+            <div class="form-group mt-2">
+                <input type="submit" value="Criar Grupo" class="btn btn-primary" />               
             </div>
         </form>
     </div>
+</div>
+
+<div class="col-md-12 text-center mt-4 custom--back-link">
+    <a asp-action="Index">Voltar para listagem</a>
 </div>
 
 

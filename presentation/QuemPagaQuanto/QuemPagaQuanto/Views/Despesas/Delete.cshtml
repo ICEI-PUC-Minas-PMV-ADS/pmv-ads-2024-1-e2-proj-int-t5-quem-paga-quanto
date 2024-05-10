@@ -1,45 +1,48 @@
 ﻿@model QuemPagaQuanto.Models.Despesa
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Apagar Despesa";
 }
+<div class="row justify-content-center">
+    <div class="col-md-4 custom--form">
+        <h1 class="custom--form-header">Apagar</h1>
+        <h4 class="custom--form-sub">Tem certeza que deseja apagar essa despesa?</h4>
+        <hr />
 
-<h1>Deletar</h1>
+        <dl class="row">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Data)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Data)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Vencimento)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Vencimento)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Valor)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Valor)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
+        </dl>
 
-<div>
-    <h4>Deseja Mesmo Deletar esta Despesa?</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Data)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Data)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Vencimento)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Vencimento)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Valor)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Valor)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <a asp-action="Index" class="btn btn-primary">Voltar</a> |
-        <input type="submit" value="Delete" class="btn btn-danger" />
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Apagar Despesa" class="btn btn-danger" />
+        </form>
+    </div>
 
-    </form>
+    <div class="col-md-12 text-center mt-4 custom--back-link">
+        <a asp-action="Index">Voltar para listagem</a>
+    </div>
 </div>
