@@ -33,6 +33,10 @@
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
+            <div class="form-group pb-2">
+                <label asp-for="GrupoId" class="control-label"></label>
+                <select asp-for="GrupoId" class="form-control" asp-items="ViewBag.GrupoId"></select>
+            </div>
             <div class="form-group mt-2">
                 <input type="submit" value="Salvar Despesa" class="btn btn-primary" />
             </div>

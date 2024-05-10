@@ -23,7 +23,7 @@ namespace QuemPagaQuanto.Models
                     Id = -1,
                     Email = "admin@admin.com",
                     Nome = "Administrador",
-                    Senha = "$2a$11$.kmPcQbhN1.Jg0Zi4OOAe.zJxB6p8vW7Rg4fQ6Uifeal2ztBnRaFq",
+                    Senha = "$2a$11$rPjjjKA4B.FyE00Cjv8vw.tfB2ZMQTFgEZcasPzytrU38oIBunr4e",
                     Perfil = Perfil.Administrador
                 }
             );
