@@ -19,7 +19,7 @@ namespace QuemPagaQuanto.Controllers
         // GET: Despesas
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Despesas.ToListAsync());
+              return View(await _context.Despesas.Include(g => g.Grupo).ToListAsync());
         }
 
         // GET: Despesas/Details/5
