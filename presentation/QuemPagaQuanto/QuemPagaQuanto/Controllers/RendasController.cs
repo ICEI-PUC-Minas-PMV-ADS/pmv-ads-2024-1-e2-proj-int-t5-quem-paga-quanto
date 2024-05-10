@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QuemPagaQuanto.Models;
 
@@ -15,13 +16,14 @@ namespace QuemPagaQuanto.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var dados = await _context.Rendas.ToListAsync();
+            var dados = await _context.Rendas.Include(r => r.Morador).ToListAsync();
 
             return View(dados);
         }
 
         public IActionResult Create()
         {
+            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome");
             return View();
         }
 
@@ -34,6 +36,8 @@ namespace QuemPagaQuanto.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
+
+            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome", renda.MoradorId);
             return View(renda);
 
         }
@@ -47,7 +51,8 @@ namespace QuemPagaQuanto.Controllers
 
             if(dados == null)
                 return NotFound();
-            
+
+            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome", dados.MoradorId);
             return View(dados);
         }
 
@@ -64,6 +69,7 @@ namespace QuemPagaQuanto.Controllers
                 return RedirectToAction("Index");
             }
 
+            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome", renda.MoradorId);
             return View();
         }
 

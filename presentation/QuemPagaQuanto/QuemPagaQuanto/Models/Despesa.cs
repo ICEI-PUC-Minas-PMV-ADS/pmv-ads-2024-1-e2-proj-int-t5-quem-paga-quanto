@@ -9,19 +9,21 @@ namespace QuemPagaQuanto.Models
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Insira a Data da Despesa")]
+        [DataType(DataType.Date)]
+        [Required(ErrorMessage = "Insira a data da despesa.")]
         public DateTime Data { get; set; }
 
-        public DateTime Vencimento { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? Vencimento { get; set; }
 
-        [Required(ErrorMessage = "Insira o Valor da Despesa")]
+        [DataType(DataType.Currency)]
+        [Required(ErrorMessage = "Insira o valor da despesa.")]
         public double Valor { get; set; }
 
-        [Required(ErrorMessage = "Insira uma Descrição da Despesa")]
-        public string Descricao { get; set; }
+        public string? Descricao { get; set; }
 
         [Required]
-        [Display(Name = "Id do Grupo")]
+        [Display(Name = "Grupo")]
         public int GrupoId { get; set; }
 
         [ForeignKey("GrupoId")]

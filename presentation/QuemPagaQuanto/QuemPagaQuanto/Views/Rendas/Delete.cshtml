@@ -12,6 +12,12 @@
 
         <dl class="row">
             <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Morador)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Morador.Nome)
+            </dd>
+            <dt class="col-sm-4">
                 @Html.DisplayNameFor(model => model.Valor)
             </dt>
             <dd class="col-sm-8">
@@ -21,19 +27,19 @@
                 @Html.DisplayNameFor(model => model.RendaFixa)
             </dt>
             <dd class="col-sm-8">
-                @Html.DisplayFor(model => model.RendaFixa)
+                @(Model.RendaFixa ? "Sim" : "Não")
             </dd>
             <dt class="col-sm-4">
                 @Html.DisplayNameFor(model => model.Descricao)
             </dt>
             <dd class="col-sm-8">
-                @Html.DisplayFor(model => model.Descricao)
+                @(Model.Descricao != null ? Html.DisplayFor(model => model.Descricao) : "-")
             </dd>
             <dt class="col-sm-4">
                 @Html.DisplayNameFor(model => model.Data)
             </dt>
             <dd class="col-sm-8">
-                @Html.DisplayFor(model => model.Data)
+                @(Model.Data != null ? Html.DisplayFor(model => model.Data) : "-")
             </dd>
         </dl>
 

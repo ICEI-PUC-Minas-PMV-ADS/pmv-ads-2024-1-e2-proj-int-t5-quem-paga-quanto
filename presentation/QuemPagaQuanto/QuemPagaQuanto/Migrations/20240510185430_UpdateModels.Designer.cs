@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QuemPagaQuanto.Models;
 
@@ -11,9 +12,10 @@ using QuemPagaQuanto.Models;
 namespace QuemPagaQuanto.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240510185430_UpdateModels")]
+    partial class UpdateModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,7 +51,7 @@ namespace QuemPagaQuanto.Migrations
 
                     b.HasIndex("GrupoId");
 
-                    b.ToTable("Despesas", (string)null);
+                    b.ToTable("Despesas");
                 });
 
             modelBuilder.Entity("QuemPagaQuanto.Models.Grupo", b =>
@@ -71,7 +73,7 @@ namespace QuemPagaQuanto.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Grupos", (string)null);
+                    b.ToTable("Grupos");
                 });
 
             modelBuilder.Entity("QuemPagaQuanto.Models.Morador", b =>
@@ -97,7 +99,7 @@ namespace QuemPagaQuanto.Migrations
 
                     b.HasIndex("GrupoId");
 
-                    b.ToTable("Moradores", (string)null);
+                    b.ToTable("Moradores");
                 });
 
             modelBuilder.Entity("QuemPagaQuanto.Models.Renda", b =>
@@ -127,7 +129,7 @@ namespace QuemPagaQuanto.Migrations
 
                     b.HasIndex("MoradorId");
 
-                    b.ToTable("Rendas", (string)null);
+                    b.ToTable("Rendas");
                 });
 
             modelBuilder.Entity("QuemPagaQuanto.Models.Usuario", b =>
@@ -155,7 +157,7 @@ namespace QuemPagaQuanto.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios", (string)null);
+                    b.ToTable("Usuarios");
 
                     b.HasData(
                         new

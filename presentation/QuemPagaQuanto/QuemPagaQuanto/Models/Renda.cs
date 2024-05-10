@@ -8,19 +8,22 @@ namespace QuemPagaQuanto.Models
     {
         [Key]
         public int Id { get; set; }
+        public int MoradorId { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o valor da renda")]
+        [DataType(DataType.Currency)]
+        [Required(ErrorMessage = "Obrigatório informar o valor da renda.")]
         public double Valor { get; set; }
 
-        [Display(Name = "Renda fixa")]
+        [Display(Name = "Renda é fixa?")]
         public bool RendaFixa { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar descrição da renda")]
         [Display(Name = "Descrição")]
-        public string Descricao { get; set; }
+        public string? Descricao { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar a data da renda")]
-        public DateTime Data { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? Data { get; set; }
 
+        [ForeignKey("MoradorId")]
+        public Morador Morador { get; set; }
     }
 }
