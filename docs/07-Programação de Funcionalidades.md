@@ -18,16 +18,16 @@ Tabela real, excluir a de cima.
 |------|-----------------------------------------|----|--|
 |RF-001| A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. | - | Carlos Roberto |
 |RF-002| A aplicação deve permitir o login com autenticação de usuário e senha. | - | Carlos Roberto |
-|RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. | - | |
-|RF-004| A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação. | - | |
-|RF-005| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | - | |
-|RF-006| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | - | |
-|RF-007| A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. | - | |
-|RF-008| A aplicação deve disponibilizar duas opções antes de gerar os relatórios: <br> 1) Proporcional ao salário; <br> 2) Sobre a divisão por pessoa. | - | |
-|RF-009| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | - | |
-|RF-010| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | - | |
-|RF-011| Todas as páginas devem possuir um menu de navegação no topo da página. | - | |
-|RF-012| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | - | |
+|RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. | - |Bárbara |
+|RF-004| A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação. | - |em desenvolvimento |
+|RF-005| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | - |Guilherme |
+|RF-006| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | - | Raissa|
+|RF-007| A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. | - |em desenvolvimento |
+|RF-008| A aplicação deve disponibilizar duas opções antes de gerar os relatórios: <br> 1) Proporcional ao salário; <br> 2) Sobre a divisão por pessoa. | - |em desenvolvimento |
+|RF-009| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | - |em desenvolvimento |
+|RF-010| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | - | Carlos Roberto|
+|RF-011| Todas as páginas devem possuir um menu de navegação no topo da página. | - |Carlos Roberto |
+|RF-012| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | - |Carlos Roberto |
 
 # Instruções de acesso
 
