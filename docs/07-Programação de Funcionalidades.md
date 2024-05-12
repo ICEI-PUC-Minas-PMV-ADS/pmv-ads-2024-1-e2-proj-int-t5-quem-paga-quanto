@@ -12,6 +12,23 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml | Bárbara e Carlos |
 |RF-003| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | - | - |
 
+Tabela real, excluir a de cima.
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) | Responsável(is) |
+|------|-----------------------------------------|----|--|
+|RF-001| A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. | - | Carlos Roberto |
+|RF-002| A aplicação deve permitir o login com autenticação de usuário e senha. | - | Carlos Roberto |
+|RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. | - | |
+|RF-004| A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação. | - | |
+|RF-005| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | - | |
+|RF-006| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. | - | |
+|RF-007| A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor. | - | |
+|RF-008| A aplicação deve disponibilizar duas opções antes de gerar os relatórios: <br> 1) Proporcional ao salário; <br> 2) Sobre a divisão por pessoa. | - | |
+|RF-009| A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições. | - | |
+|RF-010| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | - | |
+|RF-011| Todas as páginas devem possuir um menu de navegação no topo da página. | - | |
+|RF-012| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | - | |
+
 # Instruções de acesso
 
 Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
