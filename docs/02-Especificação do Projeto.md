@@ -70,6 +70,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| A aplicação deve possibilitar ao Usuário alterar suas informações pessoais e senha. | MEDIA |
 |RF-011| Todas as páginas devem possuir um menu de navegação no topo da página. | MEDIA |
 |RF-012| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | MEDIA |
+|RF-013| A aplicação deve permitir que o usuário gerencie seus grupos grupos/casas. | ALTA |
+|RF-014| A aplicação deve permitir que o usuário gerencie as rendas de cada morador. | ALTA |
 
 ### Requisitos de Qualidade (Não Funcionais)
 
