@@ -1,9 +1,5 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
-
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
 ## Guia de Estilos
 Antes de estabelecer o template da aplicação, foi elaborado um manual de estilos, o qual foi descrito nos pontos seguintes, que orientou os padrões de design da interface do aplicativo da aplicação. 
 
@@ -47,7 +43,7 @@ A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fu
 
 ## Elementos do logo 
 
-![logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/0d4df972-abf3-4527-ab6a-c4a73f8c2988)
+![quem paga quanto p](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/27873036/e44501cc-2eb7-4be9-b2d5-6feb5aaf83bc)
 
 *Moedas amarelas, casinha verde e uma mão*
 
