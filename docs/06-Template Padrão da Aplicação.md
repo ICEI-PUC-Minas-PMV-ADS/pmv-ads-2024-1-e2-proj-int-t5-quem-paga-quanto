@@ -41,8 +41,6 @@ A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fu
 
 ![paleta cinza e preto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/fdaf1116-d757-462a-97e1-a4aa7568d80a)
 
-![paleta preta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/783b84ed-8cd3-4a95-8b31-97b4ca0ab7fd)
-
 **Preto e Cinza**: O preto e o cinza são cores neutras e sóbrias, que proporcionam uma base estável e sofisticada para o design. Elas podem ser utilizadas para representar informações mais formais, como valores monetários, transações financeiras ou detalhes de conta. O contraste entre o preto e o cinza também pode ser aproveitado para diferenciar elementos importantes, como texto informativo e botões de ação.
 
 **Branco**: O branco é uma cor limpa e arejada, que contribui para a clareza e legibilidade do conteúdo. Ele pode ser utilizado como pano de fundo para garantir que as informações se destaquem de forma nítida e fácil de ler. Além disso, o branco cria uma sensação de espaço e ordem, tornando a interface mais organizada e agradável visualmente.
@@ -51,19 +49,8 @@ A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fu
 
 ![logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/0d4df972-abf3-4527-ab6a-c4a73f8c2988)
 
-
 *Moedas amarelas, casinha verde e uma mão*
 
 - Cada elemento do logo pode ter significados específicos. As moedas amarelas representam prosperidade, riqueza e valor financeiro;
-
 - A casinha verde simboliza segurança, lar e estabilidade financeira;
-
 - A mão indica apoio, ajuda e assistência aos usuários na gestão de suas finanças.
-
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
