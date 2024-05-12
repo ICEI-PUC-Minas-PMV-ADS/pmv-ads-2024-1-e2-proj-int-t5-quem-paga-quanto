@@ -48,6 +48,10 @@ A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fu
 **Branco**: O branco é uma cor limpa e arejada, que contribui para a clareza e legibilidade do conteúdo. Ele pode ser utilizado como pano de fundo para garantir que as informações se destaquem de forma nítida e fácil de ler. Além disso, o branco cria uma sensação de espaço e ordem, tornando a interface mais organizada e agradável visualmente.
 
 ## Elementos do logo 
+
+![logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/0d4df972-abf3-4527-ab6a-c4a73f8c2988)
+
+
 *Moedas amarelas, casinha verde e uma mão*
 
 - Cada elemento do logo pode ter significados específicos. As moedas amarelas representam prosperidade, riqueza e valor financeiro;
