@@ -8,7 +8,17 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 Antes de estabelecer o template da aplicação, foi elaborado um manual de estilos, o qual foi descrito nos pontos seguintes, que orientou os padrões de design da interface do aplicativo da aplicação. 
 
 ## Paleta de Cores
-As escolhas das cores para o seu projeto podem ter significados específicos que se relacionam com os valores e a mensagem que você deseja transmitir. Aqui estão algumas possíveis razões para as escolhas das cores que você descreveu:
+As escolhas das cores para o seu projeto podem ter significados específicos que se relacionam com os valores e a mensagem que você deseja transmitir.
+
+- Amarelo:
+    O amarelo é frequentemente associado com energia, otimismo e alegria. Pode transmitir uma sensação de felicidade e confiança, que são qualidades importantes em uma aplicação financeira, onde os usuários desejam sentir-se seguros e satisfeitos com suas finanças.
+
+- Verde:
+    O verde é comumente ligado à natureza, crescimento, estabilidade e segurança financeira. Os tons mais claros de verde podem simbolizar frescor, crescimento e renovação, enquanto os tons mais escuros podem representar estabilidade, confiabilidade e prosperidade. Essas associações são particularmente relevantes para uma aplicação financeira, onde os usuários buscam estabilidade e crescimento em seus investimentos e finanças pessoais.
+
+- Combinação de amarelo, verde e verde escuro:
+    A combinação dessas cores pode criar um contraste visual atraente e harmonioso. O amarelo vibrante pode chamar a atenção para o logo, enquanto os tons de verde transmitem uma sensação de estabilidade e segurança. O verde escuro pode ser usado para representar a solidez e confiabilidade da aplicação financeira.
+
 
 > **Links Úteis**:
 >
