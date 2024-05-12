@@ -35,19 +35,19 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Êxito | - Login feito com sucesso. |
 |  |  |
 | **Caso de Teste** 	| **CT-05 – Cadastrar morador** 	|
-|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. |
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome e e-mail. |
 | Objetivo do Teste 	| Verificar se o usuário consegue cadastrar moradores em sua conta na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Adicionar morador" <br> - Preencher os campos obrigatórios (nome, idade, renda) <br> - Clicar em "Cadastrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Clicar em "Adicionar morador" <br> - Preencher os campos obrigatórios (nome e e-mail) <br> - Clicar em "Cadastrar" |
 |Critério de Êxito | - Morador cadastrado com sucesso. |
 |  |  |
 | **Caso de Teste** 	| **CT-06 – Editar morador** 	|
-|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. |
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome e e-mail. |
 | Objetivo do Teste 	| Verificar se o usuário consegue editar informações dos moradores em sua conta na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar morador <br> - Clicar em "Editar morador" <br> - Alterar o nome <br> - Clicar em "Salvar" |
 |Critério de Êxito | - Morador alterado com sucesso. |
 |  |  |
 | **Caso de Teste** 	| **CT-07 – Cadastrar morador** 	|
-|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. |
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome e e-mail. |
 | Objetivo do Teste 	| Verificar se o usuário consegue deletar moradores em sua conta na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site.<br> - Fazer login <br> - Selecionar morador <br> - Clicar em "Excluir morador" <br> - Clicar em "Salvar" |
 |Critério de Êxito | - Morador excluído com sucesso. |
