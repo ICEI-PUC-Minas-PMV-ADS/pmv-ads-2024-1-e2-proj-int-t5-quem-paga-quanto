@@ -7,17 +7,28 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 ## Guia de Estilos
 Antes de estabelecer o template da aplicação, foi elaborado um manual de estilos, o qual foi descrito nos pontos seguintes, que orientou os padrões de design da interface do aplicativo da aplicação. 
 
-## Paleta de Cores
+### Paleta de Cores
 As escolhas das cores para o seu projeto podem ter significados específicos que se relacionam com os valores e a mensagem que você deseja transmitir.
 
-- Amarelo:
-    O amarelo é frequentemente associado com energia, otimismo e alegria. Pode transmitir uma sensação de felicidade e confiança, que são qualidades importantes em uma aplicação financeira, onde os usuários desejam sentir-se seguros e satisfeitos com suas finanças.
+A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fundo da aplicação como um todo é for light mode and `#fffff, branco`.
 
-- Verde:
-    O verde é comumente ligado à natureza, crescimento, estabilidade e segurança financeira. Os tons mais claros de verde podem simbolizar frescor, crescimento e renovação, enquanto os tons mais escuros podem representar estabilidade, confiabilidade e prosperidade. Essas associações são particularmente relevantes para uma aplicação financeira, onde os usuários buscam estabilidade e crescimento em seus investimentos e finanças pessoais.
+**Amarelo:**
+  O amarelo é frequentemente associado com energia, otimismo e alegria. Pode transmitir uma sensação de felicidade e confiança, que são qualidades importantes em uma aplicação financeira, onde os usuários desejam sentir-se seguros e satisfeitos com suas finanças.
 
-- Combinação de amarelo, verde e verde escuro:
-    A combinação dessas cores pode criar um contraste visual atraente e harmonioso. O amarelo vibrante pode chamar a atenção para o logo, enquanto os tons de verde transmitem uma sensação de estabilidade e segurança. O verde escuro pode ser usado para representar a solidez e confiabilidade da aplicação financeira.
+**Verde:**
+  O verde é comumente ligado à natureza, crescimento, estabilidade e segurança financeira. Os tons mais claros de verde podem simbolizar frescor, crescimento e renovação, enquanto os tons mais escuros podem representar estabilidade, confiabilidade e prosperidade. Essas associações são particularmente relevantes para uma aplicação financeira, onde os usuários buscam estabilidade e crescimento em seus investimentos e finanças pessoais.
+
+**Combinação de amarelo, verde e verde escuro:**
+  A combinação dessas cores pode criar um contraste visual atraente e harmonioso. O amarelo vibrante pode chamar a atenção para o logo, enquanto os tons de verde transmitem uma sensação de estabilidade e segurança. O verde escuro pode ser usado para representar a solidez e confiabilidade da aplicação financeira.
+
+## Elementos do logo 
+*Moedas amarelas, casinha verde e uma mão*
+
+- Cada elemento do logo pode ter significados específicos. As moedas amarelas representam prosperidade, riqueza e valor financeiro;
+
+- A casinha verde simboliza segurança, lar e estabilidade financeira;
+
+- A mão indica apoio, ajuda e assistência aos usuários na gestão de suas finanças.
 
 
 > **Links Úteis**:
