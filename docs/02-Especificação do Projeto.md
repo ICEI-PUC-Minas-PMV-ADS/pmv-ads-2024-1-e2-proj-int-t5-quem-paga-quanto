@@ -60,7 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. | ALTA |
 |RF-002| A aplicação deve permitir o login com autenticação de usuário e senha. | ALTA |
-|RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda. | ALTA |
+|RF-003| A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome e e-mail. | ALTA |
 |RF-004| A aplicação deve possuir uma página inicial com informações sobre a aplicação e objetivos da aplicação. | ALTA |
 |RF-005| A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora. | ALTA |
 |RF-006| A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês. |ALTA|
