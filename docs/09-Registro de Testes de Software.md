@@ -34,6 +34,37 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-001 - A aplicação deve permitir que o usuário gerencie o seu cadastro na plataforma. |
 |Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/89229968/ed0d7bdb-3cf4-4888-9352-2e0bacb00835 |
 
+| **Caso de Teste** 	| **CT-07 – Cadastrar morador** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda.|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/92a6d4fd-051c-4737-8625-c93c06a6851c
+/83843255/2f8038a1-0c10-40cf-abd3-5c4de821ab37 |
+
+| **Caso de Teste** 	| **CT-08 – Cadastrar despesa** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/6f399b9d-deca-481c-8822-11962f76b5b8 |
+
+| **Caso de Teste** 	| **CT-09 – Editar despesa** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/47f09a5a-d220-48c1-8401-0095d45cc65b |
+
+| **Caso de Teste** 	| **CT-10 – Deletar despesa** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/c04053b2-5ec3-4fcc-9524-5379abe369e6 |
+
+| **Caso de Teste** 	| **CT-11 – Lista relatórios despesas, CT-12 – Relatório mensal de despesas, CT-13 – Gerar relatórios de despesas, CT-14 – Gerar relatórios de despesas** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-006 - A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês; RF-007 - A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor;  RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: 1) Proporcional ao salário; 2) Sobre a divisão por pessoa; RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: Proporcional ao salário; Sobre a divisão por pessoa.|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/50e73695-f7bf-4e55-b01d-92d740254251 |
+
+| **Caso de Teste** 	| **CT-17 – Exibir menu de navegação, CT-18 – Exibir rodapé** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-011 - Todas as páginas devem possuir um menu de navegação no topo da página; RF-012 - Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. |
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/16d34a71-4d7a-490a-97f2-700a5a796212 |
+
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
 > **Links Úteis**:
