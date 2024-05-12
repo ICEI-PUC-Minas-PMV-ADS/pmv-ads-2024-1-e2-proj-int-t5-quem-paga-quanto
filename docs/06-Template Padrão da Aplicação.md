@@ -50,3 +50,27 @@ A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fu
 - Cada elemento do logo pode ter significados específicos. As moedas amarelas representam prosperidade, riqueza e valor financeiro;
 - A casinha verde simboliza segurança, lar e estabilidade financeira;
 - A mão indica apoio, ajuda e assistência aos usuários na gestão de suas finanças.
+
+## Tipografia
+
+As fontes escolhidas para a construção da interface foram a Helvetica e Arial, da família sans-serif, que promovem uma sensação de precisão, clareza e objetividade com seus ângulos mais retos.
+
+### Legibilidade 
+
+A Poppins é uma fonte moderna e limpa, o que a torna altamente legível em telas digitais e impressas. Sua forma geométrica e proporções bem equilibradas facilitam a leitura de longos trechos de texto, garantindo uma experiência de usuário agradável.
+
+### Versatilidade 
+
+A Poppins é uma fonte versátil que funciona bem em uma variedade de contextos e tamanhos. Ela possui uma variedade de pesos e estilos, desde leve até negrito, permitindo que você a use para títulos, texto corrido, botões e outros elementos de interface.
+
+### Estética Moderna 
+
+A estética da Poppins é contemporânea e elegante, o que a torna adequada para projetos que buscam uma aparência moderna e atualizada. Sua forma geométrica e linhas suaves transmitem uma sensação de sofisticação e profissionalismo.
+
+### Acessibilidade 
+
+A Poppins foi projetada para ser altamente legível em uma variedade de tamanhos e densidades de tela, tornando-a uma escolha acessível para pessoas com diferentes necessidades visuais. Sua forma simples e clara ajuda a garantir que o texto seja facilmente discernível para todos os usuários.
+
+### Disponibilidade 
+
+A Poppins é uma fonte de código aberto, o que significa que está disponível gratuitamente para uso em projetos pessoais e comerciais. Além disso, está disponível em várias plataformas e pode ser facilmente integrada em sites, aplicativos e outros projetos de design.
