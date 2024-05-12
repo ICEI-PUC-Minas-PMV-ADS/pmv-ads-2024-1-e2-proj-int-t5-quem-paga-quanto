@@ -36,7 +36,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-07 – Cadastrar morador** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome, idade e renda.|
+|	Requisito Associado 	| RF-003 - A aplicação deve permitir que o usuário gerencie moradores e suas informações como nome e e-mail.|
 |Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/589d19ee-e6a6-4fdd-bb77-2fbf268ea7f1 |
 
 | **Caso de Teste** 	| **CT-08 – Cadastrar despesa** 	|
