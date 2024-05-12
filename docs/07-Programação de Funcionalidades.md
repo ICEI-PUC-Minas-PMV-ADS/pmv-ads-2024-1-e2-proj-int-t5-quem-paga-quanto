@@ -19,7 +19,7 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 |RF-011| Todas as páginas devem possuir um menu de navegação no topo da página. | Views/Shared/_Layout.cshtml | Carlos Roberto |
 |RF-012| Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. | - | Em desenvolvimento |
 |RF-013| A aplicação deve permitir que o usuário gerencie seus grupos grupos/casas. | Views/Grupos/*.cshtml, GruposController.cs | Jessica |
-|RF-014| A aplicação deve permitir que o usuário gerencie as rendas de cada morador. | Views/Rendas/*.cshtml, RendasController.cs - | Laura |
+|RF-014| A aplicação deve permitir que o usuário gerencie as rendas de cada morador. | Views/Rendas/*.cshtml, RendasController.cs | Laura |
 
 # Instruções de acesso
 
