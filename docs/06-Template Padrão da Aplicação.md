@@ -72,3 +72,10 @@ A Poppins foi projetada para ser altamente legível em uma variedade de tamanhos
 ### Disponibilidade 
 
 A Poppins é uma fonte de código aberto, o que significa que está disponível gratuitamente para uso em projetos pessoais e comerciais. Além disso, está disponível em várias plataformas e pode ser facilmente integrada em sites, aplicativos e outros projetos de design.
+
+## Fluxo de telas 
+
+O fuxo de telas mostra a trilha de uso do usuario pela aplicação.
+
+![FLUXO-DE-ACESSO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144965849/2a59b7b7-2046-4d64-84b9-1fca1617b9e8)
+
