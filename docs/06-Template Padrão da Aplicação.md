@@ -4,13 +4,11 @@
 Antes de estabelecer o template da aplicação, foi elaborado um manual de estilos, o qual foi descrito nos pontos seguintes, que orientou os padrões de design da interface do aplicativo da aplicação. 
 
 ### Paleta de Cores
-![paleta amarela](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/6c89041b-faa7-42dc-bfce-89ddbfd3ebba)![paleta verde](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/e9031eae-c23f-4651-b7bf-70473bbae157)
-![paleta cinza e verde](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/d48d994c-28e1-43d9-ae1a-2e9ccc257fa4)
-
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144965849/000af4a6-cb03-4612-8fd1-4d1af1d681fd" width="300"/>
 
 As escolhas das cores para o seu projeto podem ter significados específicos que se relacionam com os valores e a mensagem que você deseja transmitir.
 
-A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fundo da aplicação como um todo é for light mode and `#fffff, branco`.
+A cor utilizada como background no Menu é  `#228b22, forestgreen` e a cor de fundo da aplicação como um todo é for light mode `#fffff, branco`. A cor utilizada no logo é `#F4BA09 amarelo ouro`.
 
 **Amarelo:**
   O amarelo é frequentemente associado com energia, otimismo e alegria. Pode transmitir uma sensação de felicidade e confiança, que são qualidades importantes em uma aplicação financeira, onde os usuários desejam sentir-se seguros e satisfeitos com suas finanças.
