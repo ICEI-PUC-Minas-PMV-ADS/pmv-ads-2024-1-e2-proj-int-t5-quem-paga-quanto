@@ -66,19 +66,6 @@ ferramenta pela primeira vez terá que começar do zero.
 - Quais são suas expectativas em relação a este aplicativo?
 - Qual é o seu objetivo ao usar esta aplicação?
 
- Perguntas durante a tarefa:
-
- - Você consegue encontrar facilmente a funcionalidade X na aplicação?
-- O que você esperava que acontecesse quando clicou neste botão/link?
-- Você encontrou algum problema durante a realização desta tarefa?
-- Como você avaliaria a dificuldade de realizar esta tarefa em uma escala de 1 a 5?
-  
-Perguntas pós-tarefa:
-
-- Como você se sentiu ao completar esta tarefa?
-- Houve alguma parte do processo que foi particularmente fácil ou difícil para você?
-- Se você pudesse mudar algo na interface para tornar esta tarefa mais fácil, o que seria?
- 
  Perguntas gerais:
 
 - Qual foi a sua impressão geral da aplicação?
