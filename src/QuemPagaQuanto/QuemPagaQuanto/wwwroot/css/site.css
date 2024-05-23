@@ -126,3 +126,10 @@ a {
     border-radius: 8px;
     color: #FFF;
 }
+
+.container-image {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
