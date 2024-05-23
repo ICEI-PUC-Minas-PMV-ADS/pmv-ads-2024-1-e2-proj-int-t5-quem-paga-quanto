@@ -18,9 +18,17 @@ namespace QuemPagaQuanto.Controllers
         }
 
         // GET: Despesas
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? grupoId)
         {
-              return View(await _context.Despesas.Include(g => g.Grupo).ToListAsync());
+            if (grupoId == null) return RedirectToAction("Index", "Grupos");
+            var grupo = await _context.Grupos.FindAsync(grupoId);
+
+            ViewBag.Grupo = grupo;
+            ViewBag.GrupoId = grupoId;
+
+            var appDbContext = _context.Despesas.Include(g => g.Grupo).Where(a => a.GrupoId == grupoId);
+
+            return View(await appDbContext.ToListAsync());
         }
 
         // GET: Despesas/Details/5
@@ -42,9 +50,10 @@ namespace QuemPagaQuanto.Controllers
         }
 
         // GET: Despesas/Create
-        public IActionResult Create()
+        public IActionResult Create(int? grupoId)
         {
-            ViewData["GrupoId"] = new SelectList(_context.Grupos.Where(g => g.UsuarioId == AuthorizeService.GetUserId(User)), "Id", "Nome");
+            if (grupoId == null) return RedirectToAction("Index", "Grupos");
+            ViewBag.GrupoId = grupoId;
             return View();
         }
 
@@ -59,10 +68,10 @@ namespace QuemPagaQuanto.Controllers
             {
                 _context.Add(despesa);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId } );
             }
 
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", despesa.GrupoId);
+            ViewBag.GrupoId = despesa.GrupoId;
             return View(despesa);
         }
 
@@ -80,7 +89,6 @@ namespace QuemPagaQuanto.Controllers
                 return NotFound();
             }
 
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", despesa.GrupoId);
             return View(despesa);
         }
 
@@ -114,10 +122,9 @@ namespace QuemPagaQuanto.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId });
             }
 
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", despesa.GrupoId);
             return View(despesa);
         }
 
@@ -155,7 +162,7 @@ namespace QuemPagaQuanto.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId });
         }
 
         private bool DespesaExists(int id)

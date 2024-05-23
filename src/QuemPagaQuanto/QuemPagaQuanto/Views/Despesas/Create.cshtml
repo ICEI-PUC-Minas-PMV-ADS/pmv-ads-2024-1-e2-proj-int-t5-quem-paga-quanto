@@ -12,36 +12,34 @@
 
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group pb-2">
+
+            <div class="form-group">
                 <label asp-for="Data" class="control-label"></label>
-                <input asp-for="Data" class="form-control" />
+                <input asp-for="Data" value="@DateTime.Now.ToString("yyyy-MM-dd")" class="form-control" />
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
             
-            <div class="form-group pb-2">
+            <div class="form-group">
                 <label asp-for="Vencimento" class="control-label"></label>
                 <input asp-for="Vencimento" class="form-control" />
                 <span asp-validation-for="Vencimento" class="text-danger"></span>
             </div>
             
-            <div class="form-group pb-2">
+            <div class="form-group">
                 <label asp-for="Valor" class="control-label"></label>
-                <input id="Valor" name="Valor" required required data-val-required="The Tipo de Despesa field is required." class="form-control" />
+                <input id="Valor" name="Valor" required data-val-required="The Tipo de Despesa field is required." class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
             
-            <div class="form-group pb-2">
+            <div class="form-group">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
-            
-            <div class="form-group pb-2">
-                <label asp-for="GrupoId" class="control-label"></label>
-                <select asp-for="GrupoId" class="form-control" asp-items="ViewBag.GrupoId"></select>
-            </div>
 
-            <div class="form-group mt-3">
+            <input type="hidden" asp-for="GrupoId" value="@ViewBag.GrupoId" />
+
+            <div class="form-group">
                 <input type="submit" value="Criar Despesa" class="btn btn-primary" />
             </div>
         </form>
@@ -49,7 +47,7 @@
 </div>
 
 <div class="col-md-12 text-center mt-4 custom--back-link">
-    <a asp-action="Index">Voltar para listagem</a>
+    <a asp-action="Index" asp-route-grupoId="@ViewBag.GrupoId">Voltar para listagem</a>
 </div>
 
 

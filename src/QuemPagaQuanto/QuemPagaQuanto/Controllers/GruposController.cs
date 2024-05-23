@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QuemPagaQuanto.Models;
+using QuemPagaQuanto.Services;
 
 namespace QuemPagaQuanto.Controllers
 {
@@ -172,12 +173,11 @@ namespace QuemPagaQuanto.Controllers
           return _context.Grupos.Any(e => e.Id == id);
         }
 
-        public async Task<ActionResult> Relatorio(int? id)
+        public async Task<ActionResult> Relatorio(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+
+            var service = new CalcularDespesasService(_context);
+            var resultado = service.CalcularProporcional(id);
 
             var grupo = await _context.Grupos.FindAsync(id);
 
@@ -196,9 +196,9 @@ namespace QuemPagaQuanto.Controllers
             ViewBag.Despesas = consumos;
             ViewBag.Total = total;
             ViewBag.Nome = grupo.Nome;
+            ViewBag.GrupoId = id;
 
-            return View(consumos);
-
+            return View(new RelatorioData() { Despesas = consumos, Calculo = resultado });
         }
     }
 }

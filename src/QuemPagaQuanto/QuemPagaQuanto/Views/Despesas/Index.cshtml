@@ -5,12 +5,17 @@
 }
 
 <div class="custom--table-header">
-    <h1>Despesas</h1>
-    <a asp-action="Create" class="btn btn-success">Adicionar Despesas</a>
+    <h1><span class="h1--name">@ViewBag.Grupo.Nome</span> Despesas</h1>
+    <div class="custom--table-header-buttons">
+        <a asp-controller="Grupos" asp-action="Index" class="btn btn-primary">Ir para Grupos</a>
+        <a asp-controller="Moradores" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="btn btn-primary">Ir para Moradores</a>
+        <a asp-controller="Grupos" asp-route-id="@ViewBag.GrupoId" asp-action="Relatorio" class="btn btn-info">Relatórios</a>
+        <a asp-action="Create" asp-route-grupoId="@ViewBag.GrupoId" class="btn btn-success">Adicionar Despesas</a>
+    </div>
 </div>
 
 <div class="custom--form">
-    <table class="table">
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>
@@ -49,11 +54,19 @@
                     </td>
                     <td>
                         @(item.Descricao != null ? Html.DisplayFor(modelItem => item.Descricao) : "-")
-                    </td>
+                    </td >
                     <td class="custom--table-actions">
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Detalhes</a>
-                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary btn-sm">Editar</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Apagar</a>
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Ações
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                <a asp-action="Details" asp-route-id="@item.Id" class="dropdown-item">Detalhes</a>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="dropdown-item">Editar</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Apagar</a>
+                            </div>
+                        </div>
                     </td>
                 </tr>
             }

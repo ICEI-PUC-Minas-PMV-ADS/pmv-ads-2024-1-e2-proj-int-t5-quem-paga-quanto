@@ -42,7 +42,8 @@ body {
 }
 
 .custom--form th {
-    border-bottom-color: #80808080 !important;
+    border-top: none;
+    /*border-bottom-color: #80808080 !important;*/
 }
 
 .custom--form-header {
@@ -76,7 +77,52 @@ a {
 }
 
 .custom--table-actions {
+    text-align: right;
+}
+
+.per-capta-items {
     display: flex;
-    gap: 10px;
-    justify-content: end;
+    gap: 15px;
+}
+
+.block-per-capta {
+    display: flex;
+    align-items: stretch;
+}
+
+.per-capta {
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    background: #34af34;
+    color: #FFF;
+    text-align: center;
+    line-height: 1;
+    border: solid 1px #80808030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom--heading {
+    font-weight: bold;
+}
+
+.custom--bedge {
+    background: #34af34;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.h1--name {
+    font-weight: bolder;
+    background: #34af34;
+    padding: 0px 10px;
+    line-height: 1;
+    border-radius: 8px;
+    color: #FFF;
 }

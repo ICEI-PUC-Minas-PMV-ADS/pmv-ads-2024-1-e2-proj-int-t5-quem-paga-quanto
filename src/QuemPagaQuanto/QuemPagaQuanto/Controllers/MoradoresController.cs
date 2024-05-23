@@ -21,9 +21,16 @@ namespace QuemPagaQuanto.Controllers
         }
 
         // GET: Moradores
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? grupoId)
         {
-            var appDbContext = _context.Moradores.Include(m => m.Grupo);
+            if (grupoId == null) return RedirectToAction("Index", "Grupos");
+            var grupo = await _context.Grupos.FindAsync(grupoId);
+
+            ViewBag.Grupo = grupo;
+            ViewBag.GrupoId = grupoId;
+
+            var appDbContext = _context.Moradores.Where(m => m.GrupoId == grupoId).Include(m => m.Grupo);
+
             return View(await appDbContext.ToListAsync());
         }
 
@@ -47,9 +54,10 @@ namespace QuemPagaQuanto.Controllers
         }
 
         // GET: Moradores/Create
-        public IActionResult Create()
+        public IActionResult Create(int? grupoId)
         {
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome");
+            if (grupoId == null) return RedirectToAction("Index", "Grupos");
+            ViewBag.GrupoId = grupoId;
             return View();
         }
 
@@ -64,9 +72,10 @@ namespace QuemPagaQuanto.Controllers
             {
                 _context.Add(morador);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index), new { grupoId = morador.GrupoId });
             }
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", morador.GrupoId);
+
+            ViewBag.GrupoId = morador.GrupoId;
             return View(morador);
         }
 
@@ -83,7 +92,7 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", morador.GrupoId);
+
             return View(morador);
         }
 
@@ -117,9 +126,9 @@ namespace QuemPagaQuanto.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index), new { grupoId = morador.GrupoId });
             }
-            ViewData["GrupoId"] = new SelectList(_context.Grupos, "Id", "Nome", morador.GrupoId);
+
             return View(morador);
         }
 
@@ -158,7 +167,7 @@ namespace QuemPagaQuanto.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { grupoId = morador.GrupoId });
         }
 
         private bool MoradorExists(int id)
