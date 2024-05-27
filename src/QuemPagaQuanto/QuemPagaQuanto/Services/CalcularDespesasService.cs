@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using QuemPagaQuanto.Models;
-
+using QuemPagaQuanto.Database;
 
 namespace QuemPagaQuanto.Services
 {

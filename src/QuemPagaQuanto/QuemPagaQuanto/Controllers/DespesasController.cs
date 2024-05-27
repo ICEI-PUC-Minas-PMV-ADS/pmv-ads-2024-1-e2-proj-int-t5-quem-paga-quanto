@@ -1,8 +1,7 @@
-﻿using API.Infrastructure.Services;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
 
 namespace QuemPagaQuanto.Controllers

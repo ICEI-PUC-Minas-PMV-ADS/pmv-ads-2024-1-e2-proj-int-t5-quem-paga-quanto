@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
 
 namespace QuemPagaQuanto.Controllers

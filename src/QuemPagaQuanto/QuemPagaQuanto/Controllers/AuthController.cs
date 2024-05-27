@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
+using QuemPagaQuanto.Models.Payloads;
 using System.Security.Claims;
 
 namespace QuemPagaQuanto.Controllers

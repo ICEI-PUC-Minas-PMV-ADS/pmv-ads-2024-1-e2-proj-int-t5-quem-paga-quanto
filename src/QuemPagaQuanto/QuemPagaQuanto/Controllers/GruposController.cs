@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using API.Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
 using QuemPagaQuanto.Services;
 
@@ -198,7 +198,7 @@ namespace QuemPagaQuanto.Controllers
             ViewBag.Nome = grupo.Nome;
             ViewBag.GrupoId = id;
 
-            return View(new RelatorioData() { Despesas = consumos, Calculo = resultado });
+            return View(new Relatorio() { Despesas = consumos, Calculo = resultado });
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using QuemPagaQuanto.Models;
+using QuemPagaQuanto.Models.Error;
 using System.Diagnostics;
 
 namespace QuemPagaQuanto.Controllers

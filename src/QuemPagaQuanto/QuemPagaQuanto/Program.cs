@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using QuemPagaQuanto.Models;
+using QuemPagaQuanto.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
