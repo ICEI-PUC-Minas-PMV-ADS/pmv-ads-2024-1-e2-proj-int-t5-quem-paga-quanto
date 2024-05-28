@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace QuemPagaQuanto.Models
+namespace QuemPagaQuanto.Models.Payloads
 {
     public class LoginPayload
     {

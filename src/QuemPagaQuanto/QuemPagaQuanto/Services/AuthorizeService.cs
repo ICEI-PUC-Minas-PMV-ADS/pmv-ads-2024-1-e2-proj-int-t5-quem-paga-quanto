@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace API.Infrastructure.Services;
+namespace QuemPagaQuanto.Services;
 
 public static class AuthorizeService
 {

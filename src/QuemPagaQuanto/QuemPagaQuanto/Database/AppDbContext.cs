@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuemPagaQuanto.Models;
 
-namespace QuemPagaQuanto.Models
+namespace QuemPagaQuanto.Database
 {
-    public class AppDbContext: DbContext
+    public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options): base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Usuario> Usuarios { get; set; }
 
@@ -16,7 +17,8 @@ namespace QuemPagaQuanto.Models
 
         public DbSet<Renda> Rendas { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder) {
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
             modelBuilder.Entity<Usuario>().HasData(
                 new Usuario
                 {

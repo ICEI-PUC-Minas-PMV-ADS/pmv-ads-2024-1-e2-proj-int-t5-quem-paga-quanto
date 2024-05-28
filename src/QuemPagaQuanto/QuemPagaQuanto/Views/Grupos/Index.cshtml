@@ -33,9 +33,20 @@
                         @Html.DisplayFor(modelItem => item.Usuario.Nome)
                     </td>
                     <td class="custom--table-actions">
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Detalhes</a>
-                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary btn-sm">Editar</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Apagar</a>
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Ações
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                <a asp-controller="Despesas" asp-action="Index" asp-route-grupoId="@item.Id" class="dropdown-item">Despesas</a>
+                                <a asp-controller="Moradores" asp-action="Index" asp-route-grupoId="@item.Id" class="dropdown-item">Moradores</a>
+                                
+                                <a asp-action="Details" asp-route-id="@item.Id" class="dropdown-item">Detalhes</a>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="dropdown-item">Editar</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Apagar</a>
+                            </div>
+                        </div>
                     </td>
                 </tr>
             }

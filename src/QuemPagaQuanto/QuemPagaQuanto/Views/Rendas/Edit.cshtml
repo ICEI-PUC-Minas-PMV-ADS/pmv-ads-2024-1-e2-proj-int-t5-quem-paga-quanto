@@ -12,33 +12,30 @@
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group pb-2">
+            <div class="form-group">
                 <label asp-for="Valor" class="control-label"></label>
-                <input id="Valor" name="Valor" required required data-val-required="The Tipo de Renda field is required." class="form-control" />
+                <input id="Valor" name="Valor" required data-val-required="The Tipo de Renda field is required." class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
-            <div class="form-group form-check pb-2">
+            <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="RendaFixa" /> @Html.DisplayNameFor(model => model.RendaFixa)
                 </label>
             </div>
-            <div class="form-group pb-2">
+            <div class="form-group">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
-            <div class="form-group pb-2">
+            <div class="form-group">
                 <label asp-for="Data" class="control-label"></label>
                 <input asp-for="Data" class="form-control" />
                 <span asp-validation-for="Data" class="text-danger"></span>
             </div>
 
-            <div class="form-group pb-2">
-                <label asp-for="MoradorId" class="control-label"></label>
-                <select asp-for="MoradorId" class="form-control" asp-items="ViewBag.Moradores"></select>
-            </div>
+            <input type="hidden" asp-for="MoradorId" />
 
-            <div class="form-group mt-2">
+            <div class="form-group">
                 <input type="submit" value="Salvar Renda" class="btn btn-primary" />
             </div>
         </form>
@@ -46,7 +43,7 @@
 </div>
 
 <div class="col-md-12 text-center mt-4 custom--back-link">
-    <a asp-action="Index">Voltar para listagem</a>
+    <a asp-action="Index" asp-route-moradorId="@Model.MoradorId">Voltar para listagem</a>
 </div>
 
 @section Scripts {

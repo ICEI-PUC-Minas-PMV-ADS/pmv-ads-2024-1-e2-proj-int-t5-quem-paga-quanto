@@ -1,60 +1,64 @@
-﻿@model IEnumerable<QuemPagaQuanto.Models.Despesa>
+﻿@model QuemPagaQuanto.Models.Relatorio
 
 @{
     ViewData["Title"] = "Relatório";
 }
 
 <div class="custom--table-header">
-    <h1>Relatório de Despesas: Grupo @ViewBag.Nome</h1>
-    <h3>Total: @ViewBag.Total</h3>
+   <div>
+        <h1 class="custom--heading">@ViewBag.Nome</h1>
+        <div class="dropdown">
+            <a class="btn btn-light dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ações Rápidas
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <a asp-controller="Despesas" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="dropdown-item">Ir para Despesas</a>
+                <a asp-controller="Moradores" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="dropdown-item">Ir para Moradores</a>
+            </div>
+        </div>
+   </div>
+    <div class="custom--table-header-buttons">
+        <h3>Despesa Total: <span class="custom--bedge">R$ @ViewBag.Total.ToString("F2")</span></h3>
+    </div>
+
 </div>
 
 <div class="custom--form">
+
     <table class="table">
         <thead>
-            <tr>
+             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.Id)
+                    Data
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Data)
+                    Vencimento
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Vencimento)
+                    Valor
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Valor)
+                    Descrição
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Descricao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.GrupoId)
-                </th>
-
             </tr>
         </thead>
+
         <tbody>
-            @foreach (var item in Model)
+            @foreach (var item in Model.Despesas)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Id)
-                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Data)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Vencimento)
+                        @(item.Vencimento != null ? Html.DisplayFor(modelItem => item.Vencimento) : "Sem vecimento")
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Valor)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Descricao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.GrupoId)
+                        @(item.Descricao != null ? @Html.DisplayFor(modelItem => item.Descricao) : "-")
                     </td>
                 </tr>
             }
@@ -62,3 +66,107 @@
     </table>
 </div>
 
+<div class="row">
+
+    <div class="col-6 mt-5">
+        <h2 class="pb-3 custom--heading">Contribuição Proporcional</h2>
+        <div class="custom--form">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome
+                        </th>
+                        <th>
+                            Renda
+                        </th>
+                        <th>
+                            Contribuição
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model.Calculo.ProporcionalMoradores)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                R$ @item.Renda.ToString("F2")
+                            </td>
+
+                            <td>
+                                R$ @item.Valor.ToString("F2")
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-6 mt-5">
+        <canvas class="pt-5" id="myChart"></canvas>
+    </div>
+
+    <div class="col-6 mt-5">
+        <h2 class="pb-2 custom--heading">Divisão Per Capta</h2>
+        <p>A divisão per capta é refente a divisão do total dos gastos pela quantidade de pessoas.</p>
+
+        <div class="per-capta-items">
+            <div class="block-per-capta">
+                <div class="per-capta">@Model.Calculo.NumeroMoradores Moradores</div>
+            </div>
+
+            <div class="block-per-capta">
+                <div class="per-capta">R$ @Model.Calculo.CalculoPerCapta.ToString("F2") por morador</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('myChart');
+
+    const moradores = [];
+    const salarios = [];
+
+    @foreach (var morador in Model.Calculo.ProporcionalMoradores)
+    {
+        @:moradores.push("@morador.Nome");
+        @:salarios.push(parseFloat("@morador.Valor.ToString().Replace(",", ".")"));
+    }
+
+        console.log(salarios)
+
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: moradores,
+        datasets: [{
+          label: 'Valores',
+          data: salarios,
+          borderWidth: 1
+        }]
+      },
+      options: {
+        plugins: {
+            title: {
+                display: true,
+                text: 'Gráfico de Contribuição Proporcional',
+       
+            }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+</script>

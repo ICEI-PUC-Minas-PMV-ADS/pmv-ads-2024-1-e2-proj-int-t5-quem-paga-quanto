@@ -20,5 +20,19 @@ namespace QuemPagaQuanto.Models
         
         [ForeignKey("GrupoId")]
         public Grupo Grupo { get; set; }
+
+        public List<Renda> Rendas { get; set; }
+
+        public double RendaTotal()
+        {
+            double rendaTotal = 0;
+            
+            foreach (var renda in Rendas)
+            {
+                rendaTotal += renda.Valor;
+            }
+
+            return rendaTotal;
+        } 
     }
 }

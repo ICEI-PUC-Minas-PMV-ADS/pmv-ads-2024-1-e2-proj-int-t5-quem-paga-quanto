@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
+using System.Text.RegularExpressions;
 
 namespace QuemPagaQuanto.Controllers
 {
@@ -14,16 +16,23 @@ namespace QuemPagaQuanto.Controllers
 
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? moradorId)
         {
-            var dados = await _context.Rendas.Include(r => r.Morador).ToListAsync();
+            if (moradorId == null) return RedirectToAction("Index", "Grupos");
+            var morador = await _context.Moradores.FindAsync(moradorId);
+
+            ViewBag.Morador = morador;
+            ViewBag.MoradorId = moradorId;
+
+            var dados = await _context.Rendas.Where(r => r.MoradorId == moradorId).Include(r => r.Morador).ToListAsync();
 
             return View(dados);
         }
 
-        public IActionResult Create()
+        public IActionResult Create(int? moradorId)
         {
-            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome");
+            if (moradorId == null) return RedirectToAction("Index", "Grupos");
+            ViewBag.MoradorId = moradorId;
             return View();
         }
 
@@ -34,10 +43,10 @@ namespace QuemPagaQuanto.Controllers
             {
                 _context.Rendas.Add(renda);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", new { moradorId = renda.MoradorId });
             }
 
-            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome", renda.MoradorId);
+            ViewBag.MoradorId = renda.MoradorId;
             return View(renda);
 
         }
@@ -52,7 +61,6 @@ namespace QuemPagaQuanto.Controllers
             if(dados == null)
                 return NotFound();
 
-            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome", dados.MoradorId);
             return View(dados);
         }
 
@@ -66,10 +74,9 @@ namespace QuemPagaQuanto.Controllers
             {
                 _context.Rendas.Update(renda);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", new { moradorId = renda.MoradorId });
             }
 
-            ViewData["Moradores"] = new SelectList(_context.Moradores, "Id", "Nome", renda.MoradorId);
             return View();
         }
 
@@ -113,7 +120,8 @@ namespace QuemPagaQuanto.Controllers
             _context.Rendas.Remove(dados);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", new { moradorId = dados.MoradorId });
+
         }
 
     }
