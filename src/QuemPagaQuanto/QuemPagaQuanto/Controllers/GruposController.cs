@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
 using QuemPagaQuanto.Services;
+using System.Security.Claims;
 
 namespace QuemPagaQuanto.Controllers
 {
@@ -163,17 +159,17 @@ namespace QuemPagaQuanto.Controllers
             {
                 _context.Grupos.Remove(grupo);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool GrupoExists(int id)
         {
-          return _context.Grupos.Any(e => e.Id == id);
+            return _context.Grupos.Any(e => e.Id == id);
         }
 
-        public async Task<ActionResult> Relatorio(int id)
+        public async Task<ActionResult> Relatorio(int id, int? mes, int? ano)
         {
 
             var service = new CalcularDespesasService(_context);
@@ -185,9 +181,8 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
-
             var consumos = await _context.Despesas
-                .Where(e => e.GrupoId == id)
+                .Where(e => e.GrupoId == id && (mes == null || e.Data.Month == mes) && (ano == null || e.Data.Year == ano))
                 .OrderBy(e => e.Data)
                 .ToListAsync();
 
