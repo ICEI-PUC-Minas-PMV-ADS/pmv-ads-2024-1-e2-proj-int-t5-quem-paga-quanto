@@ -49,20 +49,36 @@
     <table class="table">
         <thead>
             <tr>
-                <th>Data</th>
-                <th>Vencimento</th>
-                <th>Valor</th>
-                <th>Descrição</th>
+                <th>
+                    Data
+                </th>
+                <th>
+                    Vencimento
+                </th>
+                <th>
+                    Valor
+                </th>
+                <th>
+                    Descrição
+                </th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model.Despesas)
             {
                 <tr>
-                    <td>@Html.DisplayFor(modelItem => item.Data)</td>
-                    <td>@(item.Vencimento != null ? Html.DisplayFor(modelItem => item.Vencimento) : "Sem vencimento")</td>
-                    <td>@Html.DisplayFor(modelItem => item.Valor)</td>
-                    <td>@(item.Descricao != null ? @Html.DisplayFor(modelItem => item.Descricao) : "-")</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Data)
+                    </td>
+                    <td>
+                        @(item.Vencimento != null ? Html.DisplayFor(modelItem => item.Vencimento) : "-")
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Valor)
+                    </td>
+                    <td>
+                        @(item.Descricao != null ? @Html.DisplayFor(modelItem => item.Descricao) : "-")
+                    </td>
                 </tr>
             }
         </tbody>
