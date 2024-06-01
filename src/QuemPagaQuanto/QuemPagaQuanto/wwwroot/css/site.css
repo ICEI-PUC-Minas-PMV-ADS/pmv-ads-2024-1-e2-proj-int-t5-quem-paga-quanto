@@ -9,23 +9,22 @@ html {
 .custom--logo {
     font-family: Poppins;
     font-weight: 700;
-    font-style: italic;
     text-transform: capitalize;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .custom--menu {
@@ -34,7 +33,7 @@ body {
 
 .custom--form {
     background-color: #FFF;
-    box-shadow: 12px 9px 40px 0px rgba(0,0,0,0.15);
+    box-shadow: 12px 9px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding: 15px;
     border: solid 1px #80808030;
@@ -76,8 +75,30 @@ a {
     margin-bottom: 15px;
 }
 
+.custom--table-header-buttons {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .custom--table-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .custom--table-header-buttons{
+        margin-top: 10px;
+        gap: 8px;
+    }
+}
+
+
 .custom--table-actions {
-    text-align: right;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
 }
 
 .per-capta-items {
@@ -132,4 +153,15 @@ a {
     max-height: 150px;
     width: auto;
     height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .custom--form {
+        overflow-x: auto;
+    }
+}
+
+.form-group {
+    padding-bottom: 10px;
 }
