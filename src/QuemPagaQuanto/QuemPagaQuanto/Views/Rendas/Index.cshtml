@@ -7,72 +7,78 @@
 <div class="custom--table-header">
     <h1><span class="h1--name">@ViewBag.Morador.Nome</span> Rendas</h1>
     <div class="custom--table-header-buttons">
-        <a asp-controller="Grupos" asp-action="Index" class="btn btn-primary">Ir para Grupos</a>
-        <a asp-controller="Moradores" asp-route-grupoId="@ViewBag.Morador.GrupoId" asp-action="Index" class="btn btn-primary">Voltar para Moradores</a>
-        <a asp-action="Create" asp-route-moradorId="@ViewBag.MoradorId" class="btn btn-success">Adicionar Renda</a>
+        <a asp-controller="Grupos" asp-action="Index" class="btn btn-primary btn-sm">Ir para Grupos</a>
+        <a asp-controller="Moradores" asp-route-grupoId="@ViewBag.Morador.GrupoId" asp-action="Index" class="btn btn-primary btn-sm">Voltar para Moradores</a>
+        <a asp-action="Create" asp-route-moradorId="@ViewBag.MoradorId" class="btn btn-success btn-sm">Adicionar Renda</a>
     </div>
 </div>
 
 <div class="custom--form">
     <table class="table table-hover">
         <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Morador)
-                </th>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Morador)
+            </th>
 
-                <th>
-                    @Html.DisplayNameFor(model => model.Valor)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.RendaFixa)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Descricao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Data)
-                </th>
-                <th></th>
-            </tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RendaFixa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th></th>
+        </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Morador.Nome)
-                    </td>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Morador.Nome)
+                </td>
 
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Valor)
-                    </td>
-                    <td>
-                        @(item.RendaFixa == true ? "Sim" : "Não")
-                    </td>
-                    <td>
-                        @(item.Descricao != null ? Html.DisplayFor(modelItem => item.Descricao) : "-")                        
-                    </td>
-                    <td>
-                        @(item.Data != null ? Html.DisplayFor(modelItem => item.Data) : "-")
-                    </td>
-                    <td class="custom--table-actions">
-                        <div class="dropdown">
-                            <a class="btn btn-light dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+                <td>
+                    @(item.RendaFixa == true ? "Sim" : "Não")
+                </td>
+                <td>
+                    @(item.Descricao != null ? Html.DisplayFor(modelItem => item.Descricao) : "-")
+                </td>
+                <td>
+                    @(item.Data != null ? Html.DisplayFor(modelItem => item.Data) : "-")
+                </td>
+                <td>
+                    <div class="custom--table-actions">
+                        <div class="dropdown dropstart">
+                            <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Ações
-                            </a>
+                            </button>
 
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                                <a asp-action="Details" asp-route-id="@item.Id" class="dropdown-item">Detalhes</a>
-                                <a asp-action="Edit" asp-route-id="@item.Id" class="dropdown-item">Editar</a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Apagar</a>
-                            </div>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="dropdown-item">Detalhes</a>
+                                </li>
+                                <li>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="dropdown-item">Editar</a>
+                                </li>
+                                <li>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Apagar</a>
+                                </li>
+                            </ul>
                         </div>
-                    </td>
-                </tr>
-            }
+                    </div>
+                </td>
+            </tr>
+        }
         </tbody>
     </table>
 </div>
-
-
