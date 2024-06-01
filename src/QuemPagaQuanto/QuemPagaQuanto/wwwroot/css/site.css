@@ -104,6 +104,7 @@ a {
 .per-capta-items {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .block-per-capta {
@@ -125,6 +126,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .per-capta {
+        width: 180px;
+        padding: 10px;
+        font-size: 24px;
+    }
 }
 
 .custom--heading {

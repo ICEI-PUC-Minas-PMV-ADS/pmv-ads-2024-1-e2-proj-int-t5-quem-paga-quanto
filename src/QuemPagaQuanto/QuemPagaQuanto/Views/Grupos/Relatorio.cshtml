@@ -5,19 +5,25 @@
 }
 
 <div class="custom--table-header">
-   <div>
+    <div>
         <h1 class="custom--heading">@ViewBag.Nome</h1>
-        <div class="dropdown">
-            <a class="btn btn-light dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Ações Rápidas
-            </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                <a asp-controller="Despesas" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="dropdown-item">Ir para Despesas</a>
-                <a asp-controller="Moradores" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="dropdown-item">Ir para Moradores</a>
-            </div>
+        <div class="dropdown dropend">
+            <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ações Rápidas
+            </button>
+
+            <ul class="dropdown-menu">
+                <li>
+                    <a asp-controller="Despesas" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="dropdown-item">Ir para Despesas</a>
+                </li>
+                <li>
+                    <a asp-controller="Moradores" asp-route-grupoId="@ViewBag.GrupoId" asp-action="Index" class="dropdown-item">Ir para Moradores</a>
+                </li>
+            </ul>
         </div>
-   </div>
+    </div>
+    
     <div class="custom--table-header-buttons">
         <h3>Despesa Total: <span class="custom--bedge">R$ @ViewBag.Total.ToString("F2")</span></h3>
     </div>
@@ -26,113 +32,113 @@
 
 <div class="custom--form">
     <div class="flex-column justify-content-start ml-3">
-        <form asp-action="Relatorio" method="get" class="form-row d-flex">
-            <div class="mr-2">
-                <label class="control-label" style="margin-bottom: 0;"><b>Mês</b></label>
-                <select name="mes" id="mes" class="form-control shadow-sm" style="width: 200px;">
+        <form asp-action="Relatorio" method="get" class="form-row d-flex flex-wrap flex-column flex-lg-row">
+            <div class="mb-3 me-lg-2  flex-grow-1 flex-lg-grow-0">
+                <select name="mes" id="mes" class="form-control shadow-sm">
                     <option value="">Selecione o mês</option>
+                    
                     @for (int i = 1; i <= 12; i++)
                     {
                         <option value="@i">@i</option>
                     }
                 </select>
             </div>
-            <div class="mr-2">
-                <label class="control-label" style="margin-bottom: 0;"><b>Ano</b></label>
-                <input type="number" name="ano" class="form-control shadow-sm" style="width: 130px;" placeholder="Digite o ano" />
+            
+            <div class="mb-3 me-lg-2 flex-grow-1 flex-lg-grow-0">
+                <input type="number" name="ano" class="form-control shadow-sm" placeholder="Digite o ano"/>
             </div>
+            
             <div>
-                <button type="submit" class="btn btn-success" style="margin-top: 24px;">Pesquisar</button>
+                <button type="submit" class="btn btn-success">Pesquisar</button>
             </div>
         </form>
     </div>
+    
     <table class="table">
         <thead>
-            <tr>
-                <th>
-                    Data
-                </th>
-                <th>
-                    Vencimento
-                </th>
-                <th>
-                    Valor
-                </th>
-                <th>
-                    Descrição
-                </th>
-            </tr>
+        <tr>
+            <th>
+                Data
+            </th>
+            <th>
+                Vencimento
+            </th>
+            <th>
+                Valor
+            </th>
+            <th>
+                Descrição
+            </th>
+        </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model.Despesas)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Data)
-                    </td>
-                    <td>
-                        @(item.Vencimento != null ? Html.DisplayFor(modelItem => item.Vencimento) : "-")
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Valor)
-                    </td>
-                    <td>
-                        @(item.Descricao != null ? @Html.DisplayFor(modelItem => item.Descricao) : "-")
-                    </td>
-                </tr>
-            }
+        @foreach (var item in Model.Despesas)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Data)
+                </td>
+                <td>
+                    @(item.Vencimento != null ? Html.DisplayFor(modelItem => item.Vencimento) : "-")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+                </td>
+                <td>
+                    @(item.Descricao != null ? @Html.DisplayFor(modelItem => item.Descricao) : "-")
+                </td>
+            </tr>
+        }
         </tbody>
     </table>
 </div>
 
 
-
 <div class="row">
-
-    <div class="col-6 mt-5">
+    <div class="col-12 col-lg-6 mt-5">
         <h2 class="pb-3 custom--heading">Contribuição Proporcional</h2>
         <div class="custom--form">
             <table class="table">
                 <thead>
-                    <tr>
-                        <th>
-                            Nome
-                        </th>
-                        <th>
-                            Renda
-                        </th>
-                        <th>
-                            Contribuição
-                        </th>
-                    </tr>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Renda
+                    </th>
+                    <th>
+                        Contribuição
+                    </th>
+                </tr>
                 </thead>
 
                 <tbody>
-                    @foreach (var item in Model.Calculo.ProporcionalMoradores)
-                    {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Nome)
-                            </td>
-                            <td>
-                                R$ @item.Renda.ToString("F2")
-                            </td>
+                @foreach (var item in Model.Calculo.ProporcionalMoradores)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            R$ @item.Renda.ToString("F2")
+                        </td>
 
-                            <td>
-                                R$ @item.Valor.ToString("F2")
-                            </td>
-                        </tr>
-                    }
+                        <td>
+                            R$ @item.Valor.ToString("F2")
+                        </td>
+                    </tr>
+                }
                 </tbody>
             </table>
         </div>
     </div>
 
-    <div class="col-6 mt-5">
+    <div class="col-12 col-lg-6 mt-5">
         <canvas class="pt-5" id="myChart"></canvas>
     </div>
 
-    <div class="col-6 mt-5">
+    <div class="col-12 mt-5">
         <h2 class="pb-2 custom--heading">Divisão Per Capta</h2>
         <p>A divisão per capta é refente a divisão do total dos gastos pela quantidade de pessoas.</p>
 
