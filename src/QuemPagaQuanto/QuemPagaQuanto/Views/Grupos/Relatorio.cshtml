@@ -23,7 +23,7 @@
             </ul>
         </div>
     </div>
-    
+
     <div class="custom--table-header-buttons">
         <h3>Despesa Total: <span class="custom--bedge">R$ @ViewBag.Total.ToString("F2")</span></h3>
     </div>
@@ -34,26 +34,33 @@
     <div class="flex-column justify-content-start ml-3">
         <form asp-action="Relatorio" method="get" class="form-row d-flex flex-wrap flex-column flex-lg-row">
             <div class="mb-3 me-lg-2  flex-grow-1 flex-lg-grow-0">
-                <select name="mes" id="mes" class="form-control shadow-sm">
+                <select name="mes" id="mes" value class="form-control shadow-sm">
                     <option value="">Selecione o mês</option>
-                    
+
                     @for (int i = 1; i <= 12; i++)
                     {
-                        <option value="@i">@i</option>
+                        @if (ViewBag.Mes == i)
+                        {
+                            <option value="@i" selected>@i</option>
+                        }
+                        else
+                        {
+                            <option value="@i">@i</option>
+                        }
                     }
                 </select>
             </div>
-            
+
             <div class="mb-3 me-lg-2 flex-grow-1 flex-lg-grow-0">
-                <input type="number" name="ano" class="form-control shadow-sm" placeholder="Digite o ano"/>
+                <input type="number" name="ano" class="form-control shadow-sm" value="@ViewBag.Ano" placeholder="Digite o ano"/>
             </div>
-            
+
             <div>
                 <button type="submit" class="btn btn-success">Pesquisar</button>
             </div>
         </form>
     </div>
-    
+
     <table class="table">
         <thead>
         <tr>

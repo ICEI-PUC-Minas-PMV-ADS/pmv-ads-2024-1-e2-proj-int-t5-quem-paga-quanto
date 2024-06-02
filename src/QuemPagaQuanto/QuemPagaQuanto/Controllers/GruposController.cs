@@ -171,9 +171,13 @@ namespace QuemPagaQuanto.Controllers
 
         public async Task<ActionResult> Relatorio(int id, int? mes, int? ano)
         {
+            var hoje = DateTime.Now;
 
+            if (mes == null) mes = hoje.Month;
+            if (ano == null) ano = hoje.Year;
+            
             var service = new CalcularDespesasService(_context);
-            var resultado = service.CalcularProporcional(id);
+            var resultado = service.CalcularProporcional(id, mes, ano);
 
             var grupo = await _context.Grupos.FindAsync(id);
 
@@ -181,19 +185,17 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
-            var consumos = await _context.Despesas
-                .Where(e => e.GrupoId == id && (mes == null || e.Data.Month == mes) && (ano == null || e.Data.Year == ano))
-                .OrderBy(e => e.Data)
-                .ToListAsync();
+            
+            var total = resultado.Despesas.Sum(c => c.Valor);
 
-            double total = consumos.Sum(c => c.Valor);
-
-            ViewBag.Despesas = consumos;
+            ViewBag.Despesas = resultado.Despesas;
             ViewBag.Total = total;
             ViewBag.Nome = grupo.Nome;
             ViewBag.GrupoId = id;
+            ViewBag.Mes = mes;
+            ViewBag.Ano = ano;
 
-            return View(new Relatorio() { Despesas = consumos, Calculo = resultado });
+            return View(new Relatorio() { Despesas = resultado.Despesas, Calculo = resultado });
         }
     }
 }
