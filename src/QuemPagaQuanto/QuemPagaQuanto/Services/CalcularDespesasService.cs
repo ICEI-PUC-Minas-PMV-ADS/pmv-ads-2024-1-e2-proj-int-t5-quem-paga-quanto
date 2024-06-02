@@ -60,17 +60,19 @@ namespace QuemPagaQuanto.Services
             foreach (var morador in moradores)
             {
                 
-                rendaTotalGrupo += morador.RendaTotal();
+                rendaTotalGrupo += morador.RendaTotal(mes, ano);
             }
 
             foreach (var morador in moradores)
             {
+                var renda = morador.RendaTotal(mes, ano);
+                
                 listaProprocionalMorador.Add(new ProporcionalMorador()
                 {
                     Id = morador.Id,
                     Nome = morador.Nome,
-                    Valor = morador.RendaTotal() / rendaTotalGrupo * despesasTotalGrupo,
-                    Renda = morador.RendaTotal()
+                    Valor = renda / rendaTotalGrupo * despesasTotalGrupo,
+                    Renda = renda
                 });
             }
 
