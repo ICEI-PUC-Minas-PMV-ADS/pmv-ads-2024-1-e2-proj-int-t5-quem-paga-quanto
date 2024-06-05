@@ -147,13 +147,81 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 
 A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
 
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+## Plano de teste de Usabilidade
+
+**Usuario 1**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
+|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
+| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+
+**Usuario 2**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
+|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
+| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+
+**Usuario 3**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
+|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
+| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+
+**Usuario 4**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
+|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
+| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+
+
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
