@@ -22,7 +22,14 @@ namespace QuemPagaQuanto.Controllers
         // GET: Grupos
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Grupos.Include(g => g.Usuario);
+            IQueryable<Grupo> appDbContext = _context.Grupos;
+    
+            if (AuthorizeService.GetUserRole(User) != Perfil.Administrador.ToString())
+            {
+                appDbContext = appDbContext.Where(g => g.UsuarioId == AuthorizeService.GetUserId(User));
+            }
+
+            appDbContext.Include(g => g.Usuario);
             return View(await appDbContext.ToListAsync());
         }
 
@@ -67,6 +74,7 @@ namespace QuemPagaQuanto.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", grupo.UsuarioId);
             return View(grupo);
         }
@@ -84,6 +92,7 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
+
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", grupo.UsuarioId);
             return View(grupo);
         }
@@ -120,8 +129,10 @@ namespace QuemPagaQuanto.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", grupo.UsuarioId);
             return View(grupo);
         }
@@ -154,6 +165,7 @@ namespace QuemPagaQuanto.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Grupos'  is null.");
             }
+
             var grupo = await _context.Grupos.FindAsync(id);
             if (grupo != null)
             {
@@ -175,7 +187,7 @@ namespace QuemPagaQuanto.Controllers
 
             if (mes == null) mes = hoje.Month;
             if (ano == null) ano = hoje.Year;
-            
+
             var service = new CalcularDespesasService(_context);
             var resultado = service.CalcularProporcional(id, mes, ano);
 
@@ -185,7 +197,7 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
-            
+
             var total = resultado.Despesas.Sum(c => c.Valor);
 
             ViewBag.Despesas = resultado.Despesas;
