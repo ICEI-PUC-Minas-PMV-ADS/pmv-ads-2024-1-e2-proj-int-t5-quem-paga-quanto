@@ -5,8 +5,11 @@
 }
 
 <div class="custom--table-header">
-    <h1>Usuários</h1>
-    <a asp-action="Create" class="btn btn-success">Criar Usuário</a>
+    <h1>@(User.IsInRole("Administrador") ? "Usuários" : "Perfil")</h1>
+    @if (User.IsInRole("Administrador"))
+    {
+        <a asp-action="Create" class="btn btn-success">Criar Usuário</a>
+    }
 </div>
 
 
@@ -56,9 +59,12 @@
                                 <li>
                                     <a asp-action="Edit" asp-route-id="@item.Id" class="dropdown-item">Editar</a>
                                 </li>
-                                <li>
-                                    <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Apagar</a>
-                                </li>
+                                @if (@item.Id != -1)
+                                {
+                                    <li>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Apagar</a>
+                                    </li>
+                                }
                             </ul>
                         </div>
                         

@@ -8,4 +8,9 @@ public static class AuthorizeService
     {
         return int.Parse(userClaimsPrincipal.Claims.First(claim => claim.Type == ClaimTypes.NameIdentifier).Value);
     }
+    
+    public static string GetUserRole(ClaimsPrincipal userClaimsPrincipal)
+    {
+        return userClaimsPrincipal.Claims.First(claim => claim.Type == ClaimTypes.Role).Value;
+    }
 }

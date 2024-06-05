@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuemPagaQuanto.Database;
 using QuemPagaQuanto.Models;
+using QuemPagaQuanto.Services;
 
 namespace QuemPagaQuanto.Controllers
 {
-    [Authorize(Roles = "Administrador")]
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
@@ -18,7 +18,10 @@ namespace QuemPagaQuanto.Controllers
 
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Usuarios.ToListAsync());
+            var isAdmin = AuthorizeService.GetUserRole(User) == Perfil.Administrador.ToString();
+            if (isAdmin) return View(await _context.Usuarios.ToListAsync());
+
+            return View(await _context.Usuarios.Where(u => u.Id == AuthorizeService.GetUserId(User)).ToListAsync());
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -56,6 +59,7 @@ namespace QuemPagaQuanto.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(usuario);
         }
 
@@ -72,7 +76,7 @@ namespace QuemPagaQuanto.Controllers
             {
                 return NotFound();
             }
-            
+
             return View(usuario);
         }
 
@@ -105,8 +109,10 @@ namespace QuemPagaQuanto.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(usuario);
         }
 
@@ -135,19 +141,20 @@ namespace QuemPagaQuanto.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Usuarios'  is null.");
             }
+
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario != null)
             {
                 _context.Usuarios.Remove(usuario);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool UsuarioExists(int id)
         {
-          return _context.Usuarios.Any(e => e.Id == id);
+            return _context.Usuarios.Any(e => e.Id == id);
         }
     }
 }
