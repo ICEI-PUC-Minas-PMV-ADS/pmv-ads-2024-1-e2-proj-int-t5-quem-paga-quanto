@@ -30,7 +30,6 @@ namespace QuemPagaQuanto.Controllers
             return View(await appDbContext.ToListAsync());
         }
 
-        // GET: Despesas/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Despesas == null)
@@ -40,15 +39,13 @@ namespace QuemPagaQuanto.Controllers
 
             var despesa = await _context.Despesas
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (despesa == null)
-            {
                 return NotFound();
-            }
 
             return View(despesa);
         }
 
-        // GET: Despesas/Create
         public IActionResult Create(int? grupoId)
         {
             if (grupoId == null) return RedirectToAction("Index", "Grupos");
@@ -56,9 +53,6 @@ namespace QuemPagaQuanto.Controllers
             return View();
         }
 
-        // POST: Despesas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Data,Vencimento,Valor,Descricao,GrupoId")] Despesa despesa)
@@ -67,14 +61,13 @@ namespace QuemPagaQuanto.Controllers
             {
                 _context.Add(despesa);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId } );
+                return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId });
             }
 
             ViewBag.GrupoId = despesa.GrupoId;
             return View(despesa);
         }
 
-        // GET: Despesas/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Despesas == null)
@@ -91,12 +84,11 @@ namespace QuemPagaQuanto.Controllers
             return View(despesa);
         }
 
-        // POST: Despesas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Data,Vencimento,Valor,Descricao,GrupoId")] Despesa despesa)
+        public async Task<IActionResult> Edit(int id,
+            [Bind("Id,Data,Vencimento,Valor,Descricao,GrupoId")]
+            Despesa despesa)
         {
             if (id != despesa.Id)
             {
@@ -121,6 +113,7 @@ namespace QuemPagaQuanto.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId });
             }
 
@@ -154,19 +147,20 @@ namespace QuemPagaQuanto.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Despesas'  is null.");
             }
+
             var despesa = await _context.Despesas.FindAsync(id);
             if (despesa != null)
             {
                 _context.Despesas.Remove(despesa);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index), new { grupoId = despesa.GrupoId });
         }
 
         private bool DespesaExists(int id)
         {
-          return _context.Despesas.Any(e => e.Id == id);
+            return _context.Despesas.Any(e => e.Id == id);
         }
     }
 }

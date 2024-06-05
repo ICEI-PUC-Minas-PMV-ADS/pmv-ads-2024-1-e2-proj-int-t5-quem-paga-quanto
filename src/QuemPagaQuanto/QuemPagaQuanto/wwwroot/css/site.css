@@ -174,3 +174,10 @@ a {
 .form-group {
     padding-bottom: 10px;
 }
+
+.custom--sub-title {
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 2.5em;
+}

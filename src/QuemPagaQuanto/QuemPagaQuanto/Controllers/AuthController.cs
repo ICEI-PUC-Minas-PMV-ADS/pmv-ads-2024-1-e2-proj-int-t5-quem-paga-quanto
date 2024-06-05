@@ -20,6 +20,9 @@ namespace QuemPagaQuanto.Controllers
 
         public IActionResult Login()
         {
+            if (User.Identity.IsAuthenticated)
+                return RedirectToAction("Index", "Grupos");
+
             return View();
         }
 
@@ -45,9 +48,9 @@ namespace QuemPagaQuanto.Controllers
             // Credenciais do login.
             var claims = new List<Claim>
             {
-                new (ClaimTypes.Name, dados.Nome),
-                new (ClaimTypes.NameIdentifier, dados.Id.ToString()),
-                new (ClaimTypes.Role, dados.Perfil.ToString()),
+                new(ClaimTypes.Name, dados.Nome),
+                new(ClaimTypes.NameIdentifier, dados.Id.ToString()),
+                new(ClaimTypes.Role, dados.Perfil.ToString()),
             };
 
             var usuarioIdentity = new ClaimsIdentity(claims, "login");
