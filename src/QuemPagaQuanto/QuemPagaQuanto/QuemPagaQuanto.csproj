@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Class.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Despesas\Despesas.cshtml" />
   </ItemGroup>
 
