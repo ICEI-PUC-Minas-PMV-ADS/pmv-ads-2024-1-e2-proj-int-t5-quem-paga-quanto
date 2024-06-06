@@ -17,6 +17,7 @@ namespace QuemPagaQuanto.Models
         public DateTime? Vencimento { get; set; }
 
         [DataType(DataType.Currency)]
+        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
         [Required(ErrorMessage = "Insira o valor da despesa.")]
         public double Valor { get; set; }
 

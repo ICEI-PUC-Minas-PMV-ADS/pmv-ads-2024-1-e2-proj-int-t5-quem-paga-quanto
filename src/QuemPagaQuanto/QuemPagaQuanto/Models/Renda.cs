@@ -10,8 +10,10 @@ namespace QuemPagaQuanto.Models
         public int Id { get; set; }
         public int MoradorId { get; set; }
 
-        [DataType(DataType.Currency)]
+
         [Required(ErrorMessage = "Obrigatório informar o valor da renda.")]
+        [DataType(DataType.Currency)]
+        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = false)]
         public double Valor { get; set; }
 
         [Display(Name = "Renda é fixa?")]
