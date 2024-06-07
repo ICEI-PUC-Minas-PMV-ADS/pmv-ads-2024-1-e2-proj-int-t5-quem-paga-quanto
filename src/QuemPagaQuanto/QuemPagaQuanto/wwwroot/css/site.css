@@ -181,3 +181,8 @@ a {
     text-transform: capitalize;
     font-size: 2.5em;
 }
+
+.carousel-caption.dark-bg {
+    background: rgba(32, 32, 32, 0.7);
+    border-radius: 4px;
+}
