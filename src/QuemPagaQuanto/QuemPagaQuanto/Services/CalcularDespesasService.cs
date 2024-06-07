@@ -8,6 +8,7 @@ namespace QuemPagaQuanto.Services
     {
         public double CalculoPerCapta { get; set; }
         public List<ProporcionalMorador> ProporcionalMoradores { get; set; }
+        public double NegativoProporcional { get; set; }
         public int NumeroMoradores { get; set; }
         public List<Despesa> Despesas { get; set; }
     }
@@ -59,19 +60,30 @@ namespace QuemPagaQuanto.Services
             double rendaTotalGrupo = 0;
             foreach (var morador in moradores)
             {
-                
                 rendaTotalGrupo += morador.RendaTotal(mes, ano);
             }
 
             foreach (var morador in moradores)
             {
                 var renda = morador.RendaTotal(mes, ano);
+
+                double valor = 0;
+
+                if (renda > 0)
+                {
+                    valor = renda / rendaTotalGrupo * despesasTotalGrupo;
+                }
+
+                if (valor > renda)
+                {
+                    valor = renda;
+                }
                 
                 listaProprocionalMorador.Add(new ProporcionalMorador()
                 {
                     Id = morador.Id,
                     Nome = morador.Nome,
-                    Valor = renda / rendaTotalGrupo * despesasTotalGrupo,
+                    Valor = valor,
                     Renda = renda
                 });
             }
@@ -80,6 +92,7 @@ namespace QuemPagaQuanto.Services
             {
                 CalculoPerCapta = calculoPerCapta,
                 ProporcionalMoradores = listaProprocionalMorador.OrderByDescending(i => i.Valor).ToList(),
+                NegativoProporcional = despesasTotalGrupo - rendaTotalGrupo,
                 NumeroMoradores = moradores.Count,
                 Despesas = despesas
             };
