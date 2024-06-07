@@ -181,3 +181,14 @@ a {
     text-transform: capitalize;
     font-size: 2.5em;
 }
+
+.custom--card-title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.text--home {
+    font-size: 1.15em;
+    font-family: Roboto;
+}
