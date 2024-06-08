@@ -152,11 +152,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 1**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
+|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -170,11 +170,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 2**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
+|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -188,11 +188,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 3**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
+|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -206,11 +206,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 4**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
+|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
+|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
+|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
+|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
+|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
