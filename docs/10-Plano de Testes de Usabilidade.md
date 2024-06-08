@@ -122,7 +122,6 @@ Para cada tarefa do participante é possível medir:
 
 Seguem as tarefas a serem executadas pelos participantes e observadas
 
-
 | **Caso de Teste** 	| **CTU-01 – Cadastro de usuário, grupo e moradores** 	|
 |:---:	|:---:	|
 | **Perfil** 	| Usuário (todos)	|
@@ -224,6 +223,8 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+
+## Resultados
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
