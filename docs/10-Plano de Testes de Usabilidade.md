@@ -123,21 +123,29 @@ Para cada tarefa do participante é possível medir:
 Seguem as tarefas a serem executadas pelos participantes e observadas
 
 
-| **Caso de Teste** 	| **CTU-01 – Responsividade** 	|
+| **Caso de Teste** 	| **CTU-01 – Cadastro de usuário, grupo e moradores** 	|
 |:---:	|:---:	|
 | **Perfil** 	| Usuário (todos)	|
-| **Objetivo do Teste** 	| Testar se a aplicação ao ser utilizada em diferentes dispositivos(desktop, laptop, tablet, smartphone) é capaz de se adaptar.	|
-| **Ações necessárias** 	| 1. Acessar a aplicação pelo seu telefone; <br>2. Navegar com facilidade dentro do sistema. |
+| **Objetivo do Teste** 	| Testar as ações iniciais que cada usuário precisa fazer para melhor aproveitamento da ferramenta.	|
+| **Ações necessárias** 	| Acesse o site da aplicação, se registre, acesse com seu usário criado, crie um grupo e adicione dois moradores ao seu grupo. |
 |  	|  	|
-| **Caso de Teste** 	| **CTU-02 – Objetividade das informações** 	|
+| **Caso de Teste** 	| **CTU-02 – Gerenciar rendas** 	|
 | **Perfil** 	| Usuário (todos) 	|
-| **Objetivo do Teste** 	| Avaliar a facilidade com que os usuários podem navegar pela aplicação para alcançar seus objetivos de maneira acertiva. 	|
-| **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Entrar’. 	|
+| **Objetivo do Teste** 	| Testar a facilidade de gerenciamento das rendas dos moradores. |
+| **Ações necessárias** 	| Cadastre duas rendas para cada morador cadastrado com data referente ao mês e ano atual, edite uma das rendas do primeiro usuário e exclua a outra. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-03 – Feedback e orientação** 	|
+| **Caso de Teste** 	| **CTU-03 – Adição de despesas** 	|
 | **Perfil** 	| Usuário (todos) 	|
-| **Objetivo do Teste** 	| Avaliar a eficácia dos feedbacks visuais fornecidos pela aplicação em resposta às ações do usuário. Testar a presença de orientações claras para ajudar os usuários a entenderem como usar a aplicação. 	|
-| **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. A aplicação deve apresentar uma mensagem informando que o login foi realizado. 	|
+| **Objetivo do Teste** 	| Testar fluxo de cadastro de despesas feito pelo usuário. 	|
+| **Ações necessárias** 	| Realize o cadastro de três despesas fictícias refernte ao mes e ano atual no seu grupo já cadastrado e altere o valor de uma das despesas. |
+| **Caso de Teste** 	| **CTU-04 – Visualização dos relatórios** 	|
+| **Perfil** 	| Usuário (todos) 	|
+| **Objetivo do Teste** 	| Avaliar se o usuário consegue acessar com facilidade os relatórios do seu grupo. |
+| **Ações necessárias** 	| Em grupos, acesse os relatórios do mesmo e visualize o relatório gerado para o mês e ano atual. |
+| **Caso de Teste** 	| **CTU-05 – Edição do perfil** 	|
+| **Perfil** 	| Usuário (todos) 	|
+| **Objetivo do Teste** 	| Avaliar se o usuário consegue encontrar de forma simples os formulário de edição de perfil. |
+| **Ações necessárias** 	| Em grupos, acesse os relatórios do mesmo e visualize o relatório gerado para o mês e ano atual. |
 
 ## Análise do teste e resultados
 
@@ -148,11 +156,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 1**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
-|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -166,11 +174,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 2**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
-|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -184,11 +192,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 3**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
-|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -202,11 +210,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 4**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faça o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos moradores, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3 (três) despesas e altere o valor de uma das despesas	| --- 	| --- | ---  | --- | --- | --- |
-|4. Acesse seu perfil e modifique seu email.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Acesse os relatórios e visualize os dados cadastrados.	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05	| --- 	| --- | ---  | --- | --- | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
@@ -217,8 +225,6 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
 
-
-
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
@@ -226,6 +232,3 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-
-
-
