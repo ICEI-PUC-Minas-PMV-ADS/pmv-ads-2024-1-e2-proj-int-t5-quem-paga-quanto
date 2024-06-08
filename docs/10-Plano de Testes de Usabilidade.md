@@ -136,7 +136,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Caso de Teste** 	| **CTU-03 – Adição de despesas** 	|
 | **Perfil** 	| Usuário (todos) 	|
 | **Objetivo do Teste** 	| Testar fluxo de cadastro de despesas feito pelo usuário. 	|
-| **Ações necessárias** 	| Realize o cadastro de três despesas fictícias refernte ao mes e ano atual no seu grupo já cadastrado e altere o valor de uma das despesas. |
+| **Ações necessárias** 	| Realize o cadastro de três despesas fictícias referente ao mes e ano atual no seu grupo já cadastrado e altere o valor de uma das despesas. |
 | **Caso de Teste** 	| **CTU-04 – Visualização dos relatórios** 	|
 | **Perfil** 	| Usuário (todos) 	|
 | **Objetivo do Teste** 	| Avaliar se o usuário consegue acessar com facilidade os relatórios do seu grupo. |
@@ -144,7 +144,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Caso de Teste** 	| **CTU-05 – Edição do perfil** 	|
 | **Perfil** 	| Usuário (todos) 	|
 | **Objetivo do Teste** 	| Avaliar se o usuário consegue encontrar de forma simples os formulário de edição de perfil. |
-| **Ações necessárias** 	| Em grupos, acesse os relatórios do mesmo e visualize o relatório gerado para o mês e ano atual. |
+| **Ações necessárias** 	| Acesse o perfil e altere uma das informações do seu usuário. |
 
 ## Análise do teste e resultados
 
