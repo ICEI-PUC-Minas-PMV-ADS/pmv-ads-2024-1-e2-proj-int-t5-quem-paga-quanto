@@ -8,7 +8,7 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 Por meio dele, são recolhidos dados sobre comportamento, medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades. Após sua realização, uma análise de usabilidade e das principais dificuldades é efetuada para realizar melhorias na plataforma, proporcionando uma melhor experiência ao usuário.
 
 O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: Requisitos do teste; Método utilizado; 
-Ojetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação "quem paga quanto".
+Ojetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação "Quem Paga Quanto?".
 
 Para o projeto em questão, realizaremos o modelo de Testes Remotos Não Moderados de Usabilidade.
 
@@ -27,7 +27,6 @@ Nele os participantes realizam os estudos diretamente em seus próprios disposit
 -	Conseguir testar 100% dos projetos até pequenas melhorias, trazer pessoas até a empresa para testar uma única funcionalidade.
 
 ### Objetivos do teste:
-
 
 <p align="justify">Um plano de teste de usabilidade de uma aplicação serve para fornecer uma estrutura sistemática e organizada para avaliar a facilidade de uso, eficácia e satisfação do usuário com a aplicação. Esse plano descreve as atividades, os objetivos, os métodos, os recursos necessários e os cronogramas para conduzir os testes de usabilidade de forma eficaz.</p>
 
@@ -98,7 +97,6 @@ Os requisitos para realização dos testes são:
 - Navegador da internet - Chrome, Firefox, Safari ou Edge;
 - Disponibilidade do usuário em acessar ferramentas de videoconferência com compartilhamento de tela - Zoom, Google Meet, Teams, Webcam.
 
-
 ### Método utilizado: Observação direta, medição e Avaliação
 
 O teste terá cinco participantes que irão avaliar o desempenho e a interação do site, de acordo com as necessidades que correspondem com a finalidade da aplicação e com sugestões de melhorias.
@@ -129,7 +127,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 |:---:	|:---:	|
 | **Perfil** 	| Usuário (todos)	|
 | **Objetivo do Teste** 	| Testar se a aplicação ao ser utilizada em diferentes dispositivos(desktop, laptop, tablet, smartphone) é capaz de se adaptar.	|
-| **Ações necessárias** 	| 1. Acessar a aplicação pelo browser;<br>2. Pressionar a tecla "F12", clicar em "inspecionar elemento"<br>3.Clique no ícone de celular à esquerda e realize os testes; <br>4.Após selecionada a opção, atualize a página pressionando “F5”. <br>5. Verificar legibilidade dos textos, tamnho dos elemntos, facilidade de uso e acesso as funcionalidades.|
+| **Ações necessárias** 	| 1. Acessar a aplicação pelo seu telefone; <br>2. Navegar com facilidade dentro do sistema. |
 |  	|  	|
 | **Caso de Teste** 	| **CTU-02 – Objetividade das informações** 	|
 | **Perfil** 	| Usuário (todos) 	|
@@ -137,11 +135,9 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Entrar’. 	|
 |  	|  	|
 | **Caso de Teste** 	| **CTU-03 – Feedback e orientação** 	|
-| **Perfil** 	|Usuário (todos) 	|
-| **Objetivo do Teste** 	| Avaliar a eficácia dos feedbacks visuais e sonoros fornecidos pela aplicação em resposta às ações do usuário. Testar a presença de orientações claras para ajudar os usuários a entenderem como usar a aplicação. 	|
+| **Perfil** 	| Usuário (todos) 	|
+| **Objetivo do Teste** 	| Avaliar a eficácia dos feedbacks visuais fornecidos pela aplicação em resposta às ações do usuário. Testar a presença de orientações claras para ajudar os usuários a entenderem como usar a aplicação. 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. A aplicação deve apresentar uma mensagem informando que o login foi realizado. 	|
-
-
 
 ## Análise do teste e resultados
 
