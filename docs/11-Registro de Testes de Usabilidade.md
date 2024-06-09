@@ -4,76 +4,64 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
-# Usuário 1
+## Usuário 1
+
+### Impressões do Examinador
 
 Os usuários conseguem transitar entre os principais módulos do sistema?
 
-*Sim, sem maiores problemas.*
-
+*Sim, não precisou pensar muito.*
 
 O tempo de resposta causa erros ou frustração?
 
-*Não, o tempo de resposta é bem rápido.*
-
+*Não, o sistema responde de forma rápida.*
 
 As telas refletem o modelo conceitual do usuário?
 
-*As telas são muito parecidas com o modelo conceitual.*
-
+*Sim, não há muitas diferenças.*
 
 Que obstáculos impedem que as tarefas sejam concluídas?
 
-*A princípio, não vejo grandes obstáculos, uma vez que a aplicação é bastante intuitiva. Apesar disto, é possível surjam dúvidas em outros usuários, por exemplo, a necessidade de se cadastrar um grupo antes de uma despesa.*
+*Não consegui identificar nenhum obstáculo óbvio, tudo foi feito com facilidade.*
 
-
-Perguntas de pré-teste:
+### Perguntas de pré-teste:
 
 Qual é a sua experiência geral com este tipo de aplicação?
 
-*Nunca havia utilizado aplicações similares.*
-
+*Nenhuma experiência*
 
 Com que frequência você usa aplicativos similares?
 
-*Nunca.*
-
+*Nenhuma*
 
 Quais são suas expectativas em relação a este aplicativo?
 
-*Espero que seja uma aplicação simples, intuitiva e de fácil uso.*
-
+*Ajudar a gerenciar os gastos das pessoas da minha casa.*
 
 Qual é o seu objetivo ao usar esta aplicação?
 
-*Conseguir obter informações rápidas e simples sobre minhas despesas pessoais.*
+*Dividir de forma justa os gastos da minha casa.*
 
+### Perguntas finais
 
 Qual foi a sua impressão geral da aplicação?
 
-*Achei uma aplicação simples, intuitiva e de fácil uso.*
-
+*Eu achei útil e acessível*
 
 Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
 
-*Não, minhas expectativas foram atendidas, mas não fui surpreendida.*
-
+*Não*
 
 Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
 
-*Não, a aplicação é bastante intuitiva.*
-
+*Não*
 
 Perguntas de feedback final:
 
 Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
 
-*Recomendaria*
-
+*Sim, recomendaria.*
 
 Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
 
-*Neste momento, não.*
-
-
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+*Não, acredito que o sistema esteja bom assim.*
