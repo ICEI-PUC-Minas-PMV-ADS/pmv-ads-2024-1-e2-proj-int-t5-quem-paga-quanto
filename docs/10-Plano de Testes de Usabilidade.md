@@ -58,20 +58,20 @@ ferramenta pela primeira vez terá que começar do zero.
 - As telas refletem o modelo conceitual do usuário?
 - Que obstáculos impedem que as tarefas sejam concluídas?
 
- Perguntas de pré-teste:
+ #### Perguntas de pré-teste:
 
 - Qual é a sua experiência geral com este tipo de aplicação?
 - Com que frequência você usa aplicativos similares?
 - Quais são suas expectativas em relação a este aplicativo?
 - Qual é o seu objetivo ao usar esta aplicação?
 
- Perguntas gerais:
+ #### Perguntas gerais:
 
 - Qual foi a sua impressão geral da aplicação?
 - Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
 - Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
   
-- Perguntas de feedback final:
+#### Perguntas de feedback final:
 
 - Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
 - Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
@@ -155,20 +155,20 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 1**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| CT-01	| --- 	| --- | ---  | --- | --- | --- |
-| CT-02 | --- 	| --- | ---  | --- | --- | --- |
-| CT-03	| --- 	| --- | ---  | --- | --- | --- |
-| CT-04	| --- 	| --- | ---  | --- | --- | --- |
-| CT-05	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| 29 | 2m 13s | Sim  | --- | Sim | Foi fácil |
+| CT-02 | 43 	| 2m 20s | Sim  | --- | Não | --- |
+| CT-03	| 22 	| 1m 24s | Sim  | --- | Não | Fácil |
+| CT-04	| 2 	| 15s | Sim  | --- | Não | Fácil |
+| CT-05	| 6 	| 28s | Sim  | --- | Não | Foi bastante fácil |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+| O usuário conseguem transitar entre os principais módulos do sistema 	| Sim | --- | Com facilidade | 5 | 
+| O tempo de resposta causa erros ou frustração? | --- 	| Não | Bem rápido  | --- | 5 |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | Nenhum erro aconteceu  | 5  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim | --- | --- | 5 |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- | Não | ---  | 4 |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| Não | Todas as partes foram simples | 5 |
 
 **Usuario 2**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
