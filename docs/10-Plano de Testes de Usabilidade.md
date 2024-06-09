@@ -184,7 +184,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
 | O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
 | Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
 
@@ -202,7 +202,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
 | O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
 | Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
 
@@ -220,7 +220,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
 | O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
 | Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
 
