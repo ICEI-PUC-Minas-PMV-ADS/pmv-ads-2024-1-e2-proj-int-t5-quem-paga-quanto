@@ -54,20 +54,15 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-005 - A aplicação deve permitir que o usuário gerencie os gastos da casa em que mora.|
 |Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/c04053b2-5ec3-4fcc-9524-5379abe369e6 |
 
-| **Caso de Teste** 	| **CT-11 – Lista relatórios despesas, CT-12 – Relatório mensal de despesas, CT-13 – Gerar relatórios de despesas, CT-14 – Gerar relatórios de despesas** 	|
+| **Caso de Teste** 	| **CT-11 – Lista relatórios despesas, CT-12 – Relatório mensal de despesas, CT-13 – Gerar relatórios de despesas, CT-14 – Gerar relatórios de despesas, CT-16 – Gerar gráficos de despesas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-006 - A aplicação deve possuir uma página para exibir os relatórios de quanto cada morador deve contribuir ao final do mês; RF-007 - A aplicação deve disponibilizar um relatório mensal especificando as despesas e seu respectivo valor;  RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: 1) Proporcional ao salário; 2) Sobre a divisão por pessoa; RF-008 - A aplicação deve disponibilizar duas opções antes de gerar os relatórios: Proporcional ao salário; Sobre a divisão por pessoa.|
-|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/50e73695-f7bf-4e55-b01d-92d740254251 |
+|Registro de evidência |  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/ec26198b-5106-4ea2-9d3e-920dc5418440 |
 
 | **Caso de Teste** 	| **CT-15 – Gerenciar grupo ** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-13 - A aplicação deve permitir que o usuário gerencie seus grupos/casas.|
 |Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/6dc82f51-19bc-451c-9331-0c927eb2f320|
-
-| **Caso de Teste** 	| **CT-16 – Gerar gráficos de despesas ** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-009 - A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições.|
-|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/ec26198b-5106-4ea2-9d3e-920dc5418440|
 
 | **Caso de Teste** 	| **CT-17 – Exibir menu de navegação, CT-18 – Exibir rodapé** 	|
 |:---:	|:---:	|
