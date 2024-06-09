@@ -78,6 +78,24 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
 
+**Usuario 5**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05	| --- 	| --- | ---  | --- | --- | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
+| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+
 ## Usuário 1
 
 ### Impressões do Examinador
