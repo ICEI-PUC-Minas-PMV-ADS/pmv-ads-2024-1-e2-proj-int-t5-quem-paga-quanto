@@ -173,11 +173,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 2**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| CT-01	| --- 	| --- | ---  | --- | --- | --- |
-| CT-02 | --- 	| --- | ---  | --- | --- | --- |
-| CT-03	| --- 	| --- | ---  | --- | --- | --- |
-| CT-04	| --- 	| --- | ---  | --- | --- | --- |
-| CT-05	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| 17 	| 2m 00s | Sim  | --- | Não | --- |
+| CT-02 | 23 	| 1m 27s | Sim  | --- | Não | --- |
+| CT-03	| 17 	| 1m 01s | Sim  | --- | Não | --- |
+| CT-04	| 3 	| 15s | Sim  | --- | Não | --- |
+| CT-05	| 6 	| 20s | Sim  | --- | Não | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
