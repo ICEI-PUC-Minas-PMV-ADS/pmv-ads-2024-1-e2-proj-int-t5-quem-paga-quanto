@@ -63,20 +63,20 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 **Usuario 4**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| CT-01	| --- 	| --- | ---  | --- | --- | --- |
-| CT-02 | --- 	| --- | ---  | --- | --- | --- |
-| CT-03	| --- 	| --- | ---  | --- | --- | --- |
-| CT-04	| --- 	| --- | ---  | --- | --- | --- |
-| CT-05	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| 26 	| 2m 06s | Sim  |Não   | Não | --- |
+| CT-02 | 28 	| 2m 54s | Sim  | Não | Não |Valor sem formatação deixou o usuário com dúvida, usúario questionou qual a finalidade da data no campo de renda, foi obsevado que o usuário trasitou pelos botões de adicionar renda (posicionamento do botão). |
+| CT-03	| 33	| 1m 58s | Sim  | Não | Não | Usuário realizou varios cliques tentando inserir a data, usuário conseguiu inserir uma data estranha sem erro, ano informada 0001. |
+| CT-04	| 47 	| 3m 10s | Não | Não apareceu a renda de um dos moradores cadastrados | Não | O usúario precisou retornar a tela de moradores para verificar se havia ou não cadastrado a renda, pois um dos usuários não estava aparecendo a renda cadastrada. Erro interferiu no relatório emitido, divisão proporcional foi impactada pelo erro observado.|
+| CT-05	| 8 	| 0m 24 s | Sim   |Não | Não | --- |
 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+| O usuário conseguem transitar entre os principais módulos do sistema 	| Sim 	|---|  Apenas o módulo de despesa o usuário relatou um pouco mais de dificuldade por ter ir e voltar mais de uma vez.  | 4
+| O tempo de resposta causa erros ou frustração? | --- 	| Não | ---  | 5  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | ---  | 4,5  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim 	| --- | ---  | 4  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| Sim 	| --- | Valor da renda de um dos moradores que foi informado zerado no relatório.  | 4  |
+| Houve alguma parte do processo foi difícil para o usuário?	| Sim 	| --- | O usuário achou um pouco complexo ter que realizar varias ações no mesmo teste.  | 4  |
 
 **Usuario 5**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
