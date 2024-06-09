@@ -18,7 +18,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
 | --- 	| --- 	| --- | ---  | ---  | 
 | O usuário conseguem transitar entre os principais módulos do sistema 	| Sim | --- | Com facilidade | 5 | 
-| O tempo de resposta causa erros ou frustração? | --- 	| Não | Bem rápido  | --- | 5 |
+| O tempo de resposta causa erros ou frustração? | --- 	| Não | Bem rápido  | 5 |
 | Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | Nenhum erro aconteceu  | 5  |
 | O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim | --- | --- | 5 |
 | O usuário encontrou algum problema durante a realização desta tarefa?	| --- | Não | ---  | 4 |
