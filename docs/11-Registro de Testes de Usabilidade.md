@@ -283,3 +283,65 @@ Existe alguma sugestão específica que você gostaria de fornecer para melhorar
 
 *Deixar mais clara a configuraçãao de renda.*
 
+## Usuário 5
+
+### Impressões do Examinador
+
+Os usuários conseguem transitar entre os principais módulos do sistema?
+
+*Sim, a interação fluiu bem.*
+
+O tempo de resposta causa erros ou frustração?
+
+*Não.*
+
+As telas refletem o modelo conceitual do usuário?
+
+*Sim.*
+
+Que obstáculos impedem que as tarefas sejam concluídas?
+
+*Não se aplica, tudo ocorreu bem*
+
+### Perguntas de pré-teste:
+
+Qual é a sua experiência geral com este tipo de aplicação?
+
+*Nenhuma.*
+
+Com que frequência você usa aplicativos similares?
+
+*Nenhuma.*
+
+Quais são suas expectativas em relação a este aplicativo?
+
+*Facilitar a divisão das despesas da casa.*
+
+Qual é o seu objetivo ao usar esta aplicação?
+
+*Conseguir organizar a divisão das contas da casa facilmente.*
+
+### Perguntas finais
+
+Qual foi a sua impressão geral da aplicação?
+
+*Aplicação simples e de fácil uso.*
+
+Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
+
+*Sim. Os relatórios finais me surpreenderam positivamente.*
+
+Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
+
+*Não*
+
+### Perguntas de feedback final
+
+Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
+
+*Sim.*
+
+Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
+
+*Sim, seria interessante adicionar despesas fixas que se replicariam todo mês.*
+
