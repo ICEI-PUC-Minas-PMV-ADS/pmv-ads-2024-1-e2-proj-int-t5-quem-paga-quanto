@@ -1,8 +1,82 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+## Análise do teste e resultados
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
+
+## Plano de teste de Usabilidade
+
+**Usuario 1**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| 29 | 2m 13s | Sim  | --- | Sim | Foi fácil |
+| CT-02 | 43 	| 2m 20s | Sim  | --- | Não | --- |
+| CT-03	| 22 	| 1m 24s | Sim  | --- | Não | Fácil |
+| CT-04	| 2 	| 15s | Sim  | --- | Não | Fácil |
+| CT-05	| 6 	| 28s | Sim  | --- | Não | Foi bastante fácil |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| Sim | --- | Com facilidade | 5 | 
+| O tempo de resposta causa erros ou frustração? | --- 	| Não | Bem rápido  | --- | 5 |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | Nenhum erro aconteceu  | 5  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim | --- | --- | 5 |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- | Não | ---  | 4 |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| Não | Todas as partes foram simples | 5 |
+
+**Usuario 2**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| 17 	| 2m 00s | Sim  | --- | Não | --- |
+| CT-02 | 23 	| 1m 27s | Sim  | --- | Não | --- |
+| CT-03	| 17 	| 1m 01s | Sim  | --- | Não | --- |
+| CT-04	| 3 	| 15s | Sim  | --- | Não | --- |
+| CT-05	| 6 	| 20s | Sim  | --- | Não | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| Sim 	| --- | ---  | 5 | 
+| O tempo de resposta causa erros ou frustração? | --- 	| Não | ---  | 5  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | ---  | 5  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim 	| --- | ---  | 5  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| Não | ---  | 5  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| Não | ---  | 5  |
+
+**Usuario 3**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| 16 	| 1m25s70 | ---  | --- | Não | --- |
+| CT-02 | 24 	| 2m14s06 | ---  | --- | Não | --- |
+| CT-03	| 17 	| 48s09 | ---  | --- | Não | --- |
+| CT-04	| 02 	| 32s86 | ---  | --- | Não | --- |
+| CT-05	| 05 	| 22s95 | ---  | --- | Não | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| Sim 	| --- | ---  | 5  |
+| O tempo de resposta causa erros ou frustração? | --- 	| Não | ---  | 5  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | ---  | 5  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim 	| --- | ---  | 5  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| Sim 	| --- | Ficou em dúvida com relação ao toggle de renda fixa e com a data na criação de renda. Comentou sobre a imagem do carrousel página inicial estar fora de proporção  | 4  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| Não | ---  | 5  |
+
+**Usuario 4**	
+| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05	| --- 	| --- | ---  | --- | --- | --- |
+
+| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
+| --- 	| --- 	| --- | ---  | ---  | 
+| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
+| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
+| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
 
 ## Usuário 1
 
