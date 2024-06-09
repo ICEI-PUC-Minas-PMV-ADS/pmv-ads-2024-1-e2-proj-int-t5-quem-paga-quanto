@@ -128,3 +128,66 @@ Existe alguma sugestão específica que você gostaria de fornecer para melhorar
 
 *Em alguns pontos da aplicação, os números com 4 algarismos ou mais não estão separados por ".". Por exemplo, "1.000" está apenas "1000". Acredito que este detalhe possa ser acrescentado.*
 
+## Usuário 3
+
+### Impressões do Examinador
+
+Os usuários conseguem transitar entre os principais módulos do sistema?
+
+*Sim.*
+
+O tempo de resposta causa erros ou frustração?
+
+*Não.*
+
+As telas refletem o modelo conceitual do usuário?
+
+*Sim.*
+
+Que obstáculos impedem que as tarefas sejam concluídas?
+
+*Sem obstáculos.*
+
+### Perguntas de pré-teste:
+
+Qual é a sua experiência geral com este tipo de aplicação?
+
+*Média.*
+
+Com que frequência você usa aplicativos similares?
+
+*Nunca.*
+
+Quais são suas expectativas em relação a este aplicativo?
+
+*Tornar mais simples a divisão de custos em um grupo de pessoas.*
+
+Qual é o seu objetivo ao usar esta aplicação?
+
+*Facilitar na hora de dividir as contas da casa.*
+
+### Perguntas finais
+
+Qual foi a sua impressão geral da aplicação?
+
+*Fácil de usar, informacões pertinentes ao que eu procurava.*
+
+Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
+
+*Positivamente: Com poucos cliques já consigo ver a divisão de contas de diversas formas.
+Negativamente: ao colocar a renda, não fica claro o toggle de renda fixa, é uma dúvida ou uma afirmação?*
+
+Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
+
+*Não*
+
+### Perguntas de feedback final
+
+Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
+
+*Sim.*
+
+Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
+
+*Ajustar as imagens do site que estão fora de proporção. Deixar mais clara a configuraçãao de renda.*
+
