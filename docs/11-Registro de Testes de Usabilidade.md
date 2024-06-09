@@ -78,23 +78,24 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O usuário encontrou algum problema durante a realização desta tarefa?	| Sim 	| --- | Valor da renda de um dos moradores que foi informado zerado no relatório.  | 4  |
 | Houve alguma parte do processo foi difícil para o usuário?	| Sim 	| --- | O usuário achou um pouco complexo ter que realizar varias ações no mesmo teste.  | 4  |
 
-**Usuario 5**	
-| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| CT-01	| --- 	| --- | ---  | --- | --- | --- |
-| CT-02 | --- 	| --- | ---  | --- | --- | --- |
-| CT-03	| --- 	| --- | ---  | --- | --- | --- |
-| CT-04	| --- 	| --- | ---  | --- | --- | --- |
-| CT-05	| --- 	| --- | ---  | --- | --- | --- |
+**Usuario 5**
+| **Casos de Testes** | **Número de cliques:** | **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
+| --- | --- | --- | --- | --- | --- | --- |
+| CT-01 | 18 | 1m 34s | Sim | --- | Não | Intuitivo |
+| CT-02 | 25 | 1m 01s | Sim | --- | Não | Intuitivo |
+| CT-03 | 20 | 1m 15s | Sim | --- | Não | Intuitivo |
+| CT-04 | 2 | 32s | Sim | --- | Não | Intuitivo |
+| CT-05 | 7 | 14s | Sim | --- | Não | Intuitivo |
 
-| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
-| --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
+| **Questionário**                                                                    | **Sim** | **Não** | **Comentário** | **Nota de 1 a 5 (1 péssimo e 5 excelente)** |
+| ----------------------------------------------------------------------------------- | ------- | ------- | -------------- | ------------------------------------------- |
+| O usuário conseguem transitar entre os principais módulos do sistema                | Sim     | ---     | ---            | 5                                           |
+| O tempo de resposta causa erros ou frustração?                                      | ---     | Não     | ---            | 5                                           |
+| Existem obstáculos que impedem que as tarefas sejam concluídas?                     | ---     | Não     | ---            | 5                                           |
+| O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade? | Sim     | ---     | ---            | 5                                           |
+| O usuário encontrou algum problema durante a realização desta tarefa?               | ---     | Não     | ---            | 5                                           |
+| Houve alguma parte do processo foi difícil para o usuário?                          | ---     | Não     | ---            | 5                                           |
+
 
 ## Usuário 1
 
