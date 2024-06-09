@@ -65,3 +65,66 @@ Com base na sua experiência hoje, você recomendaria esta aplicação a um amig
 Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
 
 *Não, acredito que o sistema esteja bom assim.*
+
+## Usuário 2
+
+### Impressões do Examinador
+
+Os usuários conseguem transitar entre os principais módulos do sistema?
+
+*Sim, sem problemas.*
+
+O tempo de resposta causa erros ou frustração?
+
+*Não.*
+
+As telas refletem o modelo conceitual do usuário?
+
+*Sim.*
+
+Que obstáculos impedem que as tarefas sejam concluídas?
+
+*Não observei obstáculo algum.*
+
+### Perguntas de pré-teste:
+
+Qual é a sua experiência geral com este tipo de aplicação?
+
+*Nenhuma.*
+
+Com que frequência você usa aplicativos similares?
+
+*Não utilizo aplicativos similares.*
+
+Quais são suas expectativas em relação a este aplicativo?
+
+*Conseguir gerenciar e observar as despesas da minha casa com facilidade.*
+
+Qual é o seu objetivo ao usar esta aplicação?
+
+*Conseguir gerenciar e observar as despesas da minha casa com facilidade.*
+
+### Perguntas finais
+
+Qual foi a sua impressão geral da aplicação?
+
+*Achei a aplicação simples e prática.*
+
+Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
+
+*A simplicidade foi um fator positivo que surpreendeu.*
+
+Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
+
+*Não*
+
+### Perguntas de feedback final
+
+Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
+
+*Sim.*
+
+Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
+
+*Em alguns pontos da aplicação, os números com 4 algarismos ou mais não estão separados por ".". Por exemplo, "1.000" está apenas "1000". Acredito que este detalhe possa ser acrescentado.*
+
