@@ -57,7 +57,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | O tempo de resposta causa erros ou frustração? | --- 	| Não | ---  | 5  |
 | Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| Não | ---  | 5  |
 | O usuário consegue encontrar facilmente o que foi sugerido no teste de usabilidade?	| Sim 	| --- | ---  | 5  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| Sim 	| --- | Ficou em dúvida com relação ao toggle de renda fixa e com a data na criação de renda. Comentou sobre a imagem do carrousel página inicial estar fora de proporção  | 4  |
+| O usuário encontrou algum problema durante a realização desta tarefa?	| Sim 	| --- | Ficou em dúvida com relação ao toggle de renda fixa e com a data na criação de renda. | 4  |
 | Houve alguma parte do processo foi difícil para o usuário?	| --- 	| Não | ---  | 5  |
 
 **Usuario 4**	
@@ -266,8 +266,8 @@ Qual foi a sua impressão geral da aplicação?
 
 Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
 
-*Positivamente: Com poucos cliques já consigo ver a divisão de contas de diversas formas.
-Negativamente: ao colocar a renda, não fica claro o toggle de renda fixa, é uma dúvida ou uma afirmação?*
+*Positivamente: Com poucos cliques já consigo ver a divisão de contas de diversas formas.*
+*Negativamente: ao colocar a renda, não fica claro o toggle de renda fixa, é uma dúvida ou uma afirmação?*
 
 Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
 
@@ -281,5 +281,5 @@ Com base na sua experiência hoje, você recomendaria esta aplicação a um amig
 
 Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
 
-*Ajustar as imagens do site que estão fora de proporção. Deixar mais clara a configuraçãao de renda.*
+*Deixar mais clara a configuraçãao de renda.*
 
