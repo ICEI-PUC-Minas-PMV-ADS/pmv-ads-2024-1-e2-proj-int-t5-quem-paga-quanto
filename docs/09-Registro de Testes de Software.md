@@ -64,6 +64,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado 	| RF-13 - A aplicação deve permitir que o usuário gerencie seus grupos/casas.|
 |Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/144929767/6dc82f51-19bc-451c-9331-0c927eb2f320|
 
+| **Caso de Teste** 	| **CT-16 – Gerar gráficos de despesas ** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-009 - A aplicação deve gerar gráficos dentro da página de relatórios para ilustrar os gastos e as contribuições.|
+|Registro de evidência | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/83843255/ec26198b-5106-4ea2-9d3e-920dc5418440|
+
 | **Caso de Teste** 	| **CT-17 – Exibir menu de navegação, CT-18 – Exibir rodapé** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-011 - Todas as páginas devem possuir um menu de navegação no topo da página; RF-012 - Todas as páginas devem possuir um rodpé com links das páginas de informação e do painel, além de direitos autorais. |
