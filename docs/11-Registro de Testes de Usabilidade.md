@@ -284,6 +284,68 @@ Existe alguma sugestão específica que você gostaria de fornecer para melhorar
 
 *Deixar mais clara a configuraçãao de renda.*
 
+## Usuário 4
+
+### Impressões do Examinador
+
+Os usuários conseguem transitar entre os principais módulos do sistema?
+
+*Sim, de maneira geral o usuário conseguiu transitar sem muitos problemas.*
+
+O tempo de resposta causa erros ou frustração?
+
+*Não.*
+
+As telas refletem o modelo conceitual do usuário?
+
+*Sim.*
+
+Que obstáculos impedem que as tarefas sejam concluídas?
+
+*Não se aplica*
+
+### Perguntas de pré-teste:
+
+Qual é a sua experiência geral com este tipo de aplicação?
+
+*Nenhuma.*
+
+Com que frequência você usa aplicativos similares?
+
+*Nenhuma.*
+
+Quais são suas expectativas em relação a este aplicativo?
+
+*auxiliar na organização financeira da casa.*
+
+Qual é o seu objetivo ao usar esta aplicação?
+
+*Reduzir o tempo gasto com a organização financeira da casa .*
+
+### Perguntas finais
+
+Qual foi a sua impressão geral da aplicação?
+
+*Aplicação tem alguns pontos bem legais como por exemplo o relotório que facilita muito a percpção de quanto será o valor a ser pago no final do mês.*
+
+Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
+
+*Sim, negativamente: quando foi possivel colocar datas estranhas, e positivamente: gráficos do relatório.*
+
+Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
+
+*Não*
+
+### Perguntas de feedback final
+
+Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
+
+*Sim.*
+
+Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
+
+*Sim, colocar o botão de "adicionar renda" na frente e colocar o nome da tela primeiro, ex: despesas do grupo 02.*
+
 ## Usuário 5
 
 ### Impressões do Examinador
