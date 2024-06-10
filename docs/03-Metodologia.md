@@ -53,6 +53,8 @@ Pensando em melhor organizar as tarefas utilizamos o Projects do GitHub e optamo
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Kanban.png" alt="Kanban do Projeto">
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/Kanban2.png" alt="Kanban do Projeto">
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/129530573/bf36ca52-7496-49a5-b732-7f212f14d12d" alt="Kanban do Projeto">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/assets/129530573/746e98ee-550c-420a-8995-0fdb59eea1ef" alt="Kanban do Projeto">
+
 
 
 ### Ferramentas

@@ -2,10 +2,10 @@
     ViewData["Title"] = "Início";
 }
 
-<div class="row pb-5">
+<div class="row">
     <div class="col-12">
         <div class="text-center pt-0 pb-3 mb-3">
-            <img src="~/img/logotipo.jpeg" alt="Quem Paga Quanto" class="container-image"/>
+            <img src="~/img/logotipo.jpeg" alt="Quem Paga Quanto" class="container-image" />
             <h1 class="display-4 custom--logo">Quem Paga Quanto?</h1>
             <p class="text--home">Divida de forma justa as contas das pessoas quem moram na sua casa.</p>
         </div>
@@ -19,6 +19,7 @@
             <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
                 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto/blob/main/docs/img/app-quem-paga-qto.jpg?raw=true" height="400" class="d-block w-100" alt="...">
@@ -42,23 +43,26 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselInterval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </>
 </div>
-<div class="row mt-5 pt-5">
+
+<div class="row pt-5 d-flex align-items-stretch">
     <div class="col-12 col-lg-4 mb-4">
-        <div class="card">
-            <div class="card-body">
+        <div class="card h-100 text-center">
+            <div class="card-body d-flex flex-column">
                 <h5 class="card-title custom--card-title">
                     Descubra a simplicidade na organização de suas finanças domésticas.
-                </h5>
+                </h5><br />
                 <p class="card-text text--home">
                     Você está cansado de lidar com planilhas complicadas e anotações desorganizadas para controlar suas despesas domésticas? Nossa plataforma de finanças pessoais foi projetada para facilitar sua vida, tornando o gerenciamento de custos simples e intuitivo.
                 </p>
@@ -67,38 +71,39 @@
     </div>
 
     <div class="col-12 col-lg-4 mb-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title custom--card-title">Cadastre todas as despesas da sua casa!</h5>
+        <div class="card h-100 text-center">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title custom--card-title">Cadastre todas as despesas da sua casa!</h5><br />
                 <p class="card-text text--home">Descubra nossa solução para simplificar e tornar mais transparente a gestão financeira da sua residência. Nosso aplicativo auxilia na gestão dos gastos domésticos, na criação de relatórios, na elaboração de listas de compras, no acompanhamento de despesas e muito mais..</p>
             </div>
         </div>
     </div>
 
     <div class="col-12 col-lg-4 mb-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title custom--card-title"> Pronto para começar?</h5>
-                <p class="card-text  text--home">
-                    Junte-se a muitos outros que já estão aproveitando o poder de uma gestão financeira simplificada. Cadastre-se agora e dê o primeiro passo para um futuro financeiro mais organizado e equilibrado.
-                    <a asp-controller="Auth" asp-action="Login" class="btn btn-outline-success mt-3">Cadastre-se gratuitamente</a>
-                </p>
+        <div class="card h-100 text-center">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title custom--card-title"> Pronto para começar?</h5><br />
+                <div class="flex-grow-1">
+                    <p class="card-text text--home">
+                        Junte-se a muitos outros que já estão aproveitando o poder de uma gestão financeira simplificada. Cadastre-se agora e dê o primeiro passo para um futuro financeiro mais organizado e equilibrado.
+                    </p>
+                </div>
+                <a asp-controller="Auth" asp-action="Login" class="btn btn-outline-success mt-3 text-center">Cadastre-se gratuitamente</a>
             </div>
         </div>
     </div>
-
 </div>
 
 <div class="pb-5">
     <div class="d-flex justify-content-center pt-5">
         <h3 class="custom--sub-title">Quem Somos Nós?</h3>
     </div>
-    
+
     <div class="row pt-5">
         <div class="col-12 col-lg-3">
-            <img src="~/img/tela celular.jpg" class="rounded-3 img-fluid"/>
+            <img src="~/img/tela celular.jpg" class="rounded-3 img-fluid" />
         </div>
-        
+
         <div class="col-12 col-lg-9 mt-3 mb-3 text--home">
             <p>
                 Bem-vindo à nossa aplicação de finanças pessoais, projetada para simplificar o gerenciamento das despesas domésticas.
@@ -127,7 +132,7 @@
 
     <div class="row pt-5">
         <div class="col-12 col-lg-4">
-            <img src="img/graficos.jpg" class="rounded-3 img-fluid"/>
+            <img src="img/graficos.jpg" class="rounded-3 img-fluid" />
         </div>
 
         <div class="col-12 col-lg-8 text--home">
@@ -151,7 +156,7 @@
 
     <div class="row pt-5 justify-content-center">
         <div class="col-12 col-lg-4 mb-3">
-            <img src="~/img/duvida duas pessoas.jpg" class="rounded-3 img-fluid" width="300" height="300"/>
+            <img src="~/img/duvida duas pessoas.jpg" class="rounded-3 img-fluid" width="300" height="300" />
         </div>
 
         <div class="col-12 col-lg-4 align-content-center">

@@ -16,12 +16,4 @@ Definição de como o software é estruturado em termos dos componentes que faze
 <p align="justify">As tecnologias escolhidas para este projeto são HTML5, CSS3 e JavaScript para o front-end, e C# e SQL Server para o back-end e banco de dados, respectivamente. Essa seleção foi feita com base em sua popularidade e versatilidade, permitindo interações eficientes com o usuário e integração com APIs externas.</p>
 
 ## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+O site foi hospedado utilizando as ferramentas disponíveis pelo plano gratuito do Azure.

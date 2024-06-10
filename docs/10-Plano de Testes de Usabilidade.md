@@ -8,7 +8,7 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 Por meio dele, são recolhidos dados sobre comportamento, medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades. Após sua realização, uma análise de usabilidade e das principais dificuldades é efetuada para realizar melhorias na plataforma, proporcionando uma melhor experiência ao usuário.
 
 O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: Requisitos do teste; Método utilizado; 
-Ojetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação "quem paga quanto".
+Ojetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação "Quem Paga Quanto?".
 
 Para o projeto em questão, realizaremos o modelo de Testes Remotos Não Moderados de Usabilidade.
 
@@ -27,7 +27,6 @@ Nele os participantes realizam os estudos diretamente em seus próprios disposit
 -	Conseguir testar 100% dos projetos até pequenas melhorias, trazer pessoas até a empresa para testar uma única funcionalidade.
 
 ### Objetivos do teste:
-
 
 <p align="justify">Um plano de teste de usabilidade de uma aplicação serve para fornecer uma estrutura sistemática e organizada para avaliar a facilidade de uso, eficácia e satisfação do usuário com a aplicação. Esse plano descreve as atividades, os objetivos, os métodos, os recursos necessários e os cronogramas para conduzir os testes de usabilidade de forma eficaz.</p>
 
@@ -59,20 +58,20 @@ ferramenta pela primeira vez terá que começar do zero.
 - As telas refletem o modelo conceitual do usuário?
 - Que obstáculos impedem que as tarefas sejam concluídas?
 
- Perguntas de pré-teste:
+ #### Perguntas de pré-teste:
 
 - Qual é a sua experiência geral com este tipo de aplicação?
 - Com que frequência você usa aplicativos similares?
 - Quais são suas expectativas em relação a este aplicativo?
 - Qual é o seu objetivo ao usar esta aplicação?
 
- Perguntas gerais:
+ #### Perguntas gerais:
 
 - Qual foi a sua impressão geral da aplicação?
 - Você encontrou algo na aplicação que o surpreendeu positiva ou negativamente?
 - Você encontrou alguma dificuldade ao navegar pela aplicação ou entender seu funcionamento?
   
-- Perguntas de feedback final:
+#### Perguntas de feedback final:
 
 - Com base na sua experiência hoje, você recomendaria esta aplicação a um amigo?
 - Existe alguma sugestão específica que você gostaria de fornecer para melhorar esta aplicação?
@@ -97,7 +96,6 @@ Os requisitos para realização dos testes são:
 - Conectividade de internet por dados móveis ou por banda larga;
 - Navegador da internet - Chrome, Firefox, Safari ou Edge;
 - Disponibilidade do usuário em acessar ferramentas de videoconferência com compartilhamento de tela - Zoom, Google Meet, Teams, Webcam.
-
 
 ### Método utilizado: Observação direta, medição e Avaliação
 
@@ -124,112 +122,38 @@ Para cada tarefa do participante é possível medir:
 
 Seguem as tarefas a serem executadas pelos participantes e observadas
 
-
-| **Caso de Teste** 	| **CTU-01 – Responsividade** 	|
+| **Caso de Teste** 	| **CTU-01 – Cadastro de usuário, grupo e moradores** 	|
 |:---:	|:---:	|
 | **Perfil** 	| Usuário (todos)	|
-| **Objetivo do Teste** 	| Testar se a aplicação ao ser utilizada em diferentes dispositivos(desktop, laptop, tablet, smartphone) é capaz de se adaptar.	|
-| **Ações necessárias** 	| 1. Acessar a aplicação pelo browser;<br>2. Pressionar a tecla "F12", clicar em "inspecionar elemento"<br>3.Clique no ícone de celular à esquerda e realize os testes; <br>4.Após selecionada a opção, atualize a página pressionando “F5”. <br>5. Verificar legibilidade dos textos, tamnho dos elemntos, facilidade de uso e acesso as funcionalidades.|
+| **Objetivo do Teste** 	| Testar as ações iniciais que cada usuário precisa fazer para melhor aproveitamento da ferramenta.	|
+| **Ações necessárias** 	| Acesse o site da aplicação, se registre, acesse com seu usário criado, crie um grupo e adicione dois moradores ao seu grupo. |
 |  	|  	|
-| **Caso de Teste** 	| **CTU-02 – Objetividade das informações** 	|
+| **Caso de Teste** 	| **CTU-02 – Gerenciar rendas** 	|
 | **Perfil** 	| Usuário (todos) 	|
-| **Objetivo do Teste** 	| Avaliar a facilidade com que os usuários podem navegar pela aplicação para alcançar seus objetivos de maneira acertiva. 	|
-| **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Entrar’. 	|
+| **Objetivo do Teste** 	| Testar a facilidade de gerenciamento das rendas dos moradores. |
+| **Ações necessárias** 	| Cadastre duas rendas para cada morador cadastrado com data referente ao mês e ano atual, edite uma das rendas do primeiro usuário e exclua a outra. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-03 – Feedback e orientação** 	|
-| **Perfil** 	|Usuário (todos) 	|
-| **Objetivo do Teste** 	| Avaliar a eficácia dos feedbacks visuais e sonoros fornecidos pela aplicação em resposta às ações do usuário. Testar a presença de orientações claras para ajudar os usuários a entenderem como usar a aplicação. 	|
-| **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. A aplicação deve apresentar uma mensagem informando que o login foi realizado. 	|
-
-
+| **Caso de Teste** 	| **CTU-03 – Adição de despesas** 	|
+| **Perfil** 	| Usuário (todos) 	|
+| **Objetivo do Teste** 	| Testar fluxo de cadastro de despesas feito pelo usuário. 	|
+| **Ações necessárias** 	| Realize o cadastro de três despesas fictícias referente ao mes e ano atual no seu grupo já cadastrado e altere o valor de uma das despesas. |
+| **Caso de Teste** 	| **CTU-04 – Visualização dos relatórios** 	|
+| **Perfil** 	| Usuário (todos) 	|
+| **Objetivo do Teste** 	| Avaliar se o usuário consegue acessar com facilidade os relatórios do seu grupo. |
+| **Ações necessárias** 	| Em grupos, acesse os relatórios do mesmo e visualize o relatório gerado para o mês e ano atual. |
+| **Caso de Teste** 	| **CTU-05 – Edição do perfil** 	|
+| **Perfil** 	| Usuário (todos) 	|
+| **Objetivo do Teste** 	| Avaliar se o usuário consegue encontrar de forma simples os formulário de edição de perfil. |
+| **Ações necessárias** 	| Acesse o perfil e altere uma das informações do seu usuário. |
 
 ## Análise do teste e resultados
 
 A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
 
-## Plano de teste de Usabilidade
-
-**Usuario 1**	
 | **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
-| --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
-
-**Usuario 2**	
-| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
-| --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
-
-**Usuario 3**	
-| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
-| --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
-
-**Usuario 4**	
-| **Casos de Testes** 	| **Número de cliques:** 	| **Tempo de execução da tarefa:** | **Tarefa realizada sem erros?(sim ou não)** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-|1. Faço o registro na plataforma, crie um grupo e adicione 2 moradores ao seu grupo 	| --- 	| --- | ---  | --- | --- | --- |
-|2. Cadastre a renda dos usuarios, edite o valor das rendas cadastradas e exclua 1 das rendas.  | --- 	| --- | ---  | --- | --- | --- |
-|3. Realize o cadastro de 3(três) despesas 	| --- 	| --- | ---  | --- | --- | --- |
-|4.Realize a alteração do valor das despesas cadastradas.	| --- 	| --- | ---  | --- | --- | --- |
-|5. Exclua uma das despesas cadastradas e emita o relatório.	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Questionário** 	| **Sim** 	| **Não** | **Comentário** |**Nota de 1 a 5  (1 péssimo e 5 excelente)**| 
-| --- 	| --- 	| --- | ---  | ---  | 
-| O usuário conseguem transitar entre os principais módulos do sistema 	| --- 	| --- | ---  | 
-| O tempo de resposta causa erros ou frustração? | --- 	| --- | ---  | ---  |
-| Existem obstáculos que impedem que as tarefas sejam concluídas?	| --- 	| --- | ---  | ---  |
-| O usuário consegue encontrar facilmente sugerida no teste de usabilidade?	| --- 	| --- | ---  | ---  |
-| O usuário encontrou algum problema durante a realização desta tarefa?	| --- 	| --- | ---  | ---  |
-| Houve alguma parte do processo foi difícil para o usuário?	| --- 	| --- | ---  | ---  |
-
-
-
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-
-
-
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05| --- 	| --- | ---  | --- | --- | --- |
