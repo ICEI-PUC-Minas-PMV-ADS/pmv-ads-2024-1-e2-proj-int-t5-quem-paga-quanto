@@ -146,12 +146,14 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Avaliar se o usuário consegue encontrar de forma simples os formulário de edição de perfil. |
 | **Ações necessárias** 	| Acesse o perfil e altere uma das informações do seu usuário. |
 
-## Resultados
+## Análise do teste e resultados
 
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
+
+| **Casos de Testes** 	| **Número de cliques:	** 	| **Tempo de execução da tarefa:	** | **Tarefa realizada sem erros?(sim ou não)	** | **Erros observados:** | **Pedido de ajuda?(sim ou não)** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
+| CT-01	| --- 	| --- | ---  | --- | --- | --- |
+| CT-02 | --- 	| --- | ---  | --- | --- | --- |
+| CT-03	| --- 	| --- | ---  | --- | --- | --- |
+| CT-04	| --- 	| --- | ---  | --- | --- | --- |
+| CT-05| --- 	| --- | ---  | --- | --- | --- |
