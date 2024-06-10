@@ -7,7 +7,7 @@
         <div class="text-center pt-0 pb-3 mb-3">
             <img src="~/img/logotipo.jpeg" alt="Quem Paga Quanto" class="container-image"/>
             <h1 class="display-4 custom--logo">Quem Paga Quanto?</h1>
-            <p>Divida de forma justa as contas das pessoas quem moram na sua casa.</p>
+            <p class="text--home">Divida de forma justa as contas das pessoas quem moram na sua casa.</p>
         </div>
     </div>
 </div>
@@ -43,10 +43,12 @@
                 </div>
             </div>
         </div>
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
+        
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -55,14 +57,16 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row mt-5 pt-5">
     <div class="col-12 col-lg-4 mb-4">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">
-                    Descubra a simplicidade na organização de suas finanças domésticas
+                <h5 class="card-title custom--card-title">
+                    Descubra a simplicidade na organização de suas finanças domésticas.
                 </h5>
-                <p class="card-text">Você está cansado de lidar com planilhas complicadas e anotações desorganizadas para controlar suas despesas domésticas? Nossa plataforma de finanças pessoais foi projetada para facilitar sua vida, tornando o gerenciamento de custos simples e intuitivo.</p>
+                <p class="card-text text--home">
+                    Você está cansado de lidar com planilhas complicadas e anotações desorganizadas para controlar suas despesas domésticas? Nossa plataforma de finanças pessoais foi projetada para facilitar sua vida, tornando o gerenciamento de custos simples e intuitivo.
+                </p>
             </div>
         </div>
     </div>
@@ -70,8 +74,8 @@
     <div class="col-12 col-lg-4 mb-4">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Cadastre todas as suas despesas</h5>
-                <p class="card-text">Descubra nossa solução para simplificar e tornar mais transparente a gestão financeira da sua residência. Nosso aplicativo auxilia na gestão dos gastos domésticos, na criação de relatórios, na elaboração de listas de compras, no acompanhamento de despesas e muito mais..</p>
+                <h5 class="card-title custom--card-title">Cadastre todas as despesas da sua casa!</h5>
+                <p class="card-text text--home">Descubra nossa solução para simplificar e tornar mais transparente a gestão financeira da sua residência. Nosso aplicativo auxilia na gestão dos gastos domésticos, na criação de relatórios, na elaboração de listas de compras, no acompanhamento de despesas e muito mais..</p>
             </div>
         </div>
     </div>
@@ -79,8 +83,8 @@
     <div class="col-12 col-lg-4 mb-4">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title"> Pronto para começar?</h5>
-                <p class="card-text">
+                <h5 class="card-title custom--card-title"> Pronto para começar?</h5>
+                <p class="card-text  text--home">
                     Junte-se a muitos outros que já estão aproveitando o poder de uma gestão financeira simplificada. Cadastre-se agora e dê o primeiro passo para um futuro financeiro mais organizado e equilibrado.
                     <a asp-controller="Auth" asp-action="Login" class="btn btn-outline-success mt-3">Cadastre-se gratuitamente</a>
                 </p>
@@ -94,11 +98,13 @@
     <div class="d-flex justify-content-center pt-5">
         <h3 class="custom--sub-title">Quem Somos Nós?</h3>
     </div>
+    
     <div class="row pt-5">
         <div class="col-12 col-lg-3">
             <img src="~/img/tela celular.jpg" class="rounded-3 img-fluid"/>
         </div>
-        <div class="col-12 col-lg-9 mt-3 mb-3">
+        
+        <div class="col-12 col-lg-9 mt-3 mb-3 text--home">
             <p>
                 Bem-vindo à nossa aplicação de finanças pessoais, projetada para simplificar o gerenciamento das despesas domésticas.
             </p>
@@ -123,13 +129,13 @@
     <div class="d-flex justify-content-center pt-5">
         <h3 class="custom--sub-title">Como Funciona?</h3>
     </div>
-    
+
     <div class="row pt-5">
         <div class="col-12 col-lg-4">
-            <img src="img/graficos.jpg" class="rounded-3 img-fluid" />
+            <img src="img/graficos.jpg" class="rounded-3 img-fluid"/>
         </div>
-        
-        <div class="col-12 col-lg-8">
+
+        <div class="col-12 col-lg-8 text--home">
             <div>
                 <p><strong>Cadastro Simples:</strong> Crie sua conta rapidamente e comece a organizar suas finanças.</p>
                 <p><strong>Adicione Moradores:</strong> Inclua todos os moradores da sua casa e defina a forma de divisão das despesas.</p>
@@ -147,14 +153,14 @@
     <div class="d-flex justify-content-center pt-5">
         <h3 class="custom--sub-title">Por que nos escolher?</h3>
     </div>
-    
+
     <div class="row pt-5 justify-content-center">
         <div class="col-12 col-lg-4 mb-3">
             <img src="~/img/duvida duas pessoas.jpg" class="rounded-3 img-fluid" width="300" height="300"/>
         </div>
-        
+
         <div class="col-12 col-lg-4 align-content-center">
-            <ul class="list-group">
+            <ul class="list-group text--home">
                 <li class="list-group-item">Divisão Justa das Despesas.</li>
                 <li class="list-group-item">Interface Intuitiva</li>
                 <li class="list-group-item">Relatórios Detalhados</li>
@@ -190,19 +196,20 @@
 @*     </div> *@
 @* </div> *@
 
-<div class="accordion" id="accordionPanelsStayOpenExample">
-    <div class="text-center pt-5 pb-3">
-        <h3 class="custom--sub-title">Dúvidas Frequentes</h3>
-    </div>
+<div class="text-center pt-5 pb-3">
+    <h3 class="custom--sub-title">Dúvidas Frequentes</h3>
+</div>
+
+<div class="accordion text--home" id="accordionPanelsStayOpenExample">
     <div class="accordion-item">
-        <h2 class="accordion-header">
+        <h2 class="accordion-header text--home">
             <button class="accordion-button btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                 Posso gerenciar mais de um grupo?
             </button>
         </h2>
         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
-                Sim, Um usuário com o perfil de administrador pode gerenciar mais de um grupo.
+                Sim, um usuário com o perfil de administrador pode gerenciar mais de um grupo.
             </div>
         </div>
     </div>

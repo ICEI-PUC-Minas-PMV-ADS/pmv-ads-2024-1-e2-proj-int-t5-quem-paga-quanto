@@ -17,7 +17,7 @@ namespace QuemPagaQuanto.Models
         public DateTime? Vencimento { get; set; }
 
         [DataType(DataType.Currency)]
-        [Required(ErrorMessage = "Insira o valor da despesa.")]
+        [Required]
         public double Valor { get; set; }
 
         public string? Descricao { get; set; }

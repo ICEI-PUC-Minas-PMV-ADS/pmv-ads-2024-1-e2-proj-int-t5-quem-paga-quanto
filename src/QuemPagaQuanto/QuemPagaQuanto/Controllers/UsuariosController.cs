@@ -40,8 +40,8 @@ namespace QuemPagaQuanto.Controllers
 
             return View(usuario);
         }
-
-        // GET: Usuarios/Create
+        
+        [Authorize(Roles = nameof(Perfil.Administrador))]
         public IActionResult Create()
         {
             return View();
@@ -49,6 +49,7 @@ namespace QuemPagaQuanto.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = nameof(Perfil.Administrador))]
         public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
@@ -72,7 +73,7 @@ namespace QuemPagaQuanto.Controllers
 
             var usuario = await _context.Usuarios.FindAsync(id);
 
-            if (usuario == null)
+            if (usuario == null || (usuario.Id != id && !AuthorizeService.IsAdmin(User)))
             {
                 return NotFound();
             }
@@ -84,11 +85,16 @@ namespace QuemPagaQuanto.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
         {
-            if (id != usuario.Id)
+            if (id != usuario.Id && !AuthorizeService.IsAdmin(User))
             {
                 return NotFound();
             }
 
+            if (!AuthorizeService.IsAdmin(User))
+            {
+                usuario.Perfil = Perfil.Usuario;
+            }
+            
             if (ModelState.IsValid)
             {
                 try
