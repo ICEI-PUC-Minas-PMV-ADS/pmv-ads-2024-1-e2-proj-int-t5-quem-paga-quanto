@@ -414,3 +414,11 @@ Sugestões de melhorias:
 - Simplificar o cadastro de renda deixando o escopo como mensal, removendo a opção de renda fixa.
 - Adicionar obrigatoriedade de data de renda para evitar cadastro de rendas sem "mês".
 - Simplificar cadastro de despesas, removendo "data de vencimento" para evitar confusão dos clientes.
+
+**Plano de correção:**
+
+| **Correção** | **Foi implementada?** |
+| --- | --- |
+| Simplificar o cadastro de renda alterando o escopo para mensal e removendo a opção de renda fixa. | A ser implementado |
+| Tornar obrigatória a data de renda para evitar cadastros sem especificação de mês. | A ser implementado |
+| Remover o campo "data de vencimento" do cadastro de despesas para evitar confusão dos clientes. | A ser implementado |
