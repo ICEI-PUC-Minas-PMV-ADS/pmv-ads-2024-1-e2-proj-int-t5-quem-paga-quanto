@@ -408,3 +408,9 @@ Existe alguma sugestão específica que você gostaria de fornecer para melhorar
 
 *Sim, seria interessante adicionar despesas fixas que se replicariam todo mês.*
 
+### Relatório de melhorias
+
+Sugestões de melhorias:
+- Simplificar o cadastro de renda deixando o escopo como mensal, removendo a opção de renda fixa.
+- Adicionar obrigatoriedade de data de renda para evitar cadastro de rendas sem "mês".
+- Simplificar cadastro de despesas, removendo "data de vencimento" para evitar confusão dos clientes.
