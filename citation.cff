@@ -1,0 +1,29 @@
+message: Please cite this software using these metadata.
+title: Quem Paga Quanto?
+authors:
+  - family-names: Figueiredo de Assis Almeida
+    given-names: Bárbara
+  - family-names: Roberto da Silva Jr.
+    given-names: Carlos
+  - family-names: Radicchi Campos Lobato de Almeida
+    given-names: Guilherme
+  - family-names: Reis de Souza
+    given-names: Jéssica
+  - family-names: Lanna Brandão
+    given-names: Laura
+  - family-names: Araújo Oliveira Queiroz Lopes
+    given-names: Raíssa
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names:
+    given-names:
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: De Nardin
+    given-names: Luciana
+keywords:
+  -
+  -
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto
+version: 1.0.0
+date-released: 2024-06-19
