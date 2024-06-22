@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Bárbara Figueiredo de Assis Almeida
-* Carlos Roberto da Silva Jr.
+* Carlos Roberto da Silva Júnior.
 * Guilherme Radicchi Campos Lobato de Almeida
 * Jéssica Reis de Souza
 * Laura Lanna Brandão
