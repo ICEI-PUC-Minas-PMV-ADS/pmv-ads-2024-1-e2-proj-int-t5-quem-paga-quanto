@@ -1,4 +1,4 @@
-message: Please cite this software using these metadata.
+message: Aplicação de gerenciamento de despesas domiciliares.
 title: Quem Paga Quanto?
 authors:
   - family-names: Figueiredo de Assis Almeida
@@ -18,8 +18,16 @@ authors:
     family-names: De Nardin
     given-names: Luciana
 keywords:
-  -
-  -
+  - Despesas
+  - Gerenciamento
+  - Renda
+  - Moradores
+  - Grupos
+  - Divisão
+  - Ferramenta
+  - Finanças
+  - Gastos
+
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-quem-paga-quanto
 version: 1.0.0
-date-released: 2024-06-19
+date-released: 2024-06-25
